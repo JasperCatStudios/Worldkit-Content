@@ -52,7 +52,9 @@ Things to know:
 
 ## 4. Artwork (optional)
 
-`art/fire-emblem/` has `banners/` (Black Eagles, Blue Lions, Golden Deer, Knights of Seiros and a neutral one), `weapon-icons/` (axe, sword, lance, bow and the other class icons) and `crests/`. They are presentation only: nothing depends on them, and a world that has none falls back to plain built-in icons. Use them as the faction banners and weapon or crest icons for the Fire Emblem world, or swap in your own.
+`art/fire-emblem/` has `banners/` (Ashen Wolves, Black Eagles, Blue Lions, Golden Deer, Knights of Seiros and a neutral one), `weapon-icons/` (axe, sword, lance, bow and the other class icons) and `crests/`. They are presentation only: nothing depends on them, and a world that has none falls back to plain built-in icons. Use them as the faction banners and weapon or crest icons for the Fire Emblem world, or swap in your own.
+
+**Installing the art:** copy the whole `art` folder into your SillyTavern data as `data/<your user>/user/images/worldkit-art/` (so the banners end up at `data/<your user>/user/images/worldkit-art/fire-emblem/banners/`). SillyTavern only serves `/user/images/` and `/user/files/` from a user's folder, so that exact place is what lets the extension show the pictures. If you use another folder, set its web path under Appearance, Faction colours and artwork. Turn "Use world artwork" off there to go back to built-in icons.
 
 These images are fan material from the Fire Emblem games, not original to this project, so check that you are comfortable redistributing them before sharing the pack.
 
