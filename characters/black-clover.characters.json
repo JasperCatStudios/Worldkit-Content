@@ -1,0 +1,1012 @@
+{
+  "format": "sillynpc-characters",
+  "version": 1,
+  "exported": "2026-11-15",
+  "characters": [
+    {
+      "name": "Yami",
+      "color": "#6B7D3E",
+      "category": "Black Bulls",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 98,
+              "str": 96,
+              "dex": 82,
+              "mag": 90,
+              "spd": 88,
+              "lck": 55,
+              "cha": 70,
+              "def": 90,
+              "res": 84
+            },
+            "meta": {
+              "affinity": "Dark Magic",
+              "grade": "S",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "A",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "S",
+                "xp": 0
+              },
+              "reinforcement": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "S",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "A",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Black Katana",
+              "prof": "hand_to_hand",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [
+              "dark_minor",
+              "dark_mid",
+              "ki_strike",
+              "crushing_blow",
+              "ki_sense"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Black Katana",
+                  "kind": "sword",
+                  "tier": "silver",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Three-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "tempered_three",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": "g2"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Yuno",
+      "color": "#3C9B92",
+      "category": "Golden Dawn",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 75,
+              "str": 50,
+              "dex": 88,
+              "mag": 96,
+              "spd": 94,
+              "lck": 90,
+              "cha": 85,
+              "def": 55,
+              "res": 90
+            },
+            "meta": {
+              "grade": "A",
+              "affinity": "Wind Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "S",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "S",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "B",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "wind_minor",
+              "wind_mid",
+              "wind_major",
+              "spirit_dive",
+              "mana_sensing"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Four-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "awakened_four",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": "g1"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Fuegoleon",
+      "color": "#C65A32",
+      "category": "Crimson Lion Kings",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 88,
+              "str": 78,
+              "dex": 80,
+              "mag": 95,
+              "spd": 84,
+              "lck": 65,
+              "cha": 92,
+              "def": 78,
+              "res": 94
+            },
+            "meta": {
+              "grade": "A",
+              "affinity": "Fire Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "S",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "B",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "A",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "fire_minor",
+              "fire_mid",
+              "fire_major",
+              "elemental_barrier",
+              "squad_tactics"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Four-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "four_leaf",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": "g1"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Asta",
+      "color": "#252B35",
+      "category": "Black Bulls",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 95,
+              "str": 98,
+              "dex": 85,
+              "mag": 0,
+              "spd": 92,
+              "lck": 40,
+              "cha": 78,
+              "def": 88,
+              "res": 100
+            },
+            "meta": {
+              "grade": "A",
+              "affinity": "Anti-Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_sensory": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reinforcement": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "S",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Demon-Slayer Sword",
+              "prof": "hand_to_hand",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [
+              "black_meteorite",
+              "black_divider",
+              "anti_magic_deflect",
+              "ki_sense",
+              "last_stand"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Demon-Slayer Sword",
+                  "kind": "anti_magic_blade",
+                  "tier": "relic",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Five-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "five_leaf",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": "g2"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Noelle",
+      "color": "#397DB5",
+      "category": "Black Bulls",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 72,
+              "str": 35,
+              "dex": 74,
+              "mag": 96,
+              "spd": 85,
+              "lck": 60,
+              "cha": 88,
+              "def": 50,
+              "res": 92
+            },
+            "meta": {
+              "grade": "B",
+              "affinity": "Water Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "A",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "C",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "D",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "water_minor",
+              "water_mid",
+              "water_major",
+              "mana_skin",
+              "mana_surge"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Three-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "tempered_three",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": "g1"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Magna",
+      "color": "#C75A32",
+      "category": "Black Bulls",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 78,
+              "str": 72,
+              "dex": 88,
+              "mag": 45,
+              "spd": 82,
+              "lck": 50,
+              "cha": 68,
+              "def": 65,
+              "res": 60
+            },
+            "meta": {
+              "grade": "C",
+              "affinity": "Fire Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "C",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reinforcement": {
+                "rank": "C",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "B",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "fire_minor",
+              "fire_mid",
+              "reinforced_strike",
+              "mana_surge"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Three-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "three_leaf",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": "g1"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Luck",
+      "color": "#D0A52A",
+      "category": "Black Bulls",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 70,
+              "str": 65,
+              "dex": 92,
+              "mag": 88,
+              "spd": 98,
+              "lck": 77,
+              "cha": 70,
+              "def": 48,
+              "res": 80
+            },
+            "meta": {
+              "grade": "B",
+              "affinity": "Lightning Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "B",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reinforcement": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "A",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "lightning_minor",
+              "lightning_mid",
+              "lightning_major",
+              "mana_surge",
+              "last_stand"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Three-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "three_leaf",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": "g1"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Mereoleona",
+      "color": "#B7352C",
+      "category": "Clover Kingdom",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 96,
+              "str": 95,
+              "dex": 88,
+              "mag": 94,
+              "spd": 95,
+              "lck": 50,
+              "cha": 75,
+              "def": 82,
+              "res": 90
+            },
+            "meta": {
+              "grade": "S",
+              "affinity": "Fire Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "S",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "A",
+                "xp": 0
+              },
+              "reinforcement": {
+                "rank": "S",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "S",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "fire_minor",
+              "fire_mid",
+              "fire_major",
+              "full_body_reinforcement",
+              "ki_strike"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Four-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "four_leaf",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": "g1"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Charlotte",
+      "color": "#477A9E",
+      "category": "Blue Rose",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 78,
+              "str": 62,
+              "dex": 88,
+              "mag": 91,
+              "spd": 84,
+              "lck": 50,
+              "cha": 85,
+              "def": 70,
+              "res": 89
+            },
+            "meta": {
+              "grade": "B",
+              "affinity": "Plant Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "A",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "D",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "plant_minor",
+              "plant_mid",
+              "plant_major",
+              "mana_skin",
+              "combination_magic"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Three-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "tempered_three",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": "g1"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Nozel",
+      "color": "#8E5870",
+      "category": "Silver Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bc": {
+            "stats": {
+              "hp": 84,
+              "str": 52,
+              "dex": 88,
+              "mag": 94,
+              "spd": 90,
+              "lck": 50,
+              "cha": 76,
+              "def": 78,
+              "res": 91
+            },
+            "meta": {
+              "grade": "S",
+              "affinity": "Water Magic",
+              "level": 1
+            },
+            "profs": {
+              "mana_control": {
+                "rank": "S",
+                "xp": 0
+              },
+              "mana_sensory": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hand_to_hand": {
+                "rank": "C",
+                "xp": 0
+              },
+              "teamwork": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "water_minor",
+              "water_mid",
+              "water_major",
+              "elemental_barrier",
+              "mana_skin"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Four-Leaf Grimoire",
+                  "kind": "grimoire",
+                  "tier": "four_leaf",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": "g1"
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    }
+  ]
+}

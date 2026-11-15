@@ -1,0 +1,6368 @@
+{
+  "format": "sillynpc-characters",
+  "version": 1,
+  "exported": "2026-11-15",
+  "characters": [
+    {
+      "name": "Balthus",
+      "color": "#8000ff",
+      "category": "Ashen Wolves",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 92,
+              "str": 94,
+              "dex": 48,
+              "mag": 20,
+              "spd": 32,
+              "lck": 5,
+              "cha": 65,
+              "def": 82,
+              "res": 28
+            },
+            "meta": {
+              "class": "Brawler",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "A",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "S",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E-",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E-",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "B",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E-",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Steel Axe",
+              "prof": "axe",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [
+              "crest_chevalier"
+            ],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Steel Axe",
+                  "kind": "axe",
+                  "tier": "steel",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Training Gauntlets",
+                  "kind": "gauntlets",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "When the user initiates combat, strikes twice consecutively.",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": -1,
+                    "hit": 0,
+                    "crit": 5
+                  }
+                },
+                {
+                  "id": "g3",
+                  "name": "Iron Gauntlets",
+                  "kind": "gauntlets",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": "g2",
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Yuri",
+      "color": "#a29bfe",
+      "category": "Ashen Wolves",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 68,
+              "str": 68,
+              "dex": 88,
+              "mag": 48,
+              "spd": 90,
+              "lck": 72,
+              "cha": 70,
+              "def": 42,
+              "res": 38
+            },
+            "meta": {
+              "class": "Trickster",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "A",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "B",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "C",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "A",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Hapi",
+      "color": "#ff8000",
+      "category": "Ashen Wolves",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 65,
+              "str": 32,
+              "dex": 55,
+              "mag": 91,
+              "spd": 58,
+              "lck": 45,
+              "cha": 55,
+              "def": 35,
+              "res": 78
+            },
+            "meta": {
+              "class": "Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "A",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Constance",
+      "color": "#0080c0",
+      "category": "Ashen Wolves",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 54,
+              "str": 25,
+              "dex": 58,
+              "mag": 96,
+              "spd": 70,
+              "lck": 38,
+              "cha": 68,
+              "def": 25,
+              "res": 62
+            },
+            "meta": {
+              "class": "Dark Flier",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "A",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "B",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "C",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "B",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Byleth",
+      "color": "#38ada9",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 82,
+              "str": 82,
+              "dex": 78,
+              "mag": 65,
+              "spd": 80,
+              "lck": 68,
+              "cha": 82,
+              "def": 68,
+              "res": 58
+            },
+            "meta": {
+              "class": "SwordMaster",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "A",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "C",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "C",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "D",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "B",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "A",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "C",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "C",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "D",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Training Sword",
+              "prof": "sword",
+              "power": -2
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Sublime Creator Sword",
+                  "kind": "sword",
+                  "tier": "relic",
+                  "pair": false,
+                  "desc": "Grants Byleth access to the Sublime Heaven combat art. When used by a unit other than Byleth, has a weight of 19 and a range of 1. Combat art Sublime Heaven: Might increases based on user's Magic Effective against Dragon foes.",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 10
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": -2,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g4",
+                  "name": "Training Axe",
+                  "kind": "axe",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": -2,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g3",
+                  "name": "Training Bow",
+                  "kind": "bow",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "Deals bonus damage to flying units.",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": -3,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g5",
+                  "name": "Training Gauntlets",
+                  "kind": "gauntlets",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "When the user initiates combat, strikes twice consecutively.",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": -1,
+                    "hit": 0,
+                    "crit": 5
+                  }
+                },
+                {
+                  "id": "g6",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": -2,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g7",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g2",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Dimitri",
+      "color": "#0984e3",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 75,
+              "str": 75,
+              "dex": 57,
+              "mag": 27,
+              "spd": 57,
+              "lck": 39,
+              "cha": 69,
+              "def": 57,
+              "res": 33
+            },
+            "meta": {
+              "class": "Lord",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "B",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "D",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "B",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Training Lance",
+              "prof": "lance",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Dedue",
+      "color": "#636e72",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 80,
+              "str": 81,
+              "dex": 45,
+              "mag": 21,
+              "spd": 39,
+              "lck": 27,
+              "cha": 45,
+              "def": 75,
+              "res": 27
+            },
+            "meta": {
+              "class": "Armored Knight",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "D",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "D",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C+",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Training Sword",
+              "prof": "sword",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Felix",
+      "color": "#f0c040",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 59,
+              "str": 69,
+              "dex": 75,
+              "mag": 27,
+              "spd": 81,
+              "lck": 33,
+              "cha": 33,
+              "def": 45,
+              "res": 21
+            },
+            "meta": {
+              "class": "Myrmidon",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "B",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "D",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "E-",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "C",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E-",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Training Sword",
+              "prof": "sword",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Fraldarius Katana",
+                  "kind": "sword",
+                  "tier": "common",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Throwing Knives",
+                  "kind": "knives",
+                  "tier": "",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  },
+                  "tool": true,
+                  "maxUses": 3,
+                  "uses": 3
+                },
+                {
+                  "id": "g3",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g4",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g3",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Sylvain",
+      "color": "#f6e58d",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 65,
+              "str": 45,
+              "dex": 51,
+              "mag": 39,
+              "spd": 57,
+              "lck": 39,
+              "cha": 57,
+              "def": 45,
+              "res": 33
+            },
+            "meta": {
+              "class": "Cavalier",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "D",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E-",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "A",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Training Sword",
+              "prof": "sword",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Ingrid",
+      "color": "#74b9a5",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 61,
+              "str": 57,
+              "dex": 57,
+              "mag": 39,
+              "spd": 69,
+              "lck": 51,
+              "cha": 57,
+              "def": 45,
+              "res": 51
+            },
+            "meta": {
+              "class": "Pegasus Knight",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "D",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "C",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "B",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Ashe",
+      "color": "#6AB04C",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 59,
+              "str": 45,
+              "dex": 69,
+              "mag": 27,
+              "spd": 63,
+              "lck": 57,
+              "cha": 45,
+              "def": 39,
+              "res": 27
+            },
+            "meta": {
+              "class": "Archer",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "D",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "D",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "C",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "E",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Axe",
+                  "kind": "axe",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Axe",
+                  "kind": "axe",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Annette",
+      "color": "#df2046",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 59,
+              "str": 39,
+              "dex": 51,
+              "mag": 63,
+              "spd": 51,
+              "lck": 39,
+              "cha": 51,
+              "def": 39,
+              "res": 45
+            },
+            "meta": {
+              "class": "Monk",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "D",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "C",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "D",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Gauntlets",
+                  "kind": "gauntlets",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Gauntlets",
+                  "kind": "gauntlets",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Mercedes",
+      "color": "#d8a7ff",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 55,
+              "str": 33,
+              "dex": 45,
+              "mag": 69,
+              "spd": 45,
+              "lck": 57,
+              "cha": 63,
+              "def": 33,
+              "res": 63
+            },
+            "meta": {
+              "class": "Priest",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "D",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Staff",
+                  "kind": "staff",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Staff",
+                  "kind": "staff",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Rhea",
+      "color": "#2E8B57",
+      "category": "Church of Seiros",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 86,
+              "str": 68,
+              "dex": 62,
+              "mag": 84,
+              "spd": 62,
+              "lck": 70,
+              "cha": 96,
+              "def": 58,
+              "res": 78
+            },
+            "meta": {
+              "class": "Archbishop",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "A",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "B",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "A",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "A",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "A",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "D",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Seteth",
+      "color": "#2f7d32",
+      "category": "Church of Seiros",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 80,
+              "str": 68,
+              "dex": 62,
+              "mag": 45,
+              "spd": 62,
+              "lck": 51,
+              "cha": 75,
+              "def": 58,
+              "res": 45
+            },
+            "meta": {
+              "class": "Wyvern Rider",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "B",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "D",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "A",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "C",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "C",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Flayn",
+      "color": "#55efc4",
+      "category": "Church of Seiros",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 51,
+              "str": 28,
+              "dex": 45,
+              "mag": 76,
+              "spd": 45,
+              "lck": 55,
+              "cha": 68,
+              "def": 28,
+              "res": 72
+            },
+            "meta": {
+              "class": "Priest",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "C",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "B",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "E",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Staff",
+                  "kind": "staff",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Staff",
+                  "kind": "staff",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Catherine",
+      "color": "#e67e22",
+      "category": "Church of Seiros",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 82,
+              "str": 82,
+              "dex": 70,
+              "mag": 30,
+              "spd": 76,
+              "lck": 45,
+              "cha": 55,
+              "def": 58,
+              "res": 30
+            },
+            "meta": {
+              "class": "Swordmaster",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "A",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "D",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "B",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Alois",
+      "color": "#D4A373",
+      "category": "Church of Seiros",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 91,
+              "str": 76,
+              "dex": 51,
+              "mag": 20,
+              "spd": 40,
+              "lck": 62,
+              "cha": 62,
+              "def": 72,
+              "res": 28
+            },
+            "meta": {
+              "class": "Warrior",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "B",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Axe",
+                  "kind": "axe",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Axe",
+                  "kind": "axe",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Gilbert",
+      "color": "#718093",
+      "category": "Church of Seiros",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 91,
+              "str": 76,
+              "dex": 51,
+              "mag": 20,
+              "spd": 40,
+              "lck": 62,
+              "cha": 62,
+              "def": 72,
+              "res": 28
+            },
+            "meta": {
+              "class": "Fortress Knight",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "B",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Axe",
+                  "kind": "axe",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Axe",
+                  "kind": "axe",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Jeralt",
+      "color": "#6c8ebf",
+      "category": "Church of Seiros",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 84,
+              "str": 82,
+              "dex": 62,
+              "mag": 35,
+              "spd": 62,
+              "lck": 25,
+              "cha": 35,
+              "def": 65,
+              "res": 35
+            },
+            "meta": {
+              "class": "Mercenary",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "B",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "B",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Hanneman",
+      "color": "#718096",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 60,
+              "str": 30,
+              "dex": 39,
+              "mag": 84,
+              "spd": 39,
+              "lck": 45,
+              "cha": 57,
+              "def": 27,
+              "res": 63
+            },
+            "meta": {
+              "class": "Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "A",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Jeritza",
+      "color": "#7ed6df",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 84,
+              "str": 82,
+              "dex": 62,
+              "mag": 35,
+              "spd": 62,
+              "lck": 25,
+              "cha": 35,
+              "def": 65,
+              "res": 35
+            },
+            "meta": {
+              "class": "Death Knight",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "B",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "B",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Edelgard",
+      "color": "#ff7675",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 73,
+              "str": 75,
+              "dex": 51,
+              "mag": 39,
+              "spd": 57,
+              "lck": 39,
+              "cha": 75,
+              "def": 63,
+              "res": 39
+            },
+            "meta": {
+              "class": "Noble",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "D",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "A",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "D",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "A",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Axe",
+                  "kind": "axe",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Axe",
+                  "kind": "axe",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Hubert",
+      "color": "#4B3A5A",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 55,
+              "str": 27,
+              "dex": 39,
+              "mag": 84,
+              "spd": 51,
+              "lck": 33,
+              "cha": 51,
+              "def": 21,
+              "res": 63
+            },
+            "meta": {
+              "class": "Dark Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "A",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "D",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "B",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Ferdinand",
+      "color": "#4a69bd",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 71,
+              "str": 63,
+              "dex": 57,
+              "mag": 33,
+              "spd": 57,
+              "lck": 39,
+              "cha": 69,
+              "def": 51,
+              "res": 33
+            },
+            "meta": {
+              "class": "Cavalier",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "D",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "D",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "B",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "C",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Dorothea",
+      "color": "#e84393",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 61,
+              "str": 39,
+              "dex": 51,
+              "mag": 69,
+              "spd": 51,
+              "lck": 51,
+              "cha": 75,
+              "def": 27,
+              "res": 57
+            },
+            "meta": {
+              "class": "Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "B",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Bernadetta",
+      "color": "#c084fc",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 55,
+              "str": 51,
+              "dex": 69,
+              "mag": 33,
+              "spd": 57,
+              "lck": 39,
+              "cha": 33,
+              "def": 27,
+              "res": 27
+            },
+            "meta": {
+              "class": "Archer",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "D",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Bow",
+                  "kind": "bow",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Bow",
+                  "kind": "bow",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Caspar",
+      "color": "#55efc4",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 77,
+              "str": 69,
+              "dex": 51,
+              "mag": 21,
+              "spd": 57,
+              "lck": 39,
+              "cha": 45,
+              "def": 45,
+              "res": 21
+            },
+            "meta": {
+              "class": "Fighter",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "D",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "D",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Axe",
+                  "kind": "axe",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Axe",
+                  "kind": "axe",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Linhardt",
+      "color": "#6ab04c",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 53,
+              "str": 27,
+              "dex": 39,
+              "mag": 69,
+              "spd": 39,
+              "lck": 39,
+              "cha": 45,
+              "def": 27,
+              "res": 63
+            },
+            "meta": {
+              "class": "Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "B",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "B",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "E",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Petra",
+      "color": "#c44569",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 65,
+              "str": 63,
+              "dex": 75,
+              "mag": 27,
+              "spd": 75,
+              "lck": 51,
+              "cha": 45,
+              "def": 45,
+              "res": 27
+            },
+            "meta": {
+              "class": "Myrmidon",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "B",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "C",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "C",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "D",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Manuela",
+      "color": "#b23a48",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 63,
+              "str": 42,
+              "dex": 51,
+              "mag": 69,
+              "spd": 51,
+              "lck": 57,
+              "cha": 69,
+              "def": 39,
+              "res": 57
+            },
+            "meta": {
+              "class": "Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "C",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Staff",
+                  "kind": "staff",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Staff",
+                  "kind": "staff",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Claude",
+      "color": "#55efc4",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 65,
+              "str": 57,
+              "dex": 69,
+              "mag": 39,
+              "spd": 69,
+              "lck": 51,
+              "cha": 69,
+              "def": 45,
+              "res": 45
+            },
+            "meta": {
+              "class": "Archer",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "C",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "C",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "C",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "D",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "D",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Hilda",
+      "color": "#ff7675",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 73,
+              "str": 69,
+              "dex": 51,
+              "mag": 27,
+              "spd": 57,
+              "lck": 39,
+              "cha": 57,
+              "def": 51,
+              "res": 27
+            },
+            "meta": {
+              "class": "Fighter",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "D",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Sword",
+                  "kind": "sword",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Sword",
+                  "kind": "sword",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Lorenz",
+      "color": "#6C4AB6",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 63,
+              "str": 57,
+              "dex": 51,
+              "mag": 51,
+              "spd": 51,
+              "lck": 39,
+              "cha": 63,
+              "def": 45,
+              "res": 45
+            },
+            "meta": {
+              "class": "Noble",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "C",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "D",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "C",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Raphael",
+      "color": "#f39c12",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 85,
+              "str": 81,
+              "dex": 45,
+              "mag": 21,
+              "spd": 39,
+              "lck": 39,
+              "cha": 45,
+              "def": 69,
+              "res": 27
+            },
+            "meta": {
+              "class": "Fighter",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "D",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "D",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "D",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "E",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Gauntlets",
+                  "kind": "gauntlets",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Gauntlets",
+                  "kind": "gauntlets",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Ignatz",
+      "color": "#81ecec",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 55,
+              "str": 39,
+              "dex": 69,
+              "mag": 33,
+              "spd": 57,
+              "lck": 51,
+              "cha": 45,
+              "def": 39,
+              "res": 33
+            },
+            "meta": {
+              "class": "Archer",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "D",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "E",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Bow",
+                  "kind": "bow",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Bow",
+                  "kind": "bow",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Leonie",
+      "color": "#e67e22",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 69,
+              "str": 63,
+              "dex": 57,
+              "mag": 27,
+              "spd": 63,
+              "lck": 51,
+              "cha": 45,
+              "def": 51,
+              "res": 27
+            },
+            "meta": {
+              "class": "Soldier",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "D",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "C",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Lysithea",
+      "color": "#d6a2e8",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 51,
+              "str": 27,
+              "dex": 45,
+              "mag": 90,
+              "spd": 69,
+              "lck": 33,
+              "cha": 45,
+              "def": 21,
+              "res": 57
+            },
+            "meta": {
+              "class": "Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "B",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "E",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Marianne",
+      "color": "#81A9D6",
+      "category": "Golden Deer",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 53,
+              "str": 33,
+              "dex": 45,
+              "mag": 69,
+              "spd": 51,
+              "lck": 39,
+              "cha": 51,
+              "def": 27,
+              "res": 63
+            },
+            "meta": {
+              "class": "Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "C",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "E",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Staff",
+                  "kind": "staff",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Staff",
+                  "kind": "staff",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Shamir",
+      "color": "#8e3b46",
+      "category": "Independent",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 76,
+              "str": 68,
+              "dex": 86,
+              "mag": 20,
+              "spd": 68,
+              "lck": 45,
+              "cha": 45,
+              "def": 50,
+              "res": 28
+            },
+            "meta": {
+              "class": "Sniper",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "C",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "A",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "C",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Bow",
+                  "kind": "bow",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Bow",
+                  "kind": "bow",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Thales",
+      "color": "#c0c0c0",
+      "category": "Enemy",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 88,
+              "str": 34,
+              "dex": 72,
+              "mag": 99,
+              "spd": 76,
+              "lck": 61,
+              "cha": 86,
+              "def": 63,
+              "res": 96
+            },
+            "meta": {
+              "class": "Dark Bishop",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "D",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "S+",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "B",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "S",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "D",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Solon",
+      "color": "#c0c0c0",
+      "category": "Enemy",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 79,
+              "str": 25,
+              "dex": 61,
+              "mag": 94,
+              "spd": 68,
+              "lck": 48,
+              "cha": 73,
+              "def": 51,
+              "res": 89
+            },
+            "meta": {
+              "class": "Dark Bishop",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "S",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "B",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "A",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Kronya",
+      "color": "#800040",
+      "category": "Enemy",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 68,
+              "str": 64,
+              "dex": 92,
+              "mag": 73,
+              "spd": 94,
+              "lck": 57,
+              "cha": 62,
+              "def": 36,
+              "res": 61
+            },
+            "meta": {
+              "class": "Assassin",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "B",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "C",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "A",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "C",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "DeathKnight",
+      "color": "#808080",
+      "category": "Enemy",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 98,
+              "str": 96,
+              "dex": 72,
+              "mag": 58,
+              "spd": 83,
+              "lck": 41,
+              "cha": 38,
+              "def": 94,
+              "res": 71
+            },
+            "meta": {
+              "class": "Death Knight",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "S+",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "C",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "B",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "A",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "A",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "S+",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "S",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Monica",
+      "color": "#c0736a",
+      "category": "Black Eagles",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 52,
+              "str": 24,
+              "dex": 52,
+              "mag": 82,
+              "spd": 61,
+              "lck": 47,
+              "cha": 68,
+              "def": 23,
+              "res": 67
+            },
+            "meta": {
+              "class": "Mage",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "E",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "E",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "E",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "E",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "C",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "D",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Tome",
+                  "kind": "tome",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Tome",
+                  "kind": "tome",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Rodrigue",
+      "color": "#5e93c4",
+      "category": "Blue Lions",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 86,
+              "str": 78,
+              "dex": 64,
+              "mag": 28,
+              "spd": 48,
+              "lck": 56,
+              "cha": 76,
+              "def": 71,
+              "res": 42
+            },
+            "meta": {
+              "class": "Paladin",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "B+",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "A",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "C",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "C",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "D",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "A",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "A",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "GateKeeper",
+      "color": "#00b894",
+      "category": "Church of Seiros",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "fe": {
+            "stats": {
+              "hp": 74,
+              "str": 61,
+              "dex": 49,
+              "mag": 18,
+              "spd": 43,
+              "lck": 68,
+              "cha": 72,
+              "def": 67,
+              "res": 31
+            },
+            "meta": {
+              "class": "Soldier",
+              "level": 1
+            },
+            "profs": {
+              "sword": {
+                "rank": "D",
+                "xp": 0
+              },
+              "lance": {
+                "rank": "C+",
+                "xp": 0
+              },
+              "axe": {
+                "rank": "E",
+                "xp": 0
+              },
+              "bow": {
+                "rank": "D",
+                "xp": 0
+              },
+              "brawling": {
+                "rank": "D",
+                "xp": 0
+              },
+              "reason": {
+                "rank": "E",
+                "xp": 0
+              },
+              "faith": {
+                "rank": "E",
+                "xp": 0
+              },
+              "authority": {
+                "rank": "C",
+                "xp": 0
+              },
+              "riding": {
+                "rank": "E",
+                "xp": 0
+              },
+              "flying": {
+                "rank": "E",
+                "xp": 0
+              },
+              "heavyArmor": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Training Lance",
+                  "kind": "lance",
+                  "tier": "training",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                },
+                {
+                  "id": "g2",
+                  "name": "Iron Lance",
+                  "kind": "lance",
+                  "tier": "iron",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": null,
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e3f05bcb-fc93-4170-8142-9a06ae2e2997",
+  "scriptName": "SillyNPC - Bond Tracker Context Saver",
+  "findRegex": "/(?:```(?:html|xml|markdown)?\\s{0,8})?<details>\\s{0,8}<summary>[^<]{0,80}BOND TRACKER[^<]{0,80}<\\/summary>[\\s\\S]{0,20000}?<\\/details>(?:\\s{0,8}```)?/gi",
+  "replaceString": "",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": false,
+  "promptOnly": true,
+  "runOnEdit": false,
+  "substituteRegex": 0,
+  "minDepth": 2,
+  "maxDepth": null
+}

@@ -1,0 +1,300 @@
+{
+  "format": "sillynpc-characters",
+  "version": 1,
+  "exported": "2026-11-15",
+  "characters": [
+    {
+      "name": "Marlow Reed",
+      "color": "#4F7CAC",
+      "category": "Lantern Coast",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "lantern_coast_skirmishes": {
+            "stats": {
+              "health": 78,
+              "might": 82,
+              "finesse": 45,
+              "wits": 40,
+              "spirit": 30,
+              "grit": 70,
+              "luck": 50
+            },
+            "meta": {
+              "crew": "Dockhands",
+              "level": 1
+            },
+            "profs": {
+              "blades": {
+                "rank": "Trained",
+                "xp": 0
+              },
+              "tactics": {
+                "rank": "Novice",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "dockside_slam",
+              "old_salt",
+              "second_wind"
+            ],
+            "xp": 0,
+            "level": 1
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Sable Quill",
+      "color": "#8E5FA8",
+      "category": "Lantern Coast",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "lantern_coast_skirmishes": {
+            "stats": {
+              "health": 52,
+              "might": 30,
+              "finesse": 60,
+              "wits": 76,
+              "spirit": 88,
+              "grit": 35,
+              "luck": 64
+            },
+            "meta": {
+              "crew": "Free Company",
+              "level": 1
+            },
+            "profs": {
+              "charms": {
+                "rank": "Master",
+                "xp": 0
+              },
+              "tactics": {
+                "rank": "Adept",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "lantern_flare",
+              "harbor_ward",
+              "old_salt"
+            ],
+            "xp": 0,
+            "level": 1
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Tobias Fenn",
+      "color": "#C9A227",
+      "category": "Lantern Coast",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "lantern_coast_skirmishes": {
+            "stats": {
+              "health": 85,
+              "might": 62,
+              "finesse": 40,
+              "wits": 55,
+              "spirit": 45,
+              "grit": 85,
+              "luck": 35
+            },
+            "meta": {
+              "crew": "Lantern Guard",
+              "level": 1
+            },
+            "profs": {
+              "blades": {
+                "rank": "Adept",
+                "xp": 0
+              },
+              "charms": {
+                "rank": "Novice",
+                "xp": 0
+              },
+              "tactics": {
+                "rank": "Trained",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "dockside_slam",
+              "harbor_ward",
+              "second_wind"
+            ],
+            "xp": 0,
+            "level": 1
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Ilsa Thorne",
+      "color": "#B03A48",
+      "category": "Lantern Coast",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "lantern_coast_skirmishes": {
+            "stats": {
+              "health": 58,
+              "might": 58,
+              "finesse": 90,
+              "wits": 72,
+              "spirit": 40,
+              "grit": 40,
+              "luck": 70
+            },
+            "meta": {
+              "crew": "Smugglers",
+              "level": 1
+            },
+            "profs": {
+              "blades": {
+                "rank": "Expert",
+                "xp": 0
+              },
+              "charms": {
+                "rank": "Novice",
+                "xp": 0
+              },
+              "tactics": {
+                "rank": "Adept",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "quick_cut",
+              "old_salt",
+              "lantern_flare"
+            ],
+            "xp": 0,
+            "level": 1
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Corvin Ashby",
+      "color": "#5F6B73",
+      "category": "Lantern Coast",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "lantern_coast_skirmishes": {
+            "stats": {
+              "health": 66,
+              "might": 60,
+              "finesse": 52,
+              "wits": 88,
+              "spirit": 58,
+              "grit": 62,
+              "luck": 55
+            },
+            "meta": {
+              "crew": "Free Company",
+              "level": 1
+            },
+            "profs": {
+              "blades": {
+                "rank": "Expert",
+                "xp": 0
+              },
+              "charms": {
+                "rank": "Trained",
+                "xp": 0
+              },
+              "tactics": {
+                "rank": "Master",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [
+              "quick_cut",
+              "harbor_ward",
+              "old_salt",
+              "second_wind"
+            ],
+            "xp": 0,
+            "level": 1
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    }
+  ]
+}

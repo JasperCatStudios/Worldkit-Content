@@ -1,0 +1,636 @@
+{
+  "meta": [
+    {
+      "id": "level",
+      "label": "Level",
+      "type": "number",
+      "min": 1,
+      "max": 50,
+      "default": 1,
+      "aliases": [
+        "Level"
+      ]
+    },
+    {
+      "id": "crew",
+      "label": "Crew",
+      "type": "choice",
+      "options": [
+        "Dockhands",
+        "Lantern Guard",
+        "Smugglers",
+        "Free Company"
+      ],
+      "default": "Dockhands"
+    }
+  ],
+  "ladders": {
+    "skill": {
+      "rungs": [
+        "Novice",
+        "Trained",
+        "Adept",
+        "Expert",
+        "Master"
+      ],
+      "zeroAt": "Novice",
+      "bonusPerRung": 1
+    }
+  },
+  "proficiencies": [
+    {
+      "id": "blades",
+      "label": "Blades",
+      "ladder": "skill",
+      "roles": [
+        "weapon"
+      ],
+      "channel": "physical",
+      "rollRole": "attack",
+      "aliases": [
+        "Swordplay",
+        "Blade"
+      ]
+    },
+    {
+      "id": "charms",
+      "label": "Charms",
+      "ladder": "skill",
+      "roles": [
+        "magic"
+      ],
+      "channel": "spirit",
+      "rollRole": "attack",
+      "aliases": [
+        "Charm"
+      ]
+    },
+    {
+      "id": "tactics",
+      "label": "Tactics",
+      "ladder": "skill",
+      "roles": [
+        "support"
+      ],
+      "channel": "physical",
+      "rollRole": "awareness",
+      "aliases": [
+        "Tactic"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "key": "cut",
+      "label": "Cut",
+      "prof": "blades"
+    },
+    {
+      "key": "shove",
+      "label": "Shove",
+      "prof": "blades",
+      "power": -1
+    },
+    {
+      "key": "lantern_spark",
+      "label": "Lantern Spark",
+      "prof": "charms",
+      "power": 2,
+      "cost": {
+        "pool": "resource",
+        "amount": 8
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "id": "dockside_slam",
+      "label": "Dockside Slam",
+      "category": "Blades",
+      "kind": "active",
+      "prof": "blades",
+      "power": 5,
+      "cost": {
+        "pool": "guard",
+        "amount": 12
+      },
+      "desc": "A full-weight swing that drives the foe back along the planks."
+    },
+    {
+      "id": "quick_cut",
+      "label": "Quick Cut",
+      "category": "Blades",
+      "kind": "active",
+      "prof": "blades",
+      "power": 3,
+      "cost": {
+        "pool": "guard",
+        "amount": 6
+      },
+      "desc": "A fast, light slash that is hard to see coming."
+    },
+    {
+      "id": "lantern_flare",
+      "label": "Lantern Flare",
+      "category": "Charms",
+      "kind": "active",
+      "prof": "charms",
+      "power": 6,
+      "cost": {
+        "pool": "resource",
+        "amount": 18
+      },
+      "desc": "The charm bursts into harsh white light and a hot pulse behind it."
+    },
+    {
+      "id": "harbor_ward",
+      "label": "Harbour Ward",
+      "category": "Charms",
+      "kind": "defensive",
+      "cost": {
+        "pool": "resource",
+        "amount": 8
+      },
+      "effect": {
+        "block": 0.4
+      },
+      "desc": "A ring of chalk and breath that dulls the next blow."
+    },
+    {
+      "id": "old_salt",
+      "label": "Old Salt",
+      "category": "Instinct",
+      "kind": "passive",
+      "trigger": "defend",
+      "chance": "a.awareness/30",
+      "effect": {
+        "block": 0.35
+      },
+      "desc": "Years on the waterfront: you step out of the way before you know why."
+    },
+    {
+      "id": "second_wind",
+      "label": "Second Wind",
+      "category": "Instinct",
+      "kind": "passive",
+      "trigger": "turnStart",
+      "chance": "a.endurance/40",
+      "effect": {
+        "heal": 0.05
+      },
+      "desc": "A breath, a roll of the shoulders, and you are back in it."
+    }
+  ],
+  "loreImport": {
+    "statMap": {
+      "Health": [
+        "health"
+      ],
+      "Might": [
+        "might"
+      ],
+      "Finesse": [
+        "finesse"
+      ],
+      "Wits": [
+        "wits"
+      ],
+      "Spirit": [
+        "spirit"
+      ],
+      "Grit": [
+        "grit"
+      ],
+      "Luck": [
+        "luck"
+      ]
+    }
+  },
+  "format": "sillynpc-combat-type",
+  "version": 2,
+  "id": "lantern_coast_skirmishes",
+  "name": "Lantern Coast Skirmishes",
+  "builtin": false,
+  "dataKey": "lantern_coast_skirmishes",
+  "description": "A sample world made with the Create a world type editor: harbour-town scraps with blades and charms. Seven stats on 0 to 100, a physical and a spirit channel, three skills graded Novice to Master.",
+  "stats": [
+    {
+      "id": "health",
+      "label": "Health",
+      "abbr": "HP",
+      "scale": {
+        "min": 10,
+        "max": 100
+      },
+      "default": 50
+    },
+    {
+      "id": "might",
+      "label": "Might",
+      "abbr": "MGT",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "default": 40
+    },
+    {
+      "id": "finesse",
+      "label": "Finesse",
+      "abbr": "FIN",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "default": 40
+    },
+    {
+      "id": "wits",
+      "label": "Wits",
+      "abbr": "WIT",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "default": 40
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit",
+      "abbr": "SPI",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "default": 40
+    },
+    {
+      "id": "grit",
+      "label": "Grit",
+      "abbr": "GRT",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "default": 40
+    },
+    {
+      "id": "luck",
+      "label": "Luck",
+      "abbr": "LCK",
+      "scale": {
+        "min": 0,
+        "max": 100
+      },
+      "default": 40
+    }
+  ],
+  "channels": [
+    {
+      "id": "physical",
+      "label": "Physical"
+    },
+    {
+      "id": "spirit",
+      "label": "Spirit"
+    }
+  ],
+  "roles": {
+    "attack": {
+      "physical": "stat.might*0.7 + stat.finesse*0.3",
+      "spirit": "stat.spirit"
+    },
+    "defense": {
+      "physical": "stat.grit",
+      "spirit": "stat.wits*0.5 + stat.grit*0.5"
+    },
+    "initiative": "stat.finesse*0.7 + stat.wits*0.3",
+    "speed": "stat.finesse",
+    "accuracy": "stat.finesse",
+    "evasion": "stat.finesse*0.6 + stat.luck*0.4",
+    "luck": "stat.luck",
+    "endurance": "stat.health*0.5 + stat.grit*0.5",
+    "awareness": "stat.wits"
+  },
+  "pools": [
+    {
+      "role": "health",
+      "label": "Health",
+      "abbr": "HP",
+      "max": "stat.health",
+      "color": "#c0392b"
+    },
+    {
+      "role": "guard",
+      "label": "Wind",
+      "abbr": "WND",
+      "max": "20 + stat.grit*0.5",
+      "color": "#58d68d"
+    },
+    {
+      "role": "resource",
+      "label": "Resolve",
+      "abbr": "RSV",
+      "max": "20 + stat.spirit*0.8",
+      "color": "#f5b041"
+    }
+  ],
+  "modifier": {
+    "type": "linear",
+    "center": 50,
+    "per": 10
+  },
+  "resolution": {
+    "natural": {
+      "20": "crit"
+    },
+    "bandBase": {
+      "stalemate": 0,
+      "miss": 0,
+      "hit": 6,
+      "strong": 10,
+      "crit": 15
+    },
+    "mode": "opposed",
+    "roll": "d20 + diff + a.mod.roll",
+    "damage": "max(1, round(band.base + act.power + a.attack*0.25 - d.defense*0.15))",
+    "bands": [
+      {
+        "upTo": 0,
+        "result": "stalemate"
+      },
+      {
+        "upTo": 4,
+        "result": "hit"
+      },
+      {
+        "upTo": 9,
+        "result": "strong"
+      },
+      {
+        "upTo": 999,
+        "result": "crit"
+      }
+    ],
+    "initiative": "a.initiative + d10",
+    "followUpChance": "clamp((a.speed - d.speed) * 0.5, 0, 35)"
+  },
+  "roleSchema": 1,
+  "advantage": [],
+  "gear": {
+    "version": 1,
+    "ladders": {
+      "default": {
+        "label": "Tier",
+        "defaultTier": "common",
+        "tiers": [
+          {
+            "id": "training",
+            "label": "Training",
+            "prefix": "Wooden",
+            "color": "#8d6e63",
+            "icon": "fa-solid fa-seedling",
+            "rarity": "Practice",
+            "power": -1,
+            "hit": 0,
+            "crit": 0,
+            "mult": 0.85
+          },
+          {
+            "id": "common",
+            "label": "Common",
+            "prefix": "Iron",
+            "color": "#9e9e9e",
+            "icon": "fa-solid fa-circle",
+            "rarity": "Common",
+            "power": 0,
+            "hit": 0,
+            "crit": 0,
+            "mult": 1
+          },
+          {
+            "id": "bronze",
+            "label": "Bronze",
+            "prefix": "Bronze",
+            "color": "#b87333",
+            "icon": "fa-solid fa-medal",
+            "rarity": "Uncommon",
+            "power": 1,
+            "hit": 1,
+            "crit": 2,
+            "mult": 1.05
+          },
+          {
+            "id": "iron",
+            "label": "Iron",
+            "prefix": "Iron",
+            "color": "#78909c",
+            "icon": "fa-solid fa-hammer",
+            "rarity": "Uncommon",
+            "power": 1,
+            "hit": 1,
+            "crit": 3,
+            "mult": 1.07
+          },
+          {
+            "id": "steel",
+            "label": "Steel",
+            "prefix": "Steel",
+            "color": "#a7b4bd",
+            "icon": "fa-solid fa-shield",
+            "rarity": "Uncommon",
+            "power": 1,
+            "hit": 1,
+            "crit": 4,
+            "mult": 1.09
+          },
+          {
+            "id": "silver",
+            "label": "Silver",
+            "prefix": "Silver",
+            "color": "#c0c7d0",
+            "icon": "fa-solid fa-star",
+            "rarity": "Rare",
+            "power": 2,
+            "hit": 1,
+            "crit": 5,
+            "mult": 1.12
+          },
+          {
+            "id": "relic",
+            "label": "Hero Relic",
+            "prefix": "",
+            "color": "#e0b040",
+            "icon": "fa-solid fa-crown",
+            "rarity": "Legendary",
+            "power": 3,
+            "hit": 2,
+            "crit": 10,
+            "mult": 1.25,
+            "signature": true
+          }
+        ]
+      }
+    },
+    "kinds": [
+      {
+        "id": "weapon",
+        "label": "Weapon",
+        "slot": "hand",
+        "hands": 1,
+        "dualable": true,
+        "range": "melee",
+        "ladder": "default",
+        "prof": "",
+        "channel": "",
+        "power": 0,
+        "hit": 0,
+        "weight": 5,
+        "verb": "strikes"
+      },
+      {
+        "id": "fists",
+        "label": "Fists",
+        "slot": "natural",
+        "hands": 0,
+        "dualable": false,
+        "range": "melee",
+        "ladder": "default",
+        "prof": "",
+        "channel": "",
+        "power": 0,
+        "hit": 0,
+        "weight": 0,
+        "verb": "strikes"
+      },
+      {
+        "id": "focus",
+        "label": "Focus",
+        "slot": "focus",
+        "hands": 0,
+        "dualable": false,
+        "range": "ranged",
+        "ladder": "default",
+        "prof": "",
+        "channel": "",
+        "power": 0,
+        "hit": 0,
+        "weight": 1,
+        "verb": "channels"
+      }
+    ],
+    "unarmed": "fists",
+    "dual": {
+      "offMult": 0.5,
+      "offHit": -3
+    },
+    "burden": "",
+    "tools": [
+      {
+        "id": "knives",
+        "label": "Throwing knives",
+        "uses": 3,
+        "verb": "throws",
+        "effect": {
+          "type": "damage",
+          "area": "one",
+          "power": 3,
+          "range": "ranged"
+        }
+      },
+      {
+        "id": "smoke",
+        "label": "Smoke bomb",
+        "uses": 1,
+        "verb": "hurls",
+        "effect": {
+          "type": "smoke",
+          "area": "side",
+          "flee": 35,
+          "hit": -3,
+          "turns": 1
+        }
+      },
+      {
+        "id": "flash",
+        "label": "Flash powder",
+        "uses": 1,
+        "verb": "throws",
+        "effect": {
+          "type": "blind",
+          "area": "one",
+          "hit": -4,
+          "turns": 2,
+          "chance": 70
+        }
+      },
+      {
+        "id": "snare",
+        "label": "Snare",
+        "uses": 1,
+        "verb": "sets",
+        "effect": {
+          "type": "stun",
+          "area": "one",
+          "turns": 1,
+          "chance": 55
+        }
+      },
+      {
+        "id": "salve",
+        "label": "Healing salve",
+        "uses": 1,
+        "verb": "applies",
+        "effect": {
+          "type": "heal",
+          "area": "self",
+          "share": 0.25,
+          "fightOnly": true
+        }
+      },
+      {
+        "id": "caltrops",
+        "label": "Caltrops",
+        "uses": 1,
+        "verb": "scatters",
+        "effect": {
+          "type": "damage",
+          "area": "all",
+          "power": 1,
+          "turns": 2,
+          "slow": 10,
+          "range": "ranged"
+        }
+      }
+    ],
+    "catalogue": [],
+    "flee": {
+      "base": 45,
+      "perSpeed": 1,
+      "perCover": 15,
+      "perTry": 10,
+      "perExtraFoe": 8,
+      "min": 5,
+      "max": 95,
+      "cleanMargin": 30,
+      "partingMult": 0.5
+    },
+    "teams": {
+      "maxPerSide": 4,
+      "backToWall": {
+        "hitPerFoe": 1,
+        "multPerFoe": 0.1,
+        "max": 3
+      },
+      "crowding": {
+        "hitPerAttacker": -1,
+        "max": -3
+      }
+    }
+  },
+  "stakes": {
+    "injuries": false,
+    "death": false
+  },
+  "skillCards": null
+}

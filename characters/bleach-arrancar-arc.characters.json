@@ -1,0 +1,1353 @@
+{
+  "format": "sillynpc-characters",
+  "version": 1,
+  "exported": "2026-11-15",
+  "characters": [
+    {
+      "name": "Kenpachi",
+      "color": "#8E1B1B",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 98,
+              "defense": 90,
+              "mobility": 70,
+              "initiative": 68,
+              "kido": 75,
+              "intellect": 73,
+              "endurance": 95,
+              "reiatsu": 80
+            },
+            "meta": {
+              "tier": "A",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "D",
+                "xp": 0
+              },
+              "kido": {
+                "rank": "D",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "C",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "A",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "S",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "D",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Nozarashi",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Nozarashi",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Hiyori",
+      "color": "#D4A017",
+      "category": "Vizard",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 38,
+              "defense": 52,
+              "mobility": 84,
+              "initiative": 83,
+              "kido": 78,
+              "intellect": 56,
+              "endurance": 70,
+              "reiatsu": 76
+            },
+            "meta": {
+              "tier": "B",
+              "faction": "Vizard",
+              "level": 1
+            },
+            "profs": {},
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Hiyori Sarugaki |",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Hiyori Sarugaki |",
+                  "kind": "zanpakuto",
+                  "tier": "sealed",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Grimmjow",
+      "color": "#2E86C1",
+      "category": "Espada",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 88,
+              "defense": 76,
+              "mobility": 90,
+              "initiative": 88,
+              "kido": 70,
+              "intellect": 76,
+              "endurance": 85,
+              "reiatsu": 69
+            },
+            "meta": {
+              "tier": "A",
+              "faction": "Arrancar",
+              "level": 1
+            },
+            "profs": {
+              "cero": {
+                "rank": "A",
+                "xp": 0
+              },
+              "bala": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hierro": {
+                "rank": "B",
+                "xp": 0
+              },
+              "pesquisa": {
+                "rank": "A",
+                "xp": 0
+              },
+              "sonido": {
+                "rank": "A",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "A",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Izuru",
+      "color": "#C9B458",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 45,
+              "defense": 50,
+              "mobility": 55,
+              "initiative": 58,
+              "kido": 75,
+              "intellect": 50,
+              "endurance": 70,
+              "reiatsu": 70
+            },
+            "meta": {
+              "tier": "B",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "A",
+                "xp": 0
+              },
+              "kido": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "C",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "B",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Wabisuke",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Wabisuke",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Yumichika",
+      "color": "#9B59B6",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 55,
+              "defense": 60,
+              "mobility": 80,
+              "initiative": 79,
+              "kido": 82,
+              "intellect": 82,
+              "endurance": 75,
+              "reiatsu": 79
+            },
+            "meta": {
+              "tier": "A",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "C",
+                "xp": 0
+              },
+              "kido": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Ruri'iro Kujaku",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Ruri'iro Kujaku",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Kisuke",
+      "color": "#7D8C3C",
+      "category": "Karakura",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 65,
+              "defense": 70,
+              "mobility": 90,
+              "initiative": 88,
+              "kido": 95,
+              "intellect": 83,
+              "endurance": 85,
+              "reiatsu": 93
+            },
+            "meta": {
+              "tier": "A",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "S",
+                "xp": 0
+              },
+              "kido": {
+                "rank": "S",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "S",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "S",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "S",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "B",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Benihime",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Benihime",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Toshiro",
+      "color": "#5DADE2",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 45,
+              "defense": 70,
+              "mobility": 85,
+              "initiative": 79,
+              "kido": 92,
+              "intellect": 60,
+              "endurance": 78,
+              "reiatsu": 90
+            },
+            "meta": {
+              "tier": "A",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "A",
+                "xp": 0
+              },
+              "kido": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "B",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "S",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "D",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Hyōrinmaru",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Hyōrinmaru",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Shuhei",
+      "color": "#34495E",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 72,
+              "defense": 75,
+              "mobility": 78,
+              "initiative": 79,
+              "kido": 65,
+              "intellect": 68,
+              "endurance": 82,
+              "reiatsu": 68
+            },
+            "meta": {
+              "tier": "A",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "B",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "D",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Kazeshini",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Kazeshini",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Rukia",
+      "color": "#6C7AE0",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 20,
+              "defense": 35,
+              "mobility": 60,
+              "initiative": 58,
+              "kido": 70,
+              "intellect": 55,
+              "endurance": 65,
+              "reiatsu": 65
+            },
+            "meta": {
+              "tier": "C",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "B",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Sode no Shirayuki",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Sode no Shirayuki",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Byakuya",
+      "color": "#B0B7C3",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 78,
+              "defense": 85,
+              "mobility": 92,
+              "initiative": 94,
+              "kido": 88,
+              "intellect": 85,
+              "endurance": 95,
+              "reiatsu": 89
+            },
+            "meta": {
+              "tier": "S",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "A",
+                "xp": 0
+              },
+              "kido": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "S",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "B",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "S",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Senbonzakura",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Senbonzakura",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Shinji",
+      "color": "#E6C34A",
+      "category": "Vizard",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 65,
+              "defense": 68,
+              "mobility": 82,
+              "initiative": 81,
+              "kido": 78,
+              "intellect": 78,
+              "endurance": 85,
+              "reiatsu": 75
+            },
+            "meta": {
+              "tier": "A",
+              "faction": "Vizard",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "A",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "A",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "C",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Shinji Hirako |",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Shinji Hirako |",
+                  "kind": "zanpakuto",
+                  "tier": "sealed",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Ichigo",
+      "color": "#E67E22",
+      "category": "Karakura",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 82,
+              "defense": 78,
+              "mobility": 90,
+              "initiative": 89,
+              "kido": 75,
+              "intellect": 77,
+              "endurance": 85,
+              "reiatsu": 74
+            },
+            "meta": {
+              "tier": "A",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {},
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Zangetsu",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Zangetsu",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Renji",
+      "color": "#C0392B",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 80,
+              "defense": 70,
+              "mobility": 70,
+              "initiative": 68,
+              "kido": 50,
+              "intellect": 63,
+              "endurance": 85,
+              "reiatsu": 58
+            },
+            "meta": {
+              "tier": "B",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "D",
+                "xp": 0
+              },
+              "kido": {
+                "rank": "D",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "B",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "B",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "A",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "E",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Zabimaru",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Zabimaru",
+                  "kind": "zanpakuto",
+                  "tier": "bankai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Ulquiorra",
+      "color": "#1ABC9C",
+      "category": "Espada",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 88,
+              "defense": 87,
+              "mobility": 93,
+              "initiative": 94,
+              "kido": 94,
+              "intellect": 78,
+              "endurance": 92,
+              "reiatsu": 93
+            },
+            "meta": {
+              "tier": "S",
+              "faction": "Arrancar",
+              "level": 1
+            },
+            "profs": {
+              "cero": {
+                "rank": "S",
+                "xp": 0
+              },
+              "bala": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hierro": {
+                "rank": "A",
+                "xp": 0
+              },
+              "pesquisa": {
+                "rank": "S",
+                "xp": 0
+              },
+              "sonido": {
+                "rank": "S",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "A",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "A",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": null,
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    },
+    {
+      "name": "Ikkaku",
+      "color": "#A04000",
+      "category": "Soul Society",
+      "imageFit": "",
+      "aliases": [],
+      "imagePrompt": "",
+      "imageNegative": "",
+      "statusOverrides": {},
+      "combat": {
+        "version": 2,
+        "types": {
+          "bleach": {
+            "stats": {
+              "offense": 88,
+              "defense": 80,
+              "mobility": 68,
+              "initiative": 70,
+              "kido": 15,
+              "intellect": 64,
+              "endurance": 85,
+              "reiatsu": 30
+            },
+            "meta": {
+              "tier": "B",
+              "faction": "Shinigami",
+              "level": 1
+            },
+            "profs": {
+              "bakudo": {
+                "rank": "D",
+                "xp": 0
+              },
+              "kido": {
+                "rank": "D",
+                "xp": 0
+              },
+              "hoho": {
+                "rank": "C",
+                "xp": 0
+              },
+              "hakuda": {
+                "rank": "B",
+                "xp": 0
+              },
+              "zanjutsu": {
+                "rank": "S",
+                "xp": 0
+              },
+              "healing_kido": {
+                "rank": "D",
+                "xp": 0
+              }
+            },
+            "pools": {},
+            "growth": {},
+            "unknown": {},
+            "history": [],
+            "weapon": {
+              "name": "Hōzukimaru",
+              "prof": "zanjutsu",
+              "power": 0
+            },
+            "status": null,
+            "abilities": [],
+            "xp": 0,
+            "level": 1,
+            "gear": {
+              "items": [
+                {
+                  "id": "g1",
+                  "name": "Hōzukimaru",
+                  "kind": "zanpakuto",
+                  "tier": "shikai",
+                  "pair": false,
+                  "desc": "",
+                  "special": "",
+                  "partner": "",
+                  "mutes": "",
+                  "bonus": {
+                    "power": 0,
+                    "hit": 0,
+                    "crit": 0
+                  }
+                }
+              ],
+              "equipped": {
+                "main": "g1",
+                "off": null,
+                "focus": null
+              },
+              "belt": []
+            }
+          }
+        },
+        "conditions": [],
+        "dead": false
+      },
+      "lore": null
+    }
+  ]
+}
