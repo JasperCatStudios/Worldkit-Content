@@ -62,7 +62,3 @@ These images are fan material from the Fire Emblem games, not original to this p
 
 - **A world:** Combat, Settings, World types, **Export** on a custom world gives a `.json` file anyone can import with **Import a world type file**.
 - **Characters:** the character export now includes combat sheets. Importing a file from somebody else adds the people next to yours; names already in use are renamed unless you choose otherwise.
-
-### Game backgrounds (optional)
-
-`art/games/` holds tabletop backgrounds for chess, tic-tac-toe, battleship, rock-paper-scissors, Pig and spin the bottle, plus one felt table (`felt-table.webp`) shared by blackjack, poker and whist, as WebP (about 250 KB in all). They are not bundled with the extension. To use them, copy the folder to `data/<your user>/user/images/worldkit-art/games/` and turn on **Game and combat backgrounds** under Appearance. With that switch off, or the folder missing, games and combat use their built-in look. A combat background is read from `games/combat.webp` if you add one.
