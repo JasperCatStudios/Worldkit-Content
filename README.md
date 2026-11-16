@@ -11,7 +11,7 @@ Worldkit-Content/
   characters/    character packs, each with combat sheets filled in
   regex/         SillyTavern regex scripts that dress the bond and vitals blocks under replies
   art/           optional Fire Emblem artwork: house banners, weapon icons and crest icons
-  workflows/     ComfyUI workflows for the Phone's pictures: a selfie workflow and a general one
+  workflows/     ComfyUI workflows for the Phone's pictures: selfie workflows and a general one
 ```
 
 ## 1. The sample world: Lantern Coast Skirmishes
@@ -66,6 +66,7 @@ Two workflows for the Phone's picture settings, already set up with the placehol
 | File | What it is for | Placeholders |
 | --- | --- | --- |
 | `workflows/selfie-character-sheet.workflow.json` | A picture **of** the contact. An image-edit model (FLUX 3 Klein) takes their character sheet and your prompt and draws the selfie from it. | `%image%` (the character sheet), `%prompt%`, `%seed%` |
+| `workflows/selfie-character-sheet-uncensored-minimax-h3.workflow.json` | The same job as the selfie workflow above, on **MiniMax H3 Image**, for people who find the FLUX one too restrictive (in the author's use it would not make a swimsuit photo). Use one selfie workflow at a time. | `%image%` (the character sheet), `%prompt%`, `%seed%` |
 | `workflows/general-text-to-image-moss.workflow.json` | Drawings, places and things, with no character in them. You give a short idea, a prompt helper (Qwen 3.5) writes the long prompt, and MOSS-Image draws it. | `%prompt%` (the idea), `%seed%`, `%width%`, `%height%` |
 
 **To use them:** in the Phone settings, under ComfyUI, press **Load a workflow file** for the slot you want (**Selfie workflow** or **Your own workflow**) and pick the file. It is kept in SillyTavern's own workflow folder, `data/<your user>/user/workflows/`, so you can pick it again from the drop-down, and your phone sees it too. Give each contact a character sheet in their Gallery page for the selfie workflow.
@@ -75,6 +76,8 @@ Things to know:
 - Ask for a **selfie** when you want the character in the picture; anything else uses the general workflow.
 - The model file names are the ones on the author's computer. The Phone corrects a name when the same file sits in a different folder on yours; a file you do not have still has to be downloaded.
 - Any other workflow saved with **Save (API Format)** works too: the Phone finds the prompt, the picture and the seed and adds the placeholders itself.
+- The MiniMax H3 selfie workflow needs **ComfyUI 0.45.0 or newer** (the node it uses, *MiniMax H3 Image Conditioning*, is not in older versions) and three model files: `minimax_h3_image_pruned_int8_convrot.safetensors` (about 19.5 GB, in `models/diffusion_models/h3`), `qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors` (about 14.6 GB, in `models/text_encoders`) and `minimax_h3_image_vae_fp16.safetensors` (about 1 GB, in `models/vae`). The model has its own licence, the MiniMax-H3-Image Community License; read it, as some countries need permission first. The node's name was restored from ComfyUI's source because the file was exported from a ComfyUI that did not have it yet, so open the workflow once after updating and check no node is red.
+- That workflow's result size comes from its **Number Pick** node in megapixels (16 is the author's default, about 4096 pixels on a side; 4 and 8 are faster), not from the Phone's picture size. The Phone's **Selfie shape** setting still sets the shape.
 - These are built on example workflows by Pixaroma and use their nodes and notes, so check their terms before sharing the files further.
 
 ## Sharing your own

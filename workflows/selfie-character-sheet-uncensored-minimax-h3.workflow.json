@@ -1,0 +1,316 @@
+{
+ "1": {
+  "inputs": {
+   "unet_name": "h3\\minimax_h3_image_pruned_int8_convrot.safetensors",
+   "weight_dtype": "default"
+  },
+  "class_type": "UNETLoader",
+  "_meta": {
+   "title": "Load Diffusion Model (MiniMax H3 Image)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  }
+ },
+ "2": {
+  "inputs": {
+   "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+   "type": "minimax",
+   "device": "default"
+  },
+  "class_type": "CLIPLoader",
+  "_meta": {
+   "title": "Load CLIP (MiniMax H3 text encoder)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  }
+ },
+ "3": {
+  "inputs": {
+   "vae_name": "minimax_h3_image_vae_fp16.safetensors"
+  },
+  "class_type": "VAELoader",
+  "_meta": {
+   "title": "Load VAE (MiniMax H3 Image VAE)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  }
+ },
+ "4": {
+  "inputs": {
+   "image": "%image%",
+   "LoadImageMiniState": "{\"version\":1,\"mode\":\"off\",\"max_mp\":1,\"longest_side\":1024,\"scale_factor\":1,\"fit_w\":1024,\"fit_h\":1024,\"cover_w\":1024,\"cover_h\":1024,\"ratio_preset\":\"1:1\",\"ratio_w\":1,\"ratio_h\":1,\"ratio_action\":\"crop\",\"pad_color\":\"#808080\",\"pad_top\":0,\"pad_bottom\":0,\"pad_left\":0,\"pad_right\":0,\"crop_anchor\":\"center\",\"crop_scale\":true,\"snap\":0,\"resample\":\"auto\",\"allow_upscale\":true,\"orig_name\":\"\"}"
+  },
+  "class_type": "PixaromaLoadImageMini",
+  "_meta": {
+   "title": "Load Image Mini Pixaroma (1. your picture)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "5": {
+  "inputs": {
+   "PromptState": "{\"text\":\"%prompt%\",\"order\":\"mine\",\"sep\":\", \"}"
+  },
+  "class_type": "PixaromaPrompt",
+  "_meta": {
+   "title": "Prompt Pixaroma (2. what to change)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "6": {
+  "inputs": {
+   "NumberPickState": "{\"value\":16,\"out\":\"float\"}"
+  },
+  "class_type": "PixaromaNumberPick",
+  "_meta": {
+   "title": "Number Pick Pixaroma (3. megapixels)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "7": {
+  "inputs": {
+   "upscale_method": "lanczos",
+   "megapixels": [
+    "6",
+    0
+   ],
+   "resolution_steps": 32,
+   "image": [
+    "4",
+    0
+   ]
+  },
+  "class_type": "ImageScaleToTotalPixels",
+  "_meta": {
+   "title": "Scale Image to Total Pixels (scales your picture)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  }
+ },
+ "8": {
+  "inputs": {
+   "image": [
+    "7",
+    0
+   ]
+  },
+  "class_type": "GetImageSize",
+  "_meta": {
+   "title": "Get Image Size (the size of the result)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  }
+ },
+ "9": {
+  "inputs": {
+   "SeedState": "{\"runSeed\":\"%seed%\"}",
+   "seed": "%seed%"
+  },
+  "class_type": "PixaromaSeed",
+  "_meta": {
+   "title": "Seed Pixaroma (4. fixed or random)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "10": {
+  "inputs": {
+   "clip": [
+    "2",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ],
+   "images.image_0": [
+    "7",
+    0
+   ],
+   "prompt": [
+    "5",
+    0
+   ],
+   "width": [
+    "8",
+    0
+   ],
+   "height": [
+    "8",
+    1
+   ]
+  },
+  "_meta": {
+   "title": "MiniMax H3 Image Conditioning (prompt + your picture)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  },
+  "class_type": "MiniMaxH3ImageConditioning"
+ },
+ "11": {
+  "inputs": {
+   "conditioning": [
+    "10",
+    0
+   ]
+  },
+  "class_type": "ConditioningZeroOut",
+  "_meta": {
+   "title": "ConditioningZeroOut (no negative prompt)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  }
+ },
+ "12": {
+  "inputs": {
+   "seed": [
+    "9",
+    0
+   ],
+   "steps": 6,
+   "cfg": 1,
+   "sampler_name": "euler",
+   "scheduler": "simple",
+   "denoise": 1,
+   "model": [
+    "1",
+    0
+   ],
+   "positive": [
+    "10",
+    0
+   ],
+   "negative": [
+    "11",
+    0
+   ],
+   "latent_image": [
+    "10",
+    1
+   ]
+  },
+  "class_type": "KSampler",
+  "_meta": {
+   "title": "KSampler (6 steps, CFG 1)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  }
+ },
+ "13": {
+  "inputs": {
+   "samples": [
+    "12",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ]
+  },
+  "class_type": "VAEDecode",
+  "_meta": {
+   "title": "VAE Decode (latent to picture)",
+   "cnr_id": "comfy-core",
+   "ver": "0.45.2"
+  }
+ },
+ "14": {
+  "inputs": {
+   "images": [
+    "13",
+    0
+   ],
+   "SaveImageState": "{\"version\":1,\"folder\":\"\",\"pattern\":\"MiniMax H3 Image Edit/image_%counter%\",\"format\":\"png\",\"quality\":100,\"embedWorkflow\":true,\"civitaiMeta\":false,\"saveOnRun\":true,\"dateStyle\":\"yyyy-MM-dd\",\"counterDigits\":3,\"folded\":false,\"hideBarWhenFolded\":false,\"webpLossless\":false,\"inputSubfolders\":false,\"showOpen\":true,\"showCopy\":true,\"showFolder\":true,\"showPng\":true,\"showJpg\":true,\"showWebp\":true}"
+  },
+  "class_type": "PixaromaSaveImage",
+  "_meta": {
+   "title": "Save Image Pixaroma (saves the result)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "15": {
+  "inputs": {
+   "image1": [
+    "4",
+    0
+   ],
+   "image2": [
+    "13",
+    0
+   ]
+  },
+  "class_type": "PixaromaCompare",
+  "_meta": {
+   "title": "Image Compare Pixaroma (before and after, drag across it)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "16": {
+  "inputs": {
+   "label_json": "{\"text\":\"MiniMax H3 Image - Edit a Picture by Text\",\"fontSize\":31,\"fontFamily\":\"Arial\",\"fontColor\":\"#ffffff\",\"textAlign\":\"left\",\"backgroundColor\":\"#f66744\",\"padding\":10,\"borderRadius\":0,\"opacity\":1,\"fontWeight\":\"normal\",\"lineHeight\":1}"
+  },
+  "class_type": "PixaromaLabel",
+  "_meta": {
+   "title": "Label Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "17": {
+  "inputs": {
+   "note_json": "{\"version\":1,\"content\":\"<h1>MODELS AND NODES USED IN THIS WORKFLOW</h1><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><p><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;MiniMax H3 Image needs <b>ComfyUI 0.45.0 or newer</b>, the first version with these nodes. On an older ComfyUI the nodes show red: update ComfyUI first.</p><p>\\n\\n</p><h2><span data-ic=\\\"model-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load Diffusion Model</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/MiniMax-H3-Image/resolve/main/diffusion_models/minimax_h3_image_pruned_int8_convrot.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download minimax_h3_image_pruned_int8_convrot.safetensors<span class=\\\"pix-note-btnsize\\\">19.5 GB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/diffusion_models/h3</div><p>\\n\\n</p><p>Create the <code>h3</code> folder if it does not exist.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"CLIP\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load CLIP</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors<span class=\\\"pix-note-btnsize\\\">14.6 GB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/text_encoders</div><p>\\n\\n</p><p>The same text encoder as MiniMax H3 video: if you did Episode 41 you already have it.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"VAE\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load VAE</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/MiniMax-H3-Image/resolve/main/vae/minimax_h3_image_vae_fp16.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download minimax_h3_image_vae_fp16.safetensors<span class=\\\"pix-note-btnsize\\\">1.09 GB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/vae</div><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"checkmark\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;License</h2><p>\\n\\n</p><p>MiniMax H3 Image has its <b>own license</b>, the MiniMax-H3-Image Community License, separate from the MiniMax H3 video license. Read it and check what it says for your country before you use the model: some countries need a license from MiniMax first.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/MiniMaxAI/MiniMax-H3-Image/blob/main/LICENSE\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">READ LICENSE</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/MiniMaxAI/MiniMax-H3-Image\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">MiniMax H3 Image model page</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><p><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;After placing the files, restart ComfyUI or refresh model lists using the <b>R</b> shortcut.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"nodes-installed\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Nodes Installed from Manager</h2><p>\\n\\n</p><ul><li>Pixaroma: <b>update to the latest version</b> (these workflows need at least <b>1.4.183</b>). A node shows red or missing? Update Pixaroma.</li></ul><p>\\n\\n</p><p><b>Which version is the newest?</b> The <b>Latest Pixaroma version</b> button shows it and what is new in it. The help page has the update steps for every kind of install.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/latest/?need=1.4.183\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Latest Pixaroma version</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/#update\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">How to update Pixaroma</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"puzzle\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Something missing?</h2><p>\\n\\n</p><p>Each button opens a short video that shows the fix, with the steps written under it.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/missing-nodes/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Red or missing nodes</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/missing-models/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">A model file is missing</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/refresh/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Buttons missing after an update</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"pixaroma\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Resources</h2><p>\\n\\n</p><p>\\n  <a class=\\\"pix-note-discord\\\" href=\\\"https://discord.com/invite/gggpkVgBf3\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Join Discord</a>&nbsp;\\n  <a class=\\\"pix-note-yt\\\" href=\\\"https://www.youtube.com/@pixaroma\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Pixaroma YouTube Channel</a>&nbsp;\\n  <span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/report/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Ask for help</a></span>&nbsp;\\n</p><p>\\n\\n</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"backgroundColor\":\"#2a2a2a\",\"info\":{\"title\":\"Download Models\",\"icon\":\"download-model\",\"color\":\"#f66744\"}}"
+  },
+  "class_type": "PixaromaInfo",
+  "_meta": {
+   "title": "Info Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "18": {
+  "inputs": {
+   "note_json": "{\"version\":1,\"content\":\"<h1>HOW TO USE</h1><p>\\n\\n</p><p>Give MiniMax H3 Image one picture and say what to change. The demo keeps the woman in the cafe and changes the season around her: a snowy winter evening outside the window and an orange sweater instead of the cream one.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"to-do\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Steps</h2><p>\\n\\n</p><ol><li>Load your picture in <b>Load Image Mini Pixaroma</b>.</li><li>Write what to change in <b>Prompt Pixaroma</b>.</li><li>Click a size on <b>Number Pick Pixaroma</b>: 16 megapixels is the demo, 4 and 8 are faster.</li><li>Leave the seed on <b>F</b> to repeat a result, or switch it to <b>R</b> to try a new one every Run.</li><li>Press <b>Run</b>. Drag across <b>Image Compare Pixaroma</b> to see before and after.</li></ol><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"prompt\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Writing the edit</h2><p>\\n\\n</p><ol><li>Start with the change and name the picture: <i>Change the season in &lt;Picture 1&gt; to a snowy winter evening.</i> <code>&lt;Picture 1&gt;</code> is the picture you loaded.</li><li>Describe what is new, in detail: the snow on the cars and the window ledge, the street lights, the sweater's colour, its knit and its collar.</li><li>Say what it replaces: <i>in place of the cream sweater</i>.</li><li>Say how the light falls now: <i>the warm light of the lamp still falls on her face, while the window glows a cool winter blue</i>.</li><li>End with what to keep, and name each thing: <i>Keep her face, her freckles, her hair, her pose and both hands around the white mug exactly as they are</i>.</li></ol><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Good to know</h2><p>\\n\\n</p><ul><li><b>Write the edit out.</b> A one-line request (<i>make it a snowy winter evening outside the window, and dress her in a chunky orange knit sweater</i>) failed in our tests: one seed kept the rain, another put snow inside the cafe, on her hair. MiniMax's own template sends a one-liner through its prompt expander first; this workflow skips that step, so it is faster and simpler.</li><li><b>16 megapixels is the default.</b> At 4 megapixels the skin came out rougher when we zoomed in to 100 %.</li><li>The result size comes from <b>Number Pick Pixaroma</b>, not from your picture: the demo goes in at 1024 x 1024 and comes out at 4096 x 4096, with the shape of your picture.</li><li>In all four test seeds she kept her face, her hair and her pose. The street outside and the shelves behind her change from seed to seed, because the whole picture is drawn again.</li><li>Leave the <b>VAE</b> wire into the conditioning in place: ComfyUI's own note on that node says the VAE anchors your picture in full detail, and without it the model sees the picture only through the text encoder.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"question-mark\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Something not working?</h2><p>\\n\\n</p><p>Each button opens the answer on the Pixaroma help page.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/faq/#q-save-other-folder\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Save to your own folder</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/look/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Nodes look different from the video</a></span>&nbsp;</p><p>\\n\\n</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"backgroundColor\":\"#2a2a2a\",\"info\":{\"title\":\"How to Use\",\"icon\":\"to-do\",\"color\":\"#2a9d8f\"}}"
+  },
+  "class_type": "PixaromaInfo",
+  "_meta": {
+   "title": "Info Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "19": {
+  "inputs": {
+   "note_json": "{\"version\":1,\"content\":\"<h1>WHAT EACH NODE DOES</h1><p>\\n\\n</p><p>The colour of a node tells you what kind of node it is. Nothing here needs changing except the blue ones.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"model-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Models to download</h2><p>\\n\\n</p><p>Orange. Each one needs a file from the <b>Download Models</b> note.</p><p>\\n\\n</p><ul><li><b>Load Diffusion Model (MiniMax H3 Image)</b> - <b>MiniMax H3 Image</b>, the picture model made by MiniMax itself. It is a different file from the H3 video models of Episode 41 and from P-H3 Image of Episode 42.</li><li><b>Load CLIP (MiniMax H3 text encoder)</b> - Reads your prompt. It is the same Qwen3-VL 32B text encoder as MiniMax H3 video, so if you did Episode 41 you already have it. The type must be <b>minimax</b>.</li><li><b>Load VAE (MiniMax H3 Image VAE)</b> - Turns the finished render into the picture. It is made for MiniMax H3 Image, a different file from the H3 video VAE and the P-H3 Image VAE.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The steps you set</h2><p>\\n\\n</p><p>Blue, and numbered. These are the only nodes you need to touch.</p><p>\\n\\n</p><ul><li><b>Load Image Mini Pixaroma (1. your picture)</b> - The picture to change. Click it to upload your own, or pick one from the list.</li><li><b>Prompt Pixaroma (2. what to change)</b> - Say what changes, in detail, then what to keep (see How to Use). <code>&lt;Picture 1&gt;</code> is your picture.</li><li><b>Number Pick Pixaroma (3. megapixels)</b> - How big the result is. Click <b>4</b>, <b>8</b> or <b>16</b> (the demo) megapixels. A square picture comes out at 2048, 2912 or 4096 pixels on each side. A smaller size is faster.</li><li><b>Seed Pixaroma (4. fixed or random)</b> - The seed. <b>F</b> (fixed) repeats the result, <b>R</b> (random) tries a new one every Run. The demo uses seed <b>1</b>.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The work</h2><p>\\n\\n</p><p>Green. They run by themselves.</p><p>\\n\\n</p><ul><li><b>Scale Image to Total Pixels (scales your picture)</b> - Scales your picture to the size you clicked on <b>Number Pick Pixaroma</b>, on the model's 32 pixel grid.</li><li><b>Get Image Size (the size of the result)</b> - Reads the size of the scaled picture and hands it to the conditioning, so the result comes out that big. Without it the result would stop at 2048 pixels on its short side.</li><li><b>MiniMax H3 Image Conditioning (prompt + your picture)</b> - Joins the prompt, your picture and the size from <b>Get Image Size</b>. The VAE wire anchors your picture in full detail; without it the model sees it only through the text encoder.</li><li><b>ConditioningZeroOut (no negative prompt)</b> - An empty negative. The model takes no negative prompt, and CFG stays at 1.</li><li><b>KSampler (6 steps, CFG 1)</b> - The render: <b>6 steps</b>, CFG <b>1</b>, euler and simple, as MiniMax made the model. In our tests 10 steps made skin worse, and the er_sde sampler made it noisy, so leave these as they are.</li><li><b>VAE Decode (latent to picture)</b> - Turns the finished render into a picture.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"checkmark\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The result</h2><p>\\n\\n</p><p>Dark red, at the end.</p><p>\\n\\n</p><ul><li><b>Save Image Pixaroma (saves the result)</b> - Saves each result as PNG into <code>ComfyUI/output/MiniMax H3 Image Edit</code> and shows it on the node.</li><li><b>Image Compare Pixaroma (before and after, drag across it)</b> - Your picture and the result on top of each other. Drag across it to see what changed and what stayed.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"info\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Readouts</h2><p>\\n\\n</p><p>Dark. Nothing to set: they show you what happened.</p><p>\\n\\n</p><ul><li><b>Run Timer</b> - The dark clock above the result shows how long the last Run took.</li></ul><p>\\n\\n</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"backgroundColor\":\"#2a2a2a\",\"info\":{\"title\":\"Nodes Info\",\"icon\":\"node-v5\",\"color\":\"#3d7cc9\"}}"
+  },
+  "class_type": "PixaromaInfo",
+  "_meta": {
+   "title": "Info Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "20": {
+  "inputs": {
+   "note_json": "{\"version\":1,\"content\":\"<h1>RUN TIMES</h1><p>\\n\\n</p><p>Measured on a <b>24 GB RTX 4090</b> with this workflow, with the models already loaded. A different card gives different numbers, but the shape holds: a smaller picture is faster.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><table class=\\\"pix-note-grid\\\" style=\\\"--pix-note-grid-border: #f66744; --pix-note-grid-header-bg: #1a1a1a\\\"><thead><tr><th>Size</th><th>Time</th></tr></thead><tbody><tr><td>4 megapixels</td><td>about 9 s</td></tr><tr><td>8 megapixels</td><td>about 15 s</td></tr><tr><td>16 megapixels (the demo)</td><td>about 27 s</td></tr></tbody></table><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The first Run of the session</h2><p>\\n\\n</p><p>The first Run after starting ComfyUI also has to load the models (about 35 GB: 19.5 GB for the model, 14.6 GB for the text encoder and 1 GB for the VAE), so it takes longer. After that they stay in memory, if your PC has enough of it.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"idea\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;On a smaller card</h2><p>\\n\\n</p><p>Click <b>4</b> or <b>8</b> on <b>Number Pick Pixaroma</b>.</p><p>\\n\\n</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"backgroundColor\":\"#2a2a2a\",\"info\":{\"title\":\"Run Times\",\"icon\":\"run-timer\",\"color\":\"#3f9a4f\"}}"
+  },
+  "class_type": "PixaromaInfo",
+  "_meta": {
+   "title": "Info Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ },
+ "21": {
+  "inputs": {},
+  "class_type": "PixaromaRunTimer",
+  "_meta": {
+   "title": "Run Timer Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "e7dd136175c6000039b36f2fe9f979a4e941ac4f"
+  }
+ }
+}
