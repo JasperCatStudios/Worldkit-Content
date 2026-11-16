@@ -11,6 +11,7 @@ Worldkit-Content/
   characters/    character packs, each with combat sheets filled in
   regex/         SillyTavern regex scripts that dress the bond and vitals blocks under replies
   art/           optional Fire Emblem artwork: house banners, weapon icons and crest icons
+  workflows/     ComfyUI workflows for the Phone's pictures: a selfie workflow and a general one
 ```
 
 ## 1. The sample world: Lantern Coast Skirmishes
@@ -57,6 +58,24 @@ Things to know:
 **Installing the art:** copy the whole `art` folder into your SillyTavern data as `data/<your user>/user/images/worldkit-art/` (so the banners end up at `data/<your user>/user/images/worldkit-art/fire-emblem/banners/`). SillyTavern only serves `/user/images/` and `/user/files/` from a user's folder, so that exact place is what lets the extension show the pictures. If you use another folder, set its web path under Appearance, Faction colours and artwork. Turn "Use world artwork" off there to go back to built-in icons.
 
 These images are fan material from the Fire Emblem games, not original to this project, so check that you are comfortable redistributing them before sharing the pack.
+
+## 5. ComfyUI workflows for the Phone (optional)
+
+Two workflows for the Phone's picture settings, already set up with the placeholders the Phone fills in. They are for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) and need the ComfyUI node pack **Pixaroma** and the model files named in the notes inside each workflow.
+
+| File | What it is for | Placeholders |
+| --- | --- | --- |
+| `workflows/selfie-character-sheet.workflow.json` | A picture **of** the contact. An image-edit model (FLUX 3 Klein) takes their character sheet and your prompt and draws the selfie from it. | `%image%` (the character sheet), `%prompt%`, `%seed%` |
+| `workflows/general-text-to-image-moss.workflow.json` | Drawings, places and things, with no character in them. You give a short idea, a prompt helper (Qwen 3.5) writes the long prompt, and MOSS-Image draws it. | `%prompt%` (the idea), `%seed%`, `%width%`, `%height%` |
+
+**To use them:** in the Phone settings, under ComfyUI, press **Load a workflow file** for the slot you want (**Selfie workflow** or **Your own workflow**) and pick the file. It is kept in SillyTavern's own workflow folder, `data/<your user>/user/workflows/`, so you can pick it again from the drop-down, and your phone sees it too. Give each contact a character sheet in their Gallery page for the selfie workflow.
+
+Things to know:
+
+- Ask for a **selfie** when you want the character in the picture; anything else uses the general workflow.
+- The model file names are the ones on the author's computer. The Phone corrects a name when the same file sits in a different folder on yours; a file you do not have still has to be downloaded.
+- Any other workflow saved with **Save (API Format)** works too: the Phone finds the prompt, the picture and the seed and adds the placeholders itself.
+- These are built on example workflows by Pixaroma and use their nodes and notes, so check their terms before sharing the files further.
 
 ## Sharing your own
 

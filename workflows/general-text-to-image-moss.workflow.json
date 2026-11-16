@@ -1,0 +1,308 @@
+{
+ "1": {
+  "inputs": {
+   "unet_name": "moss\\moss_image_sft_int8_convrot.safetensors",
+   "weight_dtype": "default"
+  },
+  "class_type": "UNETLoader",
+  "_meta": {
+   "title": "Load Diffusion Model (MOSS-Image SFT)",
+   "cnr_id": "comfy-core",
+   "ver": "0.42.1"
+  }
+ },
+ "2": {
+  "inputs": {
+   "clip_name": "qwen3.5_9b_w4a8_gptq.safetensors",
+   "type": "moss_image",
+   "device": "default"
+  },
+  "class_type": "CLIPLoader",
+  "_meta": {
+   "title": "Load CLIP (Qwen 3.5 9B, reads the prompt)",
+   "cnr_id": "comfy-core",
+   "ver": "0.42.1"
+  }
+ },
+ "3": {
+  "inputs": {
+   "vae_name": "flux2-vae_small.safetensors"
+  },
+  "class_type": "VAELoader",
+  "_meta": {
+   "title": "Load VAE (Flux 2 VAE small)",
+   "cnr_id": "comfy-core",
+   "ver": "0.42.1"
+  }
+ },
+ "4": {
+  "inputs": {
+   "PromptState": "{\"text\":\"%prompt%\",\"order\":\"mine\",\"sep\":\", \"}"
+  },
+  "class_type": "PixaromaPrompt",
+  "_meta": {
+   "title": "Prompt Pixaroma (1. your short idea)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "5": {
+  "inputs": {
+   "SizesState": "{\"version\":1,\"sizes\":[[1024,1024],[1152,896],[1280,1024],[1216,832],[1344,768],[1536,1536],[1920,1088],[2048,2048]],\"selected\":6,\"orientation\":\"landscape\",\"snap\":16,\"w\":\"%width%\",\"h\":\"%height%\"}"
+  },
+  "class_type": "PixaromaSizes",
+  "_meta": {
+   "title": "Sizes Pixaroma (2. picture size)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "6": {
+  "inputs": {
+   "SeedState": "{\"runSeed\":\"%seed%\"}",
+   "seed": "%seed%"
+  },
+  "class_type": "PixaromaSeed",
+  "_meta": {
+   "title": "Seed Pixaroma (3. picture seed)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "7": {
+  "inputs": {
+   "clip": [
+    "2",
+    0
+   ],
+   "text": [
+    "4",
+    0
+   ],
+   "AIPromptState": "{\"idea\":\"\",\"formula\":\"You turn a user's image idea into one detailed caption for a text-to-image model. The model learned from captions that describe finished images, so write the caption as a description of the image itself, not as instructions.\\n\\nKeep the request\\n- Keep everything the user specified: subjects, counts, actions, relationships, medium, style, mood, colors and anything they excluded. Never contradict or drop it.\\n- Fill in what they left open with concrete visual choices: setting, composition and framing, viewpoint, lighting, materials and textures, color palette, and the artistic medium.\\n- Describe only what can be seen. Leave out sounds, smells, backstory and intentions.\\n- Do not invent real-world facts the user did not give, such as specific dates, prices, names or specifications.\\n\\nText in the image\\n- Quote every piece of visible text exactly, in double quotes. Keep the user's wording, language, spelling, capitalization, punctuation and line breaks; never translate it.\\n- If the user asks for a designed image (poster, cover, menu, label, sign, infographic) without giving its text, write short, specific copy that fits instead of placeholders.\\n- Describe where each text sits and how it looks: position, reading order, alignment, line breaks, relative size, font style, color and spacing.\\n- Do not mention watermarks or artist signatures.\\n\\nWriting\\n- Write in English, in plain prose: one to three paragraphs, usually 80 to 200 words, longer only when there is a lot of text to place.\\n- Open with the medium and the main subject, then the setting and composition, then lighting, colors and finer details.\\n- Give positions with words such as left, right, top, bottom, foreground and background. No coordinates, lists, headings, JSON or Markdown.\\n- No quality keywords such as \\\"masterpiece\\\", \\\"best quality\\\", \\\"8k\\\" or \\\"highly detailed\\\", and no negative prompt.\\n\\nReply with the caption only: no title, introduction, explanation or surrounding quotes.\",\"model\":\"\",\"clip_type\":\"moss_image\",\"order\":\"idea\",\"sep\":\"newline\",\"seed\":\"%seed%\",\"temperature\":0.7,\"max_length\":4096,\"top_k\":64,\"top_p\":0.95,\"min_p\":0.05,\"repetition_penalty\":1,\"presence_penalty\":0,\"do_sample\":true,\"thinking\":false,\"use_default_template\":true,\"release_model\":false,\"system_formula\":true,\"mtp\":true}"
+  },
+  "class_type": "PixaromaAIPrompt",
+  "_meta": {
+   "title": "AI Prompt Pixaroma (the helper writes the prompt)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "8": {
+  "inputs": {
+   "input_1": [
+    "7",
+    0
+   ],
+   "input_2": [
+    "4",
+    0
+   ],
+   "SwitchState": "1"
+  },
+  "class_type": "PixaromaSwitch",
+  "_meta": {
+   "title": "Switch Pixaroma (4. AI-written prompt or as typed)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "9": {
+  "inputs": {
+   "text": "",
+   "source": [
+    "8",
+    0
+   ]
+  },
+  "class_type": "PixaromaShowText",
+  "_meta": {
+   "title": "Show Text Pixaroma (the prompt MOSS gets)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "10": {
+  "inputs": {
+   "text": [
+    "9",
+    0
+   ],
+   "clip": [
+    "2",
+    0
+   ]
+  },
+  "class_type": "CLIPTextEncode",
+  "_meta": {
+   "title": "CLIP Text Encode (reads the prompt)",
+   "cnr_id": "comfy-core",
+   "ver": "0.42.1"
+  }
+ },
+ "11": {
+  "inputs": {
+   "text": "nsfw, worst quality, bad anatomy, watermark, jpeg artifact, face, text, watermark, 3D, CGI, photorealistic, photograph, Pixar, gradient shading, soft airbrush, depth of field, volumetric light, bloom, glow",
+   "clip": [
+    "2",
+    0
+   ]
+  },
+  "class_type": "CLIPTextEncode",
+  "_meta": {
+   "title": "CLIP Text Encode (negative prompt)",
+   "cnr_id": "comfy-core",
+   "ver": "0.42.1"
+  }
+ },
+ "12": {
+  "inputs": {
+   "double_layers": "",
+   "single_layers": "22",
+   "start_percent": 0,
+   "end_percent": 0.5,
+   "model": [
+    "1",
+    0
+   ]
+  },
+  "class_type": "SkipLayerGuidanceDiTSimple",
+  "_meta": {
+   "title": "Skip Layer Guidance (from ComfyUI's MOSS workflow)",
+   "cnr_id": "comfy-core",
+   "ver": "0.42.1"
+  }
+ },
+ "13": {
+  "inputs": {
+   "seed": [
+    "6",
+    0
+   ],
+   "steps": 25,
+   "cfg": 2.5,
+   "sampler_name": "er_sde",
+   "scheduler": "simple",
+   "denoise": 1,
+   "model": [
+    "12",
+    0
+   ],
+   "positive": [
+    "10",
+    0
+   ],
+   "negative": [
+    "11",
+    0
+   ],
+   "latent_image": [
+    "5",
+    2
+   ]
+  },
+  "class_type": "KSampler",
+  "_meta": {
+   "title": "KSampler (25 steps)",
+   "cnr_id": "comfy-core",
+   "ver": "0.42.1"
+  }
+ },
+ "14": {
+  "inputs": {
+   "samples": [
+    "13",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ]
+  },
+  "class_type": "VAEDecode",
+  "_meta": {
+   "title": "VAE Decode (latent to picture)",
+   "cnr_id": "comfy-core",
+   "ver": "0.42.1"
+  }
+ },
+ "15": {
+  "inputs": {
+   "images": [
+    "14",
+    0
+   ],
+   "SaveImageState": "{\"version\":1,\"folder\":\"\",\"pattern\":\"MOSS Image Helper/image_%counter%\",\"format\":\"png\",\"quality\":100,\"embedWorkflow\":true,\"civitaiMeta\":false,\"saveOnRun\":true,\"dateStyle\":\"yyyy-MM-dd\",\"counterDigits\":3,\"folded\":false,\"hideBarWhenFolded\":false,\"webpLossless\":false,\"inputSubfolders\":false,\"showOpen\":true,\"showCopy\":true,\"showFolder\":true,\"showPng\":true,\"showJpg\":true,\"showWebp\":true}"
+  },
+  "class_type": "PixaromaSaveImage",
+  "_meta": {
+   "title": "Save Image Pixaroma (saves the picture)",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "16": {
+  "inputs": {
+   "label_json": "{\"text\":\"MOSS Image - Text to Image + Prompt Helper\",\"fontSize\":31,\"fontFamily\":\"Arial\",\"fontColor\":\"#ffffff\",\"textAlign\":\"left\",\"backgroundColor\":\"#f66744\",\"padding\":10,\"borderRadius\":0,\"opacity\":1,\"fontWeight\":\"normal\",\"lineHeight\":1}"
+  },
+  "class_type": "PixaromaLabel",
+  "_meta": {
+   "title": "Label Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "17": {
+  "inputs": {
+   "note_json": "{\"version\":1,\"content\":\"<h1>MODELS AND NODES USED IN THIS WORKFLOW</h1><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><p><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;MOSS-Image needs <b>ComfyUI 0.42.0 or newer</b>, the first version with MOSS. On an older ComfyUI, Load CLIP has no <b>moss_image</b> type: update ComfyUI first.</p><p>\\n\\n</p><h2><span data-ic=\\\"model-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load Diffusion Model</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/diffusion_models/moss_image_sft_int8_convrot.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download moss_image_sft_int8_convrot.safetensors<span class=\\\"pix-note-btnsize\\\">5.41 GB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/diffusion_models/moss</div><p>\\n\\n</p><p>Create the <code>moss</code> folder if it does not exist.</p><p>\\n\\n</p><p>Take the file with <code>sft</code> in its name: that is the finished model. The <code>base</code> files are the raw model, made for training LoRAs.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"CLIP\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load CLIP</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download qwen3.5_9b_w4a8_gptq.safetensors<span class=\\\"pix-note-btnsize\\\">7.34 GB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/text_encoders</div><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"VAE\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load VAE</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/vae/flux2-vae_small.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download flux2-vae_small.safetensors<span class=\\\"pix-note-btnsize\\\">250 MB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/vae</div><p>\\n\\n</p><p>This is the <b>small</b> Flux 2 VAE, a different file from <code>flux2-vae.safetensors</code>.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"checkmark\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;License</h2><p>\\n\\n</p><p>MOSS-Image is made by OpenMOSS and released under the <b>Apache 2.0</b> license: you may use the pictures and the model commercially.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">MOSS-Image model card</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><p><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;After placing the files, restart ComfyUI or refresh model lists using the <b>R</b> shortcut.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"nodes-installed\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Nodes Installed from Manager</h2><p>\\n\\n</p><ul><li>Pixaroma: <b>update to the latest version</b> (these workflows need at least <b>1.4.218</b>). A node shows red or missing? Update Pixaroma.</li></ul><p>\\n\\n</p><p><b>Which version is the newest?</b> The <b>Latest Pixaroma version</b> button shows it and what is new in it. The help page has the update steps for every kind of install.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/latest/?need=1.4.218\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Latest Pixaroma version</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/#update\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">How to update Pixaroma</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"puzzle\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Something missing?</h2><p>\\n\\n</p><p>Each button opens a short video that shows the fix, with the steps written under it.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/missing-nodes/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Red or missing nodes</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/missing-models/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">A model file is missing</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/refresh/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Buttons missing after an update</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"pixaroma\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Resources</h2><p>\\n\\n</p><p>\\n  <a class=\\\"pix-note-discord\\\" href=\\\"https://discord.com/invite/gggpkVgBf3\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Join Discord</a>&nbsp;\\n  <a class=\\\"pix-note-yt\\\" href=\\\"https://www.youtube.com/@pixaroma\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Pixaroma YouTube Channel</a>&nbsp;\\n  <span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/report/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Ask for help</a></span>&nbsp;\\n</p><p>\\n\\n</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"backgroundColor\":\"#2a2a2a\",\"info\":{\"title\":\"Download Models\",\"icon\":\"download-model\",\"color\":\"#f66744\"}}"
+  },
+  "class_type": "PixaromaInfo",
+  "_meta": {
+   "title": "Info Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "18": {
+  "inputs": {
+   "note_json": "{\"version\":1,\"content\":\"<h1>HOW TO USE</h1><p>\\n\\n</p><p>Type a short idea and let the <b>prompt helper</b> write the long, detailed prompt for you. The helper is the same Qwen 3.5 model that reads your prompt for MOSS, with the instructions from ComfyUI's own MOSS workflow: it adds the place, the light, the colours and, when your idea needs words, the words themselves.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"to-do\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Steps</h2><p>\\n\\n</p><ol><li>Type a short idea in <b>Prompt Pixaroma</b>.</li><li>Pick a size on <b>Sizes Pixaroma</b>.</li><li>Leave the picture seed on <b>F</b> to repeat, or switch it to <b>R</b> for a new picture from the same written prompt.</li><li>On <b>Switch Pixaroma</b>, keep <b>AI-written prompt</b>, or click <b>my prompt as typed</b> to compare.</li><li>Press <b>Run</b>. Read the prompt MOSS got in <b>Show Text Pixaroma</b>.</li></ol><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"prompt\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;When it helps</h2><p>\\n\\n</p><ul><li><b>Short ideas that need words</b>: posters, cards, signs. Typed as a short idea, <i>a poster for a summer jazz night on a rooftop</i> came out with made-up letters in our tests; through the helper it got a clean title, a place and a date.</li><li><b>Already wrote a long prompt?</b> Use <b>my prompt as typed</b>: MOSS follows a full description well by itself.</li><li>Want exact words? Put them in double quotes in your idea: <i>a birthday card that says \\\"Happy 80th, Grandma!\\\"</i>.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"seed\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Two seeds</h2><p>\\n\\n</p><ul><li><b>AI Prompt Pixaroma</b> has its own seed for the written prompt (<b>F</b> / <b>R</b> on the node). On <b>F</b> it keeps the prompt it wrote until you change the idea; press <b>Re-roll</b> for a different prompt. Re-roll also runs the workflow by itself.</li><li><b>Seed Pixaroma</b> is the picture's seed. Change it for a new picture from the same prompt: the helper does not run again, so it is quick.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"idea\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;More to try</h2><p>\\n\\n</p><p>The second example from the video. Type this short idea in <b>Prompt Pixaroma</b> and press <b>Run</b>: <i>a vintage postage stamp with a hummingbird</i>. The helper writes the words on the stamp too (in our test, <i>AIRMAIL</i> and <i>TEN CENTS</i>).</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Good to know</h2><p>\\n\\n</p><ul><li>The helper can invent details: a date, a place name, a slogan. Read Show Text and fix it in the idea (in quotes), or copy the prompt into workflow 1 and edit it there.</li><li>Writing the prompt takes about 2 seconds, and it uses the model that is already loaded.</li><li><b>A Run stops with a CUDA error</b> such as <i>illegal memory access</i> while the AI writes (seen on RTX 30 cards)? Restart ComfyUI, open the gear on <b>AI Prompt Pixaroma</b> and turn off <b>Faster writing (MTP)</b> under Behaviour. The prompt then comes out a little different and takes a few seconds longer.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"question-mark\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Something not working?</h2><p>\\n\\n</p><p>Each button opens the answer on the Pixaroma help page.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/faq/#q-ai-prompt-local\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">What AI Prompt needs</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/faq/#q-save-other-folder\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Save to your own folder</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/look/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Nodes look different from the video</a></span>&nbsp;</p><p>\\n\\n</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"backgroundColor\":\"#2a2a2a\",\"info\":{\"title\":\"How to Use\",\"icon\":\"to-do\",\"color\":\"#2a9d8f\"}}"
+  },
+  "class_type": "PixaromaInfo",
+  "_meta": {
+   "title": "Info Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "19": {
+  "inputs": {
+   "note_json": "{\"version\":1,\"content\":\"<h1>WHAT EACH NODE DOES</h1><p>\\n\\n</p><p>The colour of a node tells you what kind of node it is. Nothing here needs changing except the blue ones.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"model-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Models to download</h2><p>\\n\\n</p><p>Orange. Each one needs a file from the <b>Download Models</b> note.</p><p>\\n\\n</p><ul><li><b>Load Diffusion Model (MOSS-Image SFT)</b> - The image model, <b>MOSS-Image SFT</b> from OpenMOSS: a 5B text-to-image model that is very good at <b>words in pictures</b> and can follow a layout of boxes. The int8 file (5.4 GB) looks the same as the 10 GB bf16 file in our tests.</li><li><b>Load CLIP (Qwen 3.5 9B, reads the prompt)</b> - Reads your prompt and turns the words into something MOSS understands. The type must be <b>moss_image</b>. Here it does a second job too: the same model writes the long prompt for you in <b>AI Prompt Pixaroma</b>, so there is nothing extra to download.</li><li><b>Load VAE (Flux 2 VAE small)</b> - Turns the finished render into a picture. MOSS uses the <b>small</b> Flux 2 VAE, a different file from the normal flux2-vae.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The steps you set</h2><p>\\n\\n</p><p>Blue, and numbered. These are the only nodes you need to touch.</p><p>\\n\\n</p><ul><li><b>Prompt Pixaroma (1. your short idea)</b> - Type a short idea, one or two lines. Words that must appear can go in double quotes; the helper keeps them.</li><li><b>Sizes Pixaroma (2. picture size)</b> - The picture size. Click a size; the Portrait / Landscape switch turns it on its side. The demo is <b>896 x 1152</b>, a poster shape. Its <b>latent</b> output is the blank canvas MOSS paints on, straight into the KSampler (ComfyUI's own KSampler: a sampler from another node pack can make the picture twice too big).</li><li><b>Seed Pixaroma (3. picture seed)</b> - The seed for the PICTURE. <b>F</b> (fixed) repeats it, <b>R</b> (random) gives a new picture from the same written prompt every Run. The written prompt has its own seed, on AI Prompt Pixaroma. The demo uses seed <b>1</b>.</li><li><b>Switch Pixaroma (4. AI-written prompt or as typed)</b> - Click a row to choose which prompt MOSS gets: <b>AI-written prompt</b> (the helper's long version, the default) or <b>my prompt as typed</b>, to compare the two.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The work</h2><p>\\n\\n</p><p>Green. They run by themselves.</p><p>\\n\\n</p><ul><li><b>AI Prompt Pixaroma (the helper writes the prompt)</b> - Writes the long prompt from your idea, with the instructions from ComfyUI's own MOSS workflow (sent as a <b>system message</b>, like that workflow does). It uses the MOSS text encoder wired into it, so no extra model. Its own seed (<b>F</b> / <b>R</b> on the node) decides the written prompt; <b>Re-roll</b> writes a new one.</li><li><b>CLIP Text Encode (reads the prompt)</b> - Reads the prompt through the text encoder.</li><li><b>CLIP Text Encode (negative prompt)</b> - The negative prompt from ComfyUI's own MOSS workflow and the MOSS user guide: <i>nsfw, worst quality, bad anatomy, watermark, jpeg artifact</i>. Leave it as it is.</li><li><b>Skip Layer Guidance (from ComfyUI's MOSS workflow)</b> - A setting from ComfyUI's own MOSS workflow and the MOSS user guide: it skips layer 22 in the negative half of the first half of the steps. Leave it as it is.</li><li><b>KSampler (25 steps)</b> - The render: 25 steps, CFG 2.5, er_sde, simple, the settings of ComfyUI's own MOSS workflow.</li><li><b>VAE Decode (latent to picture)</b> - Turns the finished render into a picture.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"checkmark\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The result</h2><p>\\n\\n</p><p>Dark red, at the end.</p><p>\\n\\n</p><ul><li><b>Save Image Pixaroma (saves the picture)</b> - Saves each picture as PNG into <code>ComfyUI/output/MOSS Image Helper</code> and shows it on the node.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"info\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Readouts</h2><p>\\n\\n</p><p>Dark. Nothing to set: they show you what happened.</p><p>\\n\\n</p><ul><li><b>Show Text Pixaroma (the prompt MOSS gets)</b> - Shows the prompt MOSS actually gets: the long one the helper wrote, or yours as typed. Read it, copy it, or paste it into workflow 1 and edit it yourself.</li><li><b>Run Timer</b> - The dark clock above the result shows how long the last Run took.</li></ul><p>\\n\\n</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"backgroundColor\":\"#2a2a2a\",\"info\":{\"title\":\"Nodes Info\",\"icon\":\"node-v5\",\"color\":\"#3d7cc9\"}}"
+  },
+  "class_type": "PixaromaInfo",
+  "_meta": {
+   "title": "Info Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "20": {
+  "inputs": {
+   "note_json": "{\"version\":1,\"content\":\"<h1>RUN TIMES</h1><p>\\n\\n</p><p>Measured on a <b>24 GB RTX 4090</b> with this workflow, with the models already loaded. A different card gives different numbers, but the shape holds: the time grows with the number of pictures and their size.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><table class=\\\"pix-note-grid\\\" style=\\\"--pix-note-grid-border: #f66744; --pix-note-grid-header-bg: #1a1a1a\\\"><thead><tr><th>What</th><th>Time</th></tr></thead><tbody><tr><td>The helper writing the prompt</td><td>about 2 s</td></tr><tr><td>MOSS, 896 x 1152</td><td>about 9 s</td></tr><tr><td>A new picture seed, same prompt</td><td>about 9 s</td></tr></tbody></table><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The first Run of the session</h2><p>\\n\\n</p><p>The first Run after starting ComfyUI also has to load the models from disk (MOSS and its text encoder, about 13 GB together), so it takes longer. After that they stay loaded.</p><p>\\n\\n</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"backgroundColor\":\"#2a2a2a\",\"info\":{\"title\":\"Run Times\",\"icon\":\"run-timer\",\"color\":\"#3f9a4f\"}}"
+  },
+  "class_type": "PixaromaInfo",
+  "_meta": {
+   "title": "Info Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ },
+ "21": {
+  "inputs": {},
+  "class_type": "PixaromaRunTimer",
+  "_meta": {
+   "title": "Run Timer Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "21a1f1510c9667410c59315e1aea54dfb1fb14a9"
+  }
+ }
+}
