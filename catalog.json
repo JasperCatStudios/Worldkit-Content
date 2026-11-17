@@ -61,6 +61,13 @@
     },
     {
       "type": "regex",
+      "name": "Worldkit - Bonds Frame",
+      "file": "regex/bonds/Worldkit-Bonds-Frame.json",
+      "group": "Bonds (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
       "name": "Worldkit - Vitals Bars",
       "file": "regex/vitals/Worldkit-Vitals-Bars.json",
       "group": "Vitals (default look)",
@@ -70,6 +77,13 @@
       "type": "regex",
       "name": "Worldkit - Vitals Context Saver",
       "file": "regex/vitals/Worldkit-Vitals-Context-Saver.json",
+      "group": "Vitals (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Frame",
+      "file": "regex/vitals/Worldkit-Vitals-Frame.json",
       "group": "Vitals (default look)",
       "description": ""
     },
@@ -145,7 +159,7 @@
     },
     {
       "type": "regex",
-      "name": "Worldkit - Internal States Menu Notebook, World Sim and Physics",
+      "name": "Worldkit - Internal States Menu Notebook World Sim and Physics",
       "file": "regex/internal-states/Worldkit-Internal-States-Menu-Notebook-World-Sim-and-Physics.json",
       "group": "Internal States (default look)",
       "description": ""

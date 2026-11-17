@@ -6,14 +6,14 @@ Every script here is named `Worldkit - ...`. They are display-only (Markdown onl
 
 ## The default look, by tracker
 
-This is the look chosen by **Default - Freaky Frankenstein** in a tracker's Look menu: Worldkit leaves the styling to the regexes you have imported. If you have not imported any, the blocks show as plain lines.
+This is the look chosen by **Default - Freaky Frankenstein** in a tracker's Look menu: dark menu rows with a tinted bar and a coloured edge, collapsed until clicked, under a navy header with a blue rule. **Worldkit draws it itself, so nothing here has to be imported into SillyTavern's Regex menu.** If you have imported regexes of your own that style the block, theirs are used instead and the built-in look stays out of the way. The files below are the same scripts, for anyone who wants them in the Regex menu or wants to change them.
 
 | Folder | Scripts | What they do |
 | --- | --- | --- |
-| `bonds/` | Bond Bars (Positive), Bond Bars (Negative), Bond Tracker Context Saver | Bars for Affection, Trust, Respect and the optional Desire, red when affection is negative |
-| `vitals/` | Vitals Bars, Vitals Context Saver | Health, hunger, energy and mood bars |
+| `bonds/` | Bonds Frame, Bond Bars (Positive), Bond Bars (Negative), Bond Tracker Context Saver | The menu row, then bars for Affection, Trust, Respect and the optional Desire, red when affection is negative |
+| `vitals/` | Vitals Frame, Vitals Bars, Vitals Context Saver | The menu row, then health, hunger, energy and mood bars |
 | `inventory/` | Inventory Frame (Menu Gold), Inventory Person, Inventory Item, Inventory Context Saver | The panel, a header with money and item count per person, and a row per item |
-| `internal-states/` | Frame, four section menus, Collapse Spacing, Context Saver | The dark panel around Internal States, the coloured section menus (teal agendas and locations, mauve Chekhov and thoughts, peach notebook, world sim and physics, pink body scale), and a tidy-up of the gaps between sections |
+| `internal-states/` | Frame, four section menus, Collapse Spacing, Context Saver | The navy header, the collapsed menu rows (teal agendas, locations, factions and bonds; purple quests, Chekhov, thoughts and the GM notebook; orange world sim and physics; pink body scale), and a tidy-up of the gaps between rows |
 
 The lines they match, for reference:
 
@@ -28,11 +28,11 @@ The `Worldkit - Menu Gold (Inventory)` frame is the owner's own script. The olde
 
 ## Context savers
 
-A context saver removes a block from older messages in the prompt that goes to the story model (prompt only, depth 2 and older), so the block does not cost tokens every turn. There is one for each tracker: Bonds, Vitals, Inventory and Internal States. They are adapted, with permission, from the context saver of the Freaky Frankenstein preset, and each does the same job for its own tracker.
+A context saver removes a block from older messages in the prompt that goes to the story model (prompt only, depth 2 and older), so the block does not cost tokens every turn. There is one for each tracker: Bonds, Vitals, Inventory and Internal States. They are adapted, with permission, from the context saver of the Freaky Frankenstein preset, and each does the same job for its own tracker. The Internal States one is the same script as that preset's, so you only need one of them; Advanced in Worldkit lists ours.
 
 They only matter when that tracker's block is written **inside the reply** (Bonds set to "With the reply", Internal States set to write in the reply, or a preset that asks for the block). When a tracker writes its block after the reply, the block is kept on the message's metadata and never in its text, so it never reaches the prompt and its saver does nothing. They are harmless to leave on.
 
-The Freaky Frankenstein menu scripts (`FF5 UI - ...`) are that preset's own and are not in this repository. The `internal-states/` scripts here are Worldkit's own dark menus and need no FF5 script.
+The Freaky Frankenstein menu scripts (`FF5 UI - ...`) are that preset's own and are not in this repository. The `internal-states/` scripts here are Worldkit's own menus, drawn to look similar, and need no FF5 script.
 
 ## Looks (`themes/`)
 

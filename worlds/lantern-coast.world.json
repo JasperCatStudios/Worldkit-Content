@@ -206,7 +206,7 @@
       ]
     }
   },
-  "format": "sillynpc-combat-type",
+  "format": "worldkit-combat-type",
   "version": 2,
   "id": "lantern_coast_skirmishes",
   "name": "Lantern Coast Skirmishes",

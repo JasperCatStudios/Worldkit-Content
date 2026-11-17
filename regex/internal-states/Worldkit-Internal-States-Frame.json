@@ -2,7 +2,7 @@
   "id": "3e3d8db4-99fa-436d-a075-dd4dd598ff72",
   "scriptName": "Worldkit - Internal States Frame",
   "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?INTERNAL STATES[^<]{0,200}?)<\\/summary>/g",
-  "replaceString": "<details open style=\"background:rgba(24,24,37,0.8);border:1px solid #45475a;border-radius:6px;padding:12px 14px;margin:8px 0;box-shadow:0 4px 10px rgba(0,0,0,0.3);\"><summary style=\"cursor:pointer;font-weight:bold;color:#cdd6f4;text-transform:uppercase;letter-spacing:1px;padding-bottom:6px;border-bottom:1px solid #45475a;margin-bottom:8px;list-style:none;\">$1</summary>",
+  "replaceString": "<details open style=\"margin:8px 0;\"><summary style=\"background:linear-gradient(90deg,#2b2b40,#1e1e2e);border-radius:8px 8px 0 0;padding:14px 16px;border-bottom:2px solid #89b4fa;margin-bottom:6px;cursor:pointer;font-weight:bold;color:#cdd6f4;text-transform:uppercase;letter-spacing:1px;list-style:none;\">$1</summary>",
   "trimStrings": [],
   "placement": [
     2
