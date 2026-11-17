@@ -13,6 +13,7 @@ Worldkit-Content/
   worlds/        a world type (the rules of a fight)
   lorebooks/     a SillyTavern lorebook for the sample world
   characters/    character packs, each with combat sheets filled in
+  items/         item databases for the Inventory tab (items and presets); import from the Content Kit under Item databases
   regex/         SillyTavern regex scripts that dress the bond, vitals and inventory blocks under replies, plus three looks (parchment, persona, tactical)
   art/           optional Fire Emblem artwork: house banners, weapon icons and crest icons
   workflows/     ComfyUI workflows for the Phone's pictures: selfie workflows and a general one
