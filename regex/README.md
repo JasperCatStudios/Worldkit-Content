@@ -38,3 +38,24 @@ Dresses the **VITALS** block the Vitals Tracker writes under each reply, right b
     - <b>Ana</b> | HEALTH: 55 | HUNGER: 20 | MOOD: Anxious | MOODLEVEL: 60 | NOTE: health -25
 
 Health and hunger run 0 to 100 (0 is dead or starving, 100 is healthy or full); mood is a word and a 0 to 100 strength. A vital that is switched off in the Vitals tab shows `--` and an empty bar. Like the bond regexes it is a display-only AI-output regex, so it never touches the prompt.
+
+## Inventory (`Worldkit-Inventory-Person.json`, `Worldkit-Inventory-Item.json`)
+
+Dress the **INVENTORY** block the Inventory Tracker writes under each reply (default dark look). Import both and keep them enabled. The block has one line per person followed by one line per item they carry:
+
+    - <b>Ana</b> | MONEY: 230 | UNIT: Gold | ITEMS: 2 | NOTE: +30 Gold, +Healing Potion
+    - ITEM: Iron Sword | QTY: 1 | KIND: Weapon | NOTE: Chipped near the hilt
+    - ITEM: Healing Potion | QTY: 3 | KIND: Consumable | NOTE: +35 HP
+
+`MONEY` is `--` when money tracking is off; `UNIT` is whatever the currency is called in the Inventory tab. Display-only, like the others.
+
+## Looks (`themes/`)
+
+Three complete looks for the Bond, Vitals and Inventory blocks, and for Internal States: **Cozy Parchment**, **Persona HUD** and **Tactical Glass Telemetry**. Each has its own folder:
+
+- `themes/<look>/Worldkit-<Tracker>-<Look>-*.json` regex scripts. Import every file in the look's folder and keep them enabled. Each tracker has a *Frame* script that turns the block's `<details>` into the card, and line scripts that turn each line into a row (Bonds has a Positive and a Negative one, like the default bars; Inventory has Person and Item). Use one look at a time, and do not run it together with the default Bond or Vitals bars above.
+- `themes/<look>/Worldkit-Internal-States-<look>-template.html` the Internal States template for that look. It is inline-styled HTML, so it needs no regex: paste it over the template part of the Internal States instructions (Prompts, Tracker prompts) or a preset. Every entry (each NPC under Agendas, Locations and Internal Thoughts, each character under Body Scale) is its own line ending in `<br>`, repeating the example line once per entry.
+
+You do not have to import anything to use these: in the extension, the **Look** choice at the top of the Internal States, Bonds, Vitals and Inventory menus applies the same looks itself, and picking one picks it for all four so they match. The files here are for people who prefer regexes, or use the blocks outside the extension. They are generated from the extension's own definitions (`tools/export-theme-regexes.mjs`), so the two cannot drift apart.
+
+The looks use the Anton, Crimson Pro, Inter and JetBrains Mono fonts from Google Fonts and fall back to system fonts without them. The Bonds looks keep Worldkit's own bond lines (Affection, Trust, Respect, Desire, Level); only the visual style was taken from the mock-ups.

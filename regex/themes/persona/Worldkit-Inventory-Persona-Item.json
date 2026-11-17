@@ -1,0 +1,17 @@
+{
+  "id": "5fca119e-5096-471f-aaec-0d563b621d76",
+  "scriptName": "Worldkit - Inventory Persona Item",
+  "findRegex": "/-?[ \\t]{0,8}ITEM:\\s{0,8}([^|\\n<]{1,80}?)\\s{0,8}\\|\\s{0,8}QTY:\\s{0,8}(\\d{1,6})\\s{0,8}\\|\\s{0,8}KIND:\\s{0,8}([^|\\n<]{0,40}?)\\s{0,8}\\|\\s{0,8}NOTE:\\s{0,8}([^\\n<]{0,160}?)\\s{0,8}(?=\\n|$|<)/gi",
+  "replaceString": "<div style=\"background:#0d0d10;border:1px solid #3f3f46;border-top:none;border-left:5px solid #3f3f46;padding:3px 8px;display:flex;justify-content:space-between;align-items:center;gap:6px;font-family:'Inter',sans-serif;font-size:.78em;color:#ffffff;\"><span><strong>$1</strong> <span style=\"color:#ffea00;font-weight:800;font-size:.9em;\">x$2</span> <span style=\"background:#e60012;color:#ffffff;font-size:.74em;font-weight:800;padding:0 5px;margin-left:3px;text-transform:uppercase;\">$3</span></span><span style=\"color:#a1a1aa;font-style:italic;font-size:.85em;text-align:right;\">$4</span></div>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

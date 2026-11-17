@@ -1,0 +1,17 @@
+{
+  "id": "ed9b833c-d84a-4a16-aff2-410c3d5d96ba",
+  "scriptName": "Worldkit - Inventory Parchment Item",
+  "findRegex": "/-?[ \\t]{0,8}ITEM:\\s{0,8}([^|\\n<]{1,80}?)\\s{0,8}\\|\\s{0,8}QTY:\\s{0,8}(\\d{1,6})\\s{0,8}\\|\\s{0,8}KIND:\\s{0,8}([^|\\n<]{0,40}?)\\s{0,8}\\|\\s{0,8}NOTE:\\s{0,8}([^\\n<]{0,160}?)\\s{0,8}(?=\\n|$|<)/gi",
+  "replaceString": "<div style=\"background:#ece0c8;border:1px solid #7a5c3c;border-top:none;border-left:4px solid #9a6700;padding:3px 10px;display:flex;justify-content:space-between;align-items:baseline;gap:6px;font-family:'Crimson Pro','Georgia',serif;font-size:.84em;color:#2c1d11;\"><span><strong>$1</strong> <span style=\"font-family:'JetBrains Mono',monospace;font-size:.85em;color:#7a5c3c;\">&times;$2</span> <span style=\"font-size:.82em;color:#8c2d19;font-weight:700;\">[$3]</span></span><span style=\"font-style:italic;font-size:.82em;color:#694e32;text-align:right;\">$4</span></div>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

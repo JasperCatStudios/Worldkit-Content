@@ -1,0 +1,17 @@
+{
+  "id": "43c5d8e4-6942-491d-ab67-0943a11f6a24",
+  "scriptName": "Worldkit - Bonds Persona (Positive)",
+  "findRegex": "/-?[ \\t]{0,8}(?:<b[^>]{0,120}>)?\\s{0,8}([^<|\\u2192\\n]{1,80}?)\\s{0,8}(?:<\\/b>)?\\s{0,8}\\u2192\\s{0,8}(?:<b[^>]{0,120}>)?\\s{0,8}([^<|\\n]{1,80}?)\\s{0,8}(?:<\\/b>)?\\s{0,8}\\|\\s{0,8}AFFECTION:\\s{0,8}(\\+?)(\\d{1,6})\\s{0,8}\\|\\s{0,8}TRUST:\\s{0,8}(-?)(\\d{1,6})\\s{0,8}\\|\\s{0,8}RESPECT:\\s{0,8}(-?)(\\d{1,6})(?:\\s{0,8}\\|\\s{0,8}DESIRE:\\s{0,8}(\\d{1,6}))?\\s{0,8}\\|\\s{0,8}LEVEL:\\s{0,8}([^|\\n<]{1,60}?)\\s{0,8}(?=\\n|$|<)/gi",
+  "replaceString": "<div style=\"background:#17171c;border:1px solid #3f3f46;border-left:5px solid #ffea00;padding:7px 10px;margin-bottom:7px;font-family:'Inter',sans-serif;color:#ffffff;\"><div style=\"display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:6px;\"><span style=\"font-family:'Anton',sans-serif;letter-spacing:.6px;color:#ffffff;\">$1 <span style=\"color:#e60012;\">&#8596;</span> $2</span><span style=\"background:#27272a;border:1px solid #52525b;color:#ffea00;font-size:.7em;font-weight:800;padding:1px 7px;text-transform:uppercase;letter-spacing:.4px;\">$10</span></div><div style=\"margin-bottom:6px;\"><div style=\"display:flex;justify-content:space-between;font-size:.72em;font-weight:900;color:#ffffff;margin-bottom:2px;\"><span style=\"color:#22c55e;\">AFFECTION</span><span>$3$4</span></div><div style=\"background:#0d0d10;height:7px;border:1px solid #52525b;transform:skewX(-8deg);overflow:hidden;\"><div style=\"background:#22c55e;width:min($4%,100%);height:100%;\"></div></div></div><div style=\"margin-bottom:6px;\"><div style=\"display:flex;justify-content:space-between;font-size:.72em;font-weight:900;color:#ffffff;margin-bottom:2px;\"><span style=\"color:#38bdf8;\">TRUST</span><span>$5$6</span></div><div style=\"background:#0d0d10;height:7px;border:1px solid #52525b;transform:skewX(-8deg);overflow:hidden;\"><div style=\"background:#38bdf8;width:min($6%,100%);height:100%;\"></div></div></div><div style=\"margin-bottom:6px;\"><div style=\"display:flex;justify-content:space-between;font-size:.72em;font-weight:900;color:#ffffff;margin-bottom:2px;\"><span style=\"color:#ffea00;\">RESPECT</span><span>$7$8</span></div><div style=\"background:#0d0d10;height:7px;border:1px solid #52525b;transform:skewX(-8deg);overflow:hidden;\"><div style=\"background:#ffea00;width:min($8%,100%);height:100%;\"></div></div></div><div style=\"overflow:hidden;max-height:calc((1$9 - 1) * 100px);\"><div style=\"margin-bottom:6px;\"><div style=\"display:flex;justify-content:space-between;font-size:.72em;font-weight:900;color:#ffffff;margin-bottom:2px;\"><span style=\"color:#a855f7;\">DESIRE</span><span>$9</span></div><div style=\"background:#0d0d10;height:5px;border:1px solid #52525b;transform:skewX(-8deg);overflow:hidden;\"><div style=\"background:#a855f7;width:min(0$9%,100%);height:100%;\"></div></div></div></div></div>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

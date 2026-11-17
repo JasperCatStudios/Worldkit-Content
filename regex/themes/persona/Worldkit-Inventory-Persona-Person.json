@@ -1,0 +1,17 @@
+{
+  "id": "62ccdbc0-8db2-4cce-a40a-99686b55aa3d",
+  "scriptName": "Worldkit - Inventory Persona Person",
+  "findRegex": "/-?[ \\t]{0,8}(?:<b[^>]{0,120}>)?\\s{0,8}([^<|\\n]{1,80}?)\\s{0,8}(?:<\\/b>)?\\s{0,8}\\|\\s{0,8}MONEY:\\s{0,8}(\\d{1,9}|--)\\s{0,8}\\|\\s{0,8}UNIT:\\s{0,8}([^|\\n<]{0,30}?)\\s{0,8}\\|\\s{0,8}ITEMS:\\s{0,8}(\\d{1,4})(?:\\s{0,8}\\|\\s{0,8}NOTE:\\s{0,8}([^\\n<]{0,160}?))?\\s{0,8}(?=\\n|$|<)/gi",
+  "replaceString": "<div style=\"background:#17171c;border:1px solid #3f3f46;border-left:5px solid #ffffff;padding:7px 10px;margin-top:7px;font-family:'Inter',sans-serif;color:#ffffff;display:flex;justify-content:space-between;align-items:center;gap:6px;\"><span style=\"font-family:'Anton',sans-serif;letter-spacing:.8px;\">$1 <span style=\"font-family:'Inter',sans-serif;font-size:.7em;color:#a1a1aa;\">$5</span></span><span style=\"display:flex;gap:6px;font-size:.7em;font-weight:900;\"><span style=\"background:#27272a;color:#ffffff;padding:1px 7px;transform:skewX(-8deg);display:inline-block;\"><span style=\"display:inline-block;transform:skewX(8deg);\">ITEMS $4</span></span><span style=\"background:#ffea00;color:#0d0d10;padding:1px 7px;transform:skewX(-8deg);display:inline-block;\"><span style=\"display:inline-block;transform:skewX(8deg);\"><span style=\"text-transform:uppercase;\">$2 $3</span></span></span></span></div>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

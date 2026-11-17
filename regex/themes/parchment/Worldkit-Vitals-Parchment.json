@@ -1,0 +1,17 @@
+{
+  "id": "3d27de5b-2af2-4fa9-af18-2609ee4bd9e7",
+  "scriptName": "Worldkit - Vitals Parchment",
+  "findRegex": "/-?[ \\t]{0,8}(?:<b[^>]{0,120}>)?\\s{0,8}([^<|\\n]{1,80}?)\\s{0,8}(?:<\\/b>)?\\s{0,8}\\|\\s{0,8}HEALTH:\\s{0,8}(\\d{1,3}|--)\\s{0,8}\\|\\s{0,8}HUNGER:\\s{0,8}(\\d{1,3}|--)\\s{0,8}\\|\\s{0,8}MOOD:\\s{0,8}([^|\\n<]{1,40}?)\\s{0,8}\\|\\s{0,8}MOODLEVEL:\\s{0,8}(\\d{1,3})\\s{0,8}\\|\\s{0,8}ENERGY:\\s{0,8}(\\d{1,3}|--)(?:\\s{0,8}\\|\\s{0,8}NOTE:\\s{0,8}([^\\n<]{0,160}?))?\\s{0,8}(?=\\n|$|<)/gi",
+  "replaceString": "<div style=\"background:#ece0c8;border:1px solid #7a5c3c;border-left:4px solid #8c2d19;border-radius:6px;padding:7px 10px;margin-bottom:7px;font-family:'Crimson Pro','Georgia',serif;color:#2c1d11;\"><div style=\"display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:6px;\"><span style=\"font-weight:700;font-size:1.02em;color:#2c1d11;\">$1</span><span style=\"font-style:italic;font-size:.78em;color:#694e32;background:#f4ebd8;border:1px solid #bfa47c;padding:1px 7px;border-radius:999px;\">$7</span></div><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;\"><div style=\"margin-bottom:5px;\"><div style=\"display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:.74em;font-weight:700;color:#8c2d19;margin-bottom:2px;\"><span>HEALTH</span><span>$2</span></div><div style=\"background:#d8c6a5;height:6px;border-radius:3px;border:1px solid #7a5c3c;overflow:hidden;\"><div style=\"background:#8c2d19;width:min($2%,100%);height:100%;\"></div></div></div><div style=\"margin-bottom:5px;\"><div style=\"display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:.74em;font-weight:700;color:#2f5d3a;margin-bottom:2px;\"><span>ENERGY</span><span>$6</span></div><div style=\"background:#d8c6a5;height:6px;border-radius:3px;border:1px solid #7a5c3c;overflow:hidden;\"><div style=\"background:#2f5d3a;width:min($6%,100%);height:100%;\"></div></div></div><div style=\"margin-bottom:5px;\"><div style=\"display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:.74em;font-weight:700;color:#9a6700;margin-bottom:2px;\"><span>HUNGER</span><span>$3</span></div><div style=\"background:#d8c6a5;height:6px;border-radius:3px;border:1px solid #7a5c3c;overflow:hidden;\"><div style=\"background:#9a6700;width:min($3%,100%);height:100%;\"></div></div></div><div style=\"margin-bottom:5px;\"><div style=\"display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:.74em;font-weight:700;color:#6b3f7a;margin-bottom:2px;\"><span>MOOD $4</span><span>$5</span></div><div style=\"background:#d8c6a5;height:6px;border-radius:3px;border:1px solid #7a5c3c;overflow:hidden;\"><div style=\"background:#6b3f7a;width:min($5%,100%);height:100%;\"></div></div></div></div></div>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

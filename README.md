@@ -9,7 +9,7 @@ Worldkit-Content/
   worlds/        a world type (the rules of a fight)
   lorebooks/     a SillyTavern lorebook for the sample world
   characters/    character packs, each with combat sheets filled in
-  regex/         SillyTavern regex scripts that dress the bond and vitals blocks under replies
+  regex/         SillyTavern regex scripts that dress the bond, vitals and inventory blocks under replies, plus three looks (parchment, persona, tactical)
   art/           optional Fire Emblem artwork: house banners, weapon icons and crest icons
   workflows/     ComfyUI workflows for the Phone's pictures: selfie workflows and a general one
 ```
@@ -49,7 +49,7 @@ Things to know:
 
 ## 3. Regex scripts
 
-`regex/` holds every regex the extension uses to dress its blocks under a reply: the Bond Tracker's bars (positive and negative affection), the bond context saver, and the Vitals bars (health, hunger and mood). In SillyTavern open Extensions, Regex, press the import arrow and pick the files. `regex/README.md` says what each one matches.
+`regex/` holds every regex the extension uses to dress its blocks under a reply: the Bond Tracker's bars (positive and negative affection), the bond context saver, the Vitals bars (health, hunger and mood), the Inventory rows, and `themes/` with three full looks (Cozy Parchment, Persona HUD, Tactical Glass Telemetry) for Bonds, Vitals, Inventory and Internal States. In SillyTavern open Extensions, Regex, press the import arrow and pick the files. `regex/README.md` says what each one matches.
 
 ## 4. Artwork (optional)
 

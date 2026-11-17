@@ -1,0 +1,17 @@
+{
+  "id": "2b22e968-3605-45cf-ab7e-87d04d59230a",
+  "scriptName": "Worldkit - Vitals Persona Frame",
+  "findRegex": "/<details>\\s{0,8}<summary>([^<]{0,20}VITALS[^<]{0,40})<\\/summary>/gi",
+  "replaceString": "<details open style=\"font-family:'Inter',sans-serif;background:#0d0d10;color:#ffffff;border:3px solid #e60012;padding:12px;margin:8px 0;max-width:440px;box-shadow:5px 5px 0 #e60012;\"><summary style=\"cursor:pointer;font-family:'Anton',sans-serif;font-size:1.1em;letter-spacing:1px;background:#e60012;color:#ffffff;padding:3px 12px;transform:skewX(-8deg);list-style:none;margin-bottom:8px;border-left:6px solid #ffea00;\"><span style=\"display:inline-block;transform:skewX(8deg);\">$1</span></summary>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

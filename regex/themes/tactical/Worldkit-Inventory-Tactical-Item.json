@@ -1,0 +1,17 @@
+{
+  "id": "c7708742-fec8-4938-ac02-efcc0f3c8d81",
+  "scriptName": "Worldkit - Inventory Tactical Item",
+  "findRegex": "/-?[ \\t]{0,8}ITEM:\\s{0,8}([^|\\n<]{1,80}?)\\s{0,8}\\|\\s{0,8}QTY:\\s{0,8}(\\d{1,6})\\s{0,8}\\|\\s{0,8}KIND:\\s{0,8}([^|\\n<]{0,40}?)\\s{0,8}\\|\\s{0,8}NOTE:\\s{0,8}([^\\n<]{0,160}?)\\s{0,8}(?=\\n|$|<)/gi",
+  "replaceString": "<div style=\"background:rgba(15,23,42,.75);border:1px solid rgba(56,189,248,.14);border-top:none;border-radius:0 0 5px 5px;padding:3px 8px;display:flex;justify-content:space-between;align-items:center;gap:6px;font-family:'Inter',sans-serif;font-size:.76em;color:#f8fafc;\"><span style=\"display:flex;align-items:center;gap:5px;\"><span style=\"font-weight:600;\">$1</span><span style=\"font-family:'JetBrains Mono',monospace;color:#38bdf8;font-size:.9em;\">&times;$2</span><span style=\"font-family:'JetBrains Mono',monospace;font-size:.78em;color:#94a3b8;background:#1e293b;padding:0 5px;border-radius:4px;\">$3</span></span><span style=\"color:#94a3b8;font-size:.85em;font-style:italic;text-align:right;\">$4</span></div>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

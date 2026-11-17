@@ -1,0 +1,17 @@
+{
+  "id": "4af58d8e-6648-4ea2-a9da-06026152985e",
+  "scriptName": "Worldkit - Inventory Parchment Frame",
+  "findRegex": "/<details>\\s{0,8}<summary>([^<]{0,20}INVENTORY[^<]{0,40})<\\/summary>/gi",
+  "replaceString": "<details open style=\"font-family:'Crimson Pro','Georgia',serif;background:#f4ebd8;color:#2c1d11;border:2px solid #7a5c3c;border-radius:10px;padding:12px;margin:8px 0;max-width:440px;box-shadow:0 8px 20px rgba(0,0,0,.45),inset 0 0 28px rgba(122,92,60,.22);\"><summary style=\"cursor:pointer;font-weight:700;font-size:1.05em;color:#9a6700;border-bottom:2px double #7a5c3c;padding-bottom:4px;margin-bottom:8px;\">$1</summary>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}
