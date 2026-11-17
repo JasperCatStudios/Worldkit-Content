@@ -39,6 +39,12 @@
       "description": "A SillyTavern lorebook (World Info)."
     },
     {
+      "type": "items",
+      "name": "Fire Emblem: Three Houses items",
+      "file": "items/fe-three-houses.items.json",
+      "description": "392 items and 5 presets for the Item Database."
+    },
+    {
       "type": "regex",
       "name": "Worldkit - Bond Bars (Negative)",
       "file": "regex/bonds/Worldkit-Bond-Bars-Negative.json",

@@ -42,6 +42,18 @@ for (const f of list('lorebooks', n => n.endsWith('.json'))) {
     items.push({ type: 'lorebook', name: titleCase(f.replace(/\.lorebook\.json$|\.json$/g, '')), file: `lorebooks/${f}`, description: 'A SillyTavern lorebook (World Info).' });
 }
 
+// Item databases (items and presets for the Inventory's Item Database)
+for (const f of list('items', n => n.endsWith('.items.json'))) {
+    let name = titleCase(f.replace('.items.json', ''));
+    let description = 'Items and presets for the Item Database.';
+    try {
+        const d = json(`items/${f}`);
+        if (d.name) name = String(d.name);
+        description = `${(d.items || []).length} items and ${(d.presets || []).length} presets for the Item Database.`;
+    } catch { /* keep the file name */ }
+    items.push({ type: 'items', name, file: `items/${f}`, description });
+}
+
 // Regex scripts
 const regexItem = (rel, group) => {
     let names = [];
