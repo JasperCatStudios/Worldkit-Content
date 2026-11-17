@@ -1,0 +1,902 @@
+{
+  "format": "worldkit-sounds-source",
+  "version": 1,
+  "name": "Common sounds",
+  "generator": {
+    "endpoint": "elevenlabs/sound-effects/v3",
+    "note": "Generated with ElevenLabs sound effects v3 on fal.ai under the pack owner's paid ElevenLabs plan."
+  },
+  "sounds": [
+    {
+      "tag": "rain_light",
+      "group": "ambience",
+      "description": "light rain on stone and leaves",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "light steady rain falling on stone courtyard and leaves, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "rain_heavy",
+      "group": "ambience",
+      "description": "heavy downpour",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "heavy rain downpour, dense steady rainfall on rooftops, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "rain_indoor",
+      "group": "ambience",
+      "description": "rain heard from inside, on windows",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "rain heard from indoors, drops tapping on glass window, muffled, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "thunderstorm",
+      "group": "ambience",
+      "description": "rain with distant rolling thunder",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "heavy rain with distant rolling thunder rumbles every few seconds, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "wind_light",
+      "group": "ambience",
+      "description": "gentle breeze through grass",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "gentle outdoor breeze through grass and trees, soft, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "wind_howl",
+      "group": "ambience",
+      "description": "strong howling wind",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "strong howling wind gusts, cold, desolate plain, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "snow_wind",
+      "group": "ambience",
+      "description": "snowy wind, muffled",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "soft snowy wind, muffled winter landscape, light gusts, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "fire_crackle",
+      "group": "ambience",
+      "description": "campfire or hearth",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "crackling wood fire in a stone hearth, gentle pops, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "crowd_murmur",
+      "group": "ambience",
+      "description": "indoor crowd talking softly",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "indoor crowd murmur, many people talking softly, words unintelligible, large hall, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "market_bustle",
+      "group": "ambience",
+      "description": "outdoor market",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "busy medieval outdoor market, distant chatter, carts, footsteps, words unintelligible, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "tavern",
+      "group": "ambience",
+      "description": "tavern with mugs and chatter",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "lively tavern ambience, mugs clinking, low chatter, unintelligible, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "forest_day",
+      "group": "ambience",
+      "description": "birds and leaves",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "daytime forest ambience, birdsong, rustling leaves, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "night_crickets",
+      "group": "ambience",
+      "description": "night insects",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "quiet night ambience, crickets chirping, light breeze, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "desert_wind",
+      "group": "ambience",
+      "description": "dry wind over sand, hollow",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "dry desert wind over sand dunes, hollow and empty, sand hiss, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "river_stream",
+      "group": "ambience",
+      "description": "flowing stream",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "gentle flowing stream over rocks, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "ocean_waves",
+      "group": "ambience",
+      "description": "waves on shore",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "ocean waves rolling onto a sandy shore, calm, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "church_interior",
+      "group": "ambience",
+      "description": "large stone hall, reverb",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "large empty stone cathedral interior, soft reverb room tone, distant footsteps, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "library_quiet",
+      "group": "ambience",
+      "description": "quiet room, pages",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "quiet library room tone, occasional page turn, faint clock ticking, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "dungeon_drip",
+      "group": "ambience",
+      "description": "cave or dungeon",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "damp stone dungeon, water drips echoing, low rumble, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "battlefield_distant",
+      "group": "ambience",
+      "description": "far battle",
+      "loop": true,
+      "seconds": 30,
+      "variants": 1,
+      "prompt": "distant battlefield, far clashing steel, shouts, war drums, muffled, seamless ambient loop, steady, no music, no voices, no sudden events"
+    },
+    {
+      "tag": "thunder_crack",
+      "group": "nature",
+      "description": "close thunder strike",
+      "loop": false,
+      "seconds": 4,
+      "variants": 1,
+      "prompt": "sharp close thunder crack followed by rumble, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "thunder_distant",
+      "group": "nature",
+      "description": "far rumble",
+      "loop": false,
+      "seconds": 5,
+      "variants": 1,
+      "prompt": "distant low thunder rumble, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "wind_gust",
+      "group": "nature",
+      "description": "single gust",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "single strong gust of wind sweeping past, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "bird_wings",
+      "group": "nature",
+      "description": "birds take off",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "flock of birds taking off, wings flapping, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "crow_caw",
+      "group": "nature",
+      "description": "crow call",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "single crow cawing in the distance, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "owl_hoot",
+      "group": "nature",
+      "description": "owl at night",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "owl hooting at night, distant, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "wolf_howl",
+      "group": "nature",
+      "description": "wolf howl",
+      "loop": false,
+      "seconds": 4,
+      "variants": 1,
+      "prompt": "lone wolf howling in the distance at night, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "horse_whinny",
+      "group": "nature",
+      "description": "horse",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "horse whinny and snort, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "horse_gallop",
+      "group": "nature",
+      "description": "horse passing",
+      "loop": false,
+      "seconds": 4,
+      "variants": 1,
+      "prompt": "horse galloping past on dirt road, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "cat_meow",
+      "group": "nature",
+      "description": "cat",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "single cat meow, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "splash",
+      "group": "nature",
+      "description": "something falls in water",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "object splashing into water, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "branch_snap",
+      "group": "nature",
+      "description": "twig snaps",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "dry twig snapping underfoot in forest, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "door_open",
+      "group": "movement",
+      "description": "wooden door opens",
+      "loop": false,
+      "seconds": 2,
+      "variants": 2,
+      "prompt": "heavy wooden door opening with creak, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "door_close",
+      "group": "movement",
+      "description": "wooden door shuts",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 2,
+      "prompt": "heavy wooden door closing with thud, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "door_knock",
+      "group": "movement",
+      "description": "knocking",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "three firm knocks on a wooden door, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "door_slam",
+      "group": "movement",
+      "description": "slammed door",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "wooden door slammed shut hard, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "lock_click",
+      "group": "movement",
+      "description": "key turns in lock",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "old metal key turning in a lock, click, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "gate_iron",
+      "group": "movement",
+      "description": "iron gate",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "iron gate creaking open, metal hinges, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "footsteps_stone",
+      "group": "movement",
+      "description": "walking on stone",
+      "loop": false,
+      "seconds": 3,
+      "variants": 2,
+      "prompt": "footsteps walking on stone floor, leather boots, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "footsteps_wood",
+      "group": "movement",
+      "description": "walking on wood",
+      "loop": false,
+      "seconds": 3,
+      "variants": 2,
+      "prompt": "footsteps on creaking wooden floorboards, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "footsteps_grass",
+      "group": "movement",
+      "description": "walking on grass",
+      "loop": false,
+      "seconds": 3,
+      "variants": 2,
+      "prompt": "footsteps walking through grass and leaves, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "running",
+      "group": "movement",
+      "description": "someone runs past",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "person running quickly past on stone, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "stairs",
+      "group": "movement",
+      "description": "climbing stairs",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "footsteps climbing wooden stairs, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "cloth_rustle",
+      "group": "movement",
+      "description": "clothes or cloak",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "cloak fabric rustling as someone turns, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "body_fall",
+      "group": "movement",
+      "description": "someone falls",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "body falling to the ground, thud, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "sword_draw",
+      "group": "combat",
+      "description": "blade unsheathed",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "sword drawn from a scabbard, metallic ring, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "sword_sheathe",
+      "group": "combat",
+      "description": "blade sheathed",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "sword sliding back into scabbard, click, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "sword_clash",
+      "group": "combat",
+      "description": "blades meet",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 2,
+      "prompt": "two steel swords clashing, sharp ring, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "sword_slash",
+      "group": "combat",
+      "description": "swing through air",
+      "loop": false,
+      "seconds": 1,
+      "variants": 2,
+      "prompt": "fast sword swing whoosh through air, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "blade_hit",
+      "group": "combat",
+      "description": "blade hits flesh or armor",
+      "loop": false,
+      "seconds": 1,
+      "variants": 2,
+      "prompt": "blade striking armor, metallic impact, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "punch",
+      "group": "combat",
+      "description": "fist impact",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 2,
+      "prompt": "heavy punch impact to body, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "bow_shot",
+      "group": "combat",
+      "description": "arrow loosed",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "bowstring release and arrow whoosh, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "arrow_hit",
+      "group": "combat",
+      "description": "arrow lands",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "arrow thudding into wood, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "shield_block",
+      "group": "combat",
+      "description": "shield takes hit",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "heavy blow against wooden shield, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "armor_clank",
+      "group": "combat",
+      "description": "armoured movement",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "plate armor clanking as a knight moves, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "explosion",
+      "group": "combat",
+      "description": "blast",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "powerful explosion, debris, rumble, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "crowd_gasp",
+      "group": "combat",
+      "description": "onlookers gasp",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "small crowd gasping in shock, no words, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "battle_cry",
+      "group": "combat",
+      "description": "war shout",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "group of soldiers shouting a battle cry, no clear words, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "magic_cast",
+      "group": "magic",
+      "description": "generic spell charge and release",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "magical energy charging and releasing, shimmering whoosh, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "magic_fire",
+      "group": "magic",
+      "description": "fire spell",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "fireball whoosh and burst of flames, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "magic_ice",
+      "group": "magic",
+      "description": "ice spell",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "ice crystals forming and shattering, magical, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "magic_lightning",
+      "group": "magic",
+      "description": "lightning spell",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "crackling electric magic bolt, sharp zap, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "magic_wind",
+      "group": "magic",
+      "description": "wind spell",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "magical wind blast rushing forward, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "magic_heal",
+      "group": "magic",
+      "description": "healing glow",
+      "loop": false,
+      "seconds": 2.5,
+      "variants": 1,
+      "prompt": "soft warm healing magic chime, gentle sparkle, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "magic_dark",
+      "group": "magic",
+      "description": "dark energy",
+      "loop": false,
+      "seconds": 2.5,
+      "variants": 1,
+      "prompt": "ominous dark magic pulse, deep whoosh, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "spirit_pressure",
+      "group": "magic",
+      "description": "crushing spiritual pressure",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "heavy oppressive energy pressure building, deep low hum and rumble, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "flash_step",
+      "group": "magic",
+      "description": "instant high-speed movement",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "very fast sharp swish of someone moving at blinding speed, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "energy_blast",
+      "group": "magic",
+      "description": "beam of raw energy",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "charged energy beam firing, powerful roaring blast, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "barrier",
+      "group": "magic",
+      "description": "magic shield forms",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "magical barrier forming, glassy hum, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "grimoire_open",
+      "group": "magic",
+      "description": "magic book opens and glows",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "old heavy book opening with magical shimmer, pages fluttering, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "teleport",
+      "group": "magic",
+      "description": "vanish or appear",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "magical teleport, quick rising shimmer and pop, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "summon",
+      "group": "magic",
+      "description": "something summoned",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "mystical summoning, swirling energy rising to a burst, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "bell_toll",
+      "group": "places",
+      "description": "church or monastery bell",
+      "loop": false,
+      "seconds": 5,
+      "variants": 1,
+      "prompt": "large bronze bell tolling three times, reverberant, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "bell_small",
+      "group": "places",
+      "description": "hand bell",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "small hand bell ringing, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "crowd_cheer",
+      "group": "places",
+      "description": "crowd cheers",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "crowd cheering and applauding, no clear words, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "crowd_laugh",
+      "group": "places",
+      "description": "group laughter",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "small group laughing together, no words, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "applause",
+      "group": "places",
+      "description": "clapping",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "audience applause, medium room, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "horn_call",
+      "group": "places",
+      "description": "signal horn",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "distant war horn blowing a single long call, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "drum_roll",
+      "group": "places",
+      "description": "announcement drums",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "military snare drum roll, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "sting_tension",
+      "group": "places",
+      "description": "rising tension",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "short suspense sting, rising low strings swell (sound design, no melody), isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "sting_reveal",
+      "group": "places",
+      "description": "dramatic reveal",
+      "loop": false,
+      "seconds": 2.5,
+      "variants": 1,
+      "prompt": "dramatic impact hit with low boom for a reveal, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "sting_soft",
+      "group": "places",
+      "description": "gentle moment",
+      "loop": false,
+      "seconds": 2.5,
+      "variants": 1,
+      "prompt": "soft gentle shimmer chime, warm, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "heartbeat",
+      "group": "places",
+      "description": "tense heartbeat",
+      "loop": false,
+      "seconds": 4,
+      "variants": 1,
+      "prompt": "slow heavy heartbeat thumping, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "notification",
+      "group": "places",
+      "description": "phone or system ping (UI)",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "soft short UI notification ping, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "glass_clink",
+      "group": "household",
+      "description": "toast or glasses",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "two glasses clinking in a toast, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "glass_break",
+      "group": "household",
+      "description": "glass shatters",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "glass bottle shattering on stone floor, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "cup_set",
+      "group": "household",
+      "description": "cup on table",
+      "loop": false,
+      "seconds": 0.7,
+      "variants": 1,
+      "prompt": "ceramic teacup set down on wooden table, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "pour_liquid",
+      "group": "household",
+      "description": "pouring",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "liquid pouring into a cup, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "eating",
+      "group": "household",
+      "description": "cutlery on plates",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "cutlery scraping and clinking on plates, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "chair_scrape",
+      "group": "household",
+      "description": "chair moved",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "wooden chair scraping on stone floor, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "page_turn",
+      "group": "household",
+      "description": "book page",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "single paper page turning, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "paper_rustle",
+      "group": "household",
+      "description": "letter or scroll",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "parchment scroll unrolling, paper rustle, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "quill_write",
+      "group": "household",
+      "description": "writing",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "quill pen scratching on parchment, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "coins",
+      "group": "household",
+      "description": "coin pouch",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "small leather pouch of coins jingling, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "chest_open",
+      "group": "household",
+      "description": "chest or box",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "wooden treasure chest lid creaking open, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "candle_blow",
+      "group": "household",
+      "description": "candle out",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "candle blown out, soft puff, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "fire_ignite",
+      "group": "household",
+      "description": "lighting a fire or torch",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "torch igniting with whoosh of flame, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "kettle",
+      "group": "household",
+      "description": "water boiling",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "kettle water boiling and steam, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    },
+    {
+      "tag": "bath_splash",
+      "group": "household",
+      "description": "water in a bath",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "person moving in a bath, gentle splashing, isolated sound effect, no music, no voice, clean, dry, close microphone"
+    }
+  ]
+}

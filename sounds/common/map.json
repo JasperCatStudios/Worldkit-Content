@@ -1,0 +1,952 @@
+{
+  "format": "worldkit-sounds",
+  "version": 1,
+  "name": "Common sounds",
+  "sounds": {
+    "rain_light": {
+      "files": [
+        "audio/ambience/rain_light.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "light rain on stone and leaves"
+    },
+    "rain_heavy": {
+      "files": [
+        "audio/ambience/rain_heavy.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "heavy downpour"
+    },
+    "rain_indoor": {
+      "files": [
+        "audio/ambience/rain_indoor.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "rain heard from inside, on windows"
+    },
+    "thunderstorm": {
+      "files": [
+        "audio/ambience/thunderstorm.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "rain with distant rolling thunder"
+    },
+    "wind_light": {
+      "files": [
+        "audio/ambience/wind_light.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "gentle breeze through grass"
+    },
+    "wind_howl": {
+      "files": [
+        "audio/ambience/wind_howl.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "strong howling wind"
+    },
+    "snow_wind": {
+      "files": [
+        "audio/ambience/snow_wind.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "snowy wind, muffled"
+    },
+    "fire_crackle": {
+      "files": [
+        "audio/ambience/fire_crackle.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "campfire or hearth"
+    },
+    "crowd_murmur": {
+      "files": [
+        "audio/ambience/crowd_murmur.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "indoor crowd talking softly"
+    },
+    "market_bustle": {
+      "files": [
+        "audio/ambience/market_bustle.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "outdoor market"
+    },
+    "tavern": {
+      "files": [
+        "audio/ambience/tavern.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "tavern with mugs and chatter"
+    },
+    "forest_day": {
+      "files": [
+        "audio/ambience/forest_day.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "birds and leaves"
+    },
+    "night_crickets": {
+      "files": [
+        "audio/ambience/night_crickets.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "night insects"
+    },
+    "desert_wind": {
+      "files": [
+        "audio/ambience/desert_wind.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "dry wind over sand, hollow"
+    },
+    "river_stream": {
+      "files": [
+        "audio/ambience/river_stream.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "flowing stream"
+    },
+    "ocean_waves": {
+      "files": [
+        "audio/ambience/ocean_waves.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "waves on shore"
+    },
+    "church_interior": {
+      "files": [
+        "audio/ambience/church_interior.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "large stone hall, reverb"
+    },
+    "library_quiet": {
+      "files": [
+        "audio/ambience/library_quiet.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "quiet room, pages"
+    },
+    "dungeon_drip": {
+      "files": [
+        "audio/ambience/dungeon_drip.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "cave or dungeon"
+    },
+    "battlefield_distant": {
+      "files": [
+        "audio/ambience/battlefield_distant.mp3"
+      ],
+      "volume": 0.5,
+      "loop": true,
+      "fadeMs": 1500,
+      "group": "ambience",
+      "description": "far battle"
+    },
+    "thunder_crack": {
+      "files": [
+        "audio/nature/thunder_crack.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "close thunder strike"
+    },
+    "thunder_distant": {
+      "files": [
+        "audio/nature/thunder_distant.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "far rumble"
+    },
+    "wind_gust": {
+      "files": [
+        "audio/nature/wind_gust.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "single gust"
+    },
+    "bird_wings": {
+      "files": [
+        "audio/nature/bird_wings.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "birds take off"
+    },
+    "crow_caw": {
+      "files": [
+        "audio/nature/crow_caw.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "crow call"
+    },
+    "owl_hoot": {
+      "files": [
+        "audio/nature/owl_hoot.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "owl at night"
+    },
+    "wolf_howl": {
+      "files": [
+        "audio/nature/wolf_howl.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "wolf howl"
+    },
+    "horse_whinny": {
+      "files": [
+        "audio/nature/horse_whinny.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "horse"
+    },
+    "horse_gallop": {
+      "files": [
+        "audio/nature/horse_gallop.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "horse passing"
+    },
+    "cat_meow": {
+      "files": [
+        "audio/nature/cat_meow.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "cat"
+    },
+    "splash": {
+      "files": [
+        "audio/nature/splash.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "something falls in water"
+    },
+    "branch_snap": {
+      "files": [
+        "audio/nature/branch_snap.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "nature",
+      "description": "twig snaps"
+    },
+    "door_open": {
+      "files": [
+        "audio/movement/door_open.mp3",
+        "audio/movement/door_open_2.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "movement",
+      "description": "wooden door opens"
+    },
+    "door_close": {
+      "files": [
+        "audio/movement/door_close.mp3",
+        "audio/movement/door_close_2.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "movement",
+      "description": "wooden door shuts"
+    },
+    "door_knock": {
+      "files": [
+        "audio/movement/door_knock.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "movement",
+      "description": "knocking"
+    },
+    "door_slam": {
+      "files": [
+        "audio/movement/door_slam.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "movement",
+      "description": "slammed door"
+    },
+    "lock_click": {
+      "files": [
+        "audio/movement/lock_click.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "movement",
+      "description": "key turns in lock"
+    },
+    "gate_iron": {
+      "files": [
+        "audio/movement/gate_iron.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "movement",
+      "description": "iron gate"
+    },
+    "footsteps_stone": {
+      "files": [
+        "audio/movement/footsteps_stone.mp3",
+        "audio/movement/footsteps_stone_2.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "movement",
+      "description": "walking on stone"
+    },
+    "footsteps_wood": {
+      "files": [
+        "audio/movement/footsteps_wood.mp3",
+        "audio/movement/footsteps_wood_2.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "movement",
+      "description": "walking on wood"
+    },
+    "footsteps_grass": {
+      "files": [
+        "audio/movement/footsteps_grass.mp3",
+        "audio/movement/footsteps_grass_2.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "movement",
+      "description": "walking on grass"
+    },
+    "running": {
+      "files": [
+        "audio/movement/running.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "movement",
+      "description": "someone runs past"
+    },
+    "stairs": {
+      "files": [
+        "audio/movement/stairs.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "movement",
+      "description": "climbing stairs"
+    },
+    "cloth_rustle": {
+      "files": [
+        "audio/movement/cloth_rustle.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "movement",
+      "description": "clothes or cloak"
+    },
+    "body_fall": {
+      "files": [
+        "audio/movement/body_fall.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "movement",
+      "description": "someone falls"
+    },
+    "sword_draw": {
+      "files": [
+        "audio/combat/sword_draw.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "combat",
+      "description": "blade unsheathed"
+    },
+    "sword_sheathe": {
+      "files": [
+        "audio/combat/sword_sheathe.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "combat",
+      "description": "blade sheathed"
+    },
+    "sword_clash": {
+      "files": [
+        "audio/combat/sword_clash.mp3",
+        "audio/combat/sword_clash_2.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "combat",
+      "description": "blades meet"
+    },
+    "sword_slash": {
+      "files": [
+        "audio/combat/sword_slash.mp3",
+        "audio/combat/sword_slash_2.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "combat",
+      "description": "swing through air"
+    },
+    "blade_hit": {
+      "files": [
+        "audio/combat/blade_hit.mp3",
+        "audio/combat/blade_hit_2.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "combat",
+      "description": "blade hits flesh or armor"
+    },
+    "punch": {
+      "files": [
+        "audio/combat/punch.mp3",
+        "audio/combat/punch_2.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "cooldownMs": 600,
+      "group": "combat",
+      "description": "fist impact"
+    },
+    "bow_shot": {
+      "files": [
+        "audio/combat/bow_shot.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "combat",
+      "description": "arrow loosed"
+    },
+    "arrow_hit": {
+      "files": [
+        "audio/combat/arrow_hit.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "combat",
+      "description": "arrow lands"
+    },
+    "shield_block": {
+      "files": [
+        "audio/combat/shield_block.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "combat",
+      "description": "shield takes hit"
+    },
+    "armor_clank": {
+      "files": [
+        "audio/combat/armor_clank.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "combat",
+      "description": "armoured movement"
+    },
+    "explosion": {
+      "files": [
+        "audio/combat/explosion.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "combat",
+      "description": "blast"
+    },
+    "crowd_gasp": {
+      "files": [
+        "audio/combat/crowd_gasp.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "combat",
+      "description": "onlookers gasp"
+    },
+    "battle_cry": {
+      "files": [
+        "audio/combat/battle_cry.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "combat",
+      "description": "war shout"
+    },
+    "magic_cast": {
+      "files": [
+        "audio/magic/magic_cast.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "generic spell charge and release"
+    },
+    "magic_fire": {
+      "files": [
+        "audio/magic/magic_fire.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "fire spell"
+    },
+    "magic_ice": {
+      "files": [
+        "audio/magic/magic_ice.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "ice spell"
+    },
+    "magic_lightning": {
+      "files": [
+        "audio/magic/magic_lightning.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "lightning spell"
+    },
+    "magic_wind": {
+      "files": [
+        "audio/magic/magic_wind.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "wind spell"
+    },
+    "magic_heal": {
+      "files": [
+        "audio/magic/magic_heal.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "healing glow"
+    },
+    "magic_dark": {
+      "files": [
+        "audio/magic/magic_dark.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "dark energy"
+    },
+    "spirit_pressure": {
+      "files": [
+        "audio/magic/spirit_pressure.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "crushing spiritual pressure"
+    },
+    "flash_step": {
+      "files": [
+        "audio/magic/flash_step.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "instant high-speed movement"
+    },
+    "energy_blast": {
+      "files": [
+        "audio/magic/energy_blast.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "beam of raw energy"
+    },
+    "barrier": {
+      "files": [
+        "audio/magic/barrier.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "magic shield forms"
+    },
+    "grimoire_open": {
+      "files": [
+        "audio/magic/grimoire_open.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "magic book opens and glows"
+    },
+    "teleport": {
+      "files": [
+        "audio/magic/teleport.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "vanish or appear"
+    },
+    "summon": {
+      "files": [
+        "audio/magic/summon.mp3"
+      ],
+      "volume": 0.7,
+      "loop": false,
+      "group": "magic",
+      "description": "something summoned"
+    },
+    "bell_toll": {
+      "files": [
+        "audio/places/bell_toll.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "church or monastery bell"
+    },
+    "bell_small": {
+      "files": [
+        "audio/places/bell_small.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "hand bell"
+    },
+    "crowd_cheer": {
+      "files": [
+        "audio/places/crowd_cheer.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "crowd cheers"
+    },
+    "crowd_laugh": {
+      "files": [
+        "audio/places/crowd_laugh.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "group laughter"
+    },
+    "applause": {
+      "files": [
+        "audio/places/applause.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "clapping"
+    },
+    "horn_call": {
+      "files": [
+        "audio/places/horn_call.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "signal horn"
+    },
+    "drum_roll": {
+      "files": [
+        "audio/places/drum_roll.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "announcement drums"
+    },
+    "sting_tension": {
+      "files": [
+        "audio/places/sting_tension.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "rising tension"
+    },
+    "sting_reveal": {
+      "files": [
+        "audio/places/sting_reveal.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "dramatic reveal"
+    },
+    "sting_soft": {
+      "files": [
+        "audio/places/sting_soft.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "gentle moment"
+    },
+    "heartbeat": {
+      "files": [
+        "audio/places/heartbeat.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "tense heartbeat"
+    },
+    "notification": {
+      "files": [
+        "audio/places/notification.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "places",
+      "description": "phone or system ping (UI)"
+    },
+    "glass_clink": {
+      "files": [
+        "audio/household/glass_clink.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "toast or glasses"
+    },
+    "glass_break": {
+      "files": [
+        "audio/household/glass_break.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "glass shatters"
+    },
+    "cup_set": {
+      "files": [
+        "audio/household/cup_set.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "cup on table"
+    },
+    "pour_liquid": {
+      "files": [
+        "audio/household/pour_liquid.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "pouring"
+    },
+    "eating": {
+      "files": [
+        "audio/household/eating.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "cutlery on plates"
+    },
+    "chair_scrape": {
+      "files": [
+        "audio/household/chair_scrape.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "chair moved"
+    },
+    "page_turn": {
+      "files": [
+        "audio/household/page_turn.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "book page"
+    },
+    "paper_rustle": {
+      "files": [
+        "audio/household/paper_rustle.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "letter or scroll"
+    },
+    "quill_write": {
+      "files": [
+        "audio/household/quill_write.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "writing"
+    },
+    "coins": {
+      "files": [
+        "audio/household/coins.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "coin pouch"
+    },
+    "chest_open": {
+      "files": [
+        "audio/household/chest_open.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "chest or box"
+    },
+    "candle_blow": {
+      "files": [
+        "audio/household/candle_blow.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "candle out"
+    },
+    "fire_ignite": {
+      "files": [
+        "audio/household/fire_ignite.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "lighting a fire or torch"
+    },
+    "kettle": {
+      "files": [
+        "audio/household/kettle.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "water boiling"
+    },
+    "bath_splash": {
+      "files": [
+        "audio/household/bath_splash.mp3"
+      ],
+      "volume": 0.8,
+      "loop": false,
+      "group": "household",
+      "description": "water in a bath"
+    }
+  },
+  "weather": {
+    "rain": "rain_light",
+    "drizzle": "rain_light",
+    "downpour": "rain_heavy",
+    "storm": "thunderstorm",
+    "snow": "snow_wind",
+    "blizzard": "snow_wind",
+    "wind": "wind_light",
+    "sandstorm": "desert_wind",
+    "duststorm": "desert_wind"
+  },
+  "credits": "see LICENSE-SOUNDS.md"
+}

@@ -59,6 +59,13 @@
       "size": 605
     },
     {
+      "type": "sounds",
+      "name": "Common sounds",
+      "file": "sounds/common/map.json",
+      "description": "99 sounds (20 loops), with a map for the Sound module. Optional.",
+      "size": 10068687
+    },
+    {
       "type": "regex",
       "name": "Worldkit - Bond Bars (Negative)",
       "file": "regex/bonds/Worldkit-Bond-Bars-Negative.json",

@@ -67,6 +67,21 @@ for (const f of list('scenes', n => n.endsWith('.locations.json'))) {
     items.push({ type: 'scenes', name, file: `scenes/${f}`, description });
 }
 
+// Sound packs (a map.json beside its audio files, for the Sound module)
+for (const dir of list('sounds', n => fs.statSync(path.join(root, 'sounds', n)).isDirectory())) {
+    const mapFile = `sounds/${dir}/map.json`;
+    if (!fs.existsSync(path.join(root, mapFile))) continue;
+    let name = titleCase(dir);
+    let description = 'A sound map and its audio files.';
+    try {
+        const d = json(mapFile);
+        if (d.name) name = String(d.name);
+        const sounds = Object.values(d.sounds || {});
+        description = `${sounds.length} sounds (${sounds.filter(s => s.loop).length} loops), with a map for the Sound module. Optional.`;
+    } catch { /* keep the folder name */ }
+    items.push({ type: 'sounds', name, file: mapFile, description });
+}
+
 // Regex scripts
 const regexItem = (rel, group) => {
     let names = [];

@@ -85,6 +85,12 @@ Things to know:
 - That workflow's result size comes from its **Number Pick** node in megapixels (16 is the author's default, about 4096 pixels on a side; 4 and 8 are faster), not from the Phone's picture size. The Phone's **Selfie shape** setting still sets the shape.
 - These are built on example workflows by Pixaroma and use their nodes and notes, so check their terms before sharing the files further.
 
+## 6. Sounds (optional)
+
+`sounds/common/` is a pack of 99 AI-generated sound effects (about 10 MB): ambience loops (rain, wind, fire, crowds and so on) and one-shot effects (doors, footsteps, blades, magic and so on). `map.json` names each sound and lists its file, volume, loop flag and fade; `sounds.source.json` holds the prompts used to make them; `audition.html` lets you listen to all of them in a browser. The Sound module reads the map; nothing else depends on it. The Content Kit lists the pack as a `sounds` item.
+
+The audio was generated with ElevenLabs Sound Effects v3 under the author's own paid plan; see `sounds/common/LICENSE-SOUNDS.md` before reusing the files elsewhere.
+
 ## Sharing your own
 
 - **A world:** Combat, Settings, World types, **Export** on a custom world gives a `.json` file anyone can import with **Import a world type file**.
