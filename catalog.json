@@ -1,0 +1,301 @@
+{
+  "format": "worldkit-content",
+  "version": 1,
+  "items": [
+    {
+      "type": "world",
+      "name": "Lantern Coast Skirmishes",
+      "file": "worlds/lantern-coast.world.json",
+      "description": "A sample world made with the Create a world type editor: harbour-town scraps with blades and charms. Seven stats on 0 to 100, a physical and a spirit channel, three skills graded Novice to Master."
+    },
+    {
+      "type": "characters",
+      "name": "Black Clover",
+      "file": "characters/black-clover.characters.json",
+      "description": "10 characters with combat sheets filled in. No portraits or lore."
+    },
+    {
+      "type": "characters",
+      "name": "Bleach Arrancar Arc",
+      "file": "characters/bleach-arrancar-arc.characters.json",
+      "description": "15 characters with combat sheets filled in. No portraits or lore."
+    },
+    {
+      "type": "characters",
+      "name": "Fire Emblem Three Houses",
+      "file": "characters/fire-emblem-three-houses.characters.json",
+      "description": "47 characters with combat sheets filled in. No portraits or lore."
+    },
+    {
+      "type": "characters",
+      "name": "Lantern Coast",
+      "file": "characters/lantern-coast.characters.json",
+      "description": "5 characters with combat sheets filled in. No portraits or lore."
+    },
+    {
+      "type": "lorebook",
+      "name": "Lantern Coast",
+      "file": "lorebooks/Lantern_Coast.lorebook.json",
+      "description": "A SillyTavern lorebook (World Info)."
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit Default Regexes",
+      "file": "regex/Worldkit-Default-Regexes.json",
+      "group": "Default look (all Worldkit scripts in one)",
+      "description": "7 scripts: SillyNPC - Bond Bars (Positive), SillyNPC - Bond Bars (Negative), SillyNPC - Bond Tracker Context Saver, Worldkit - Vitals Bars, Worldkit - Menu Gold (Inventory), Worldkit - Inventory Person, Worldkit - Inventory Item"
+    },
+    {
+      "type": "regex",
+      "name": "SillyNPC - Bond Bars (Negative)",
+      "file": "regex/SillyNPC-Bond-Bars-Negative.json",
+      "group": "Default look (one by one)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "SillyNPC - Bond Bars (Positive)",
+      "file": "regex/SillyNPC-Bond-Bars-Positive.json",
+      "group": "Default look (one by one)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "SillyNPC - Bond Tracker Context Saver",
+      "file": "regex/SillyNPC-Bond-Tracker-Context-Saver.json",
+      "group": "Default look (one by one)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Item",
+      "file": "regex/Worldkit-Inventory-Item.json",
+      "group": "Default look (one by one)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Person",
+      "file": "regex/Worldkit-Inventory-Person.json",
+      "group": "Default look (one by one)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Bars",
+      "file": "regex/Worldkit-Vitals-Bars.json",
+      "group": "Default look (one by one)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Parchment (Negative)",
+      "file": "regex/themes/parchment/Worldkit-Bonds-Parchment-(Negative).json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Parchment (Positive)",
+      "file": "regex/themes/parchment/Worldkit-Bonds-Parchment-(Positive).json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Parchment Frame",
+      "file": "regex/themes/parchment/Worldkit-Bonds-Parchment-Frame.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Parchment Frame",
+      "file": "regex/themes/parchment/Worldkit-Inventory-Parchment-Frame.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Parchment Item",
+      "file": "regex/themes/parchment/Worldkit-Inventory-Parchment-Item.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Parchment Person",
+      "file": "regex/themes/parchment/Worldkit-Inventory-Parchment-Person.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Parchment Frame",
+      "file": "regex/themes/parchment/Worldkit-Vitals-Parchment-Frame.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Parchment",
+      "file": "regex/themes/parchment/Worldkit-Vitals-Parchment.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "template",
+      "name": "Internal States template (Cozy Parchment)",
+      "file": "regex/themes/parchment/Worldkit-Internal-States-parchment-template.html",
+      "description": "Copy it, then paste it over the template part of Prompts, Internal States."
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Persona (Negative)",
+      "file": "regex/themes/persona/Worldkit-Bonds-Persona-(Negative).json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Persona (Positive)",
+      "file": "regex/themes/persona/Worldkit-Bonds-Persona-(Positive).json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Persona Frame",
+      "file": "regex/themes/persona/Worldkit-Bonds-Persona-Frame.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Persona Frame",
+      "file": "regex/themes/persona/Worldkit-Inventory-Persona-Frame.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Persona Item",
+      "file": "regex/themes/persona/Worldkit-Inventory-Persona-Item.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Persona Person",
+      "file": "regex/themes/persona/Worldkit-Inventory-Persona-Person.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Persona Frame",
+      "file": "regex/themes/persona/Worldkit-Vitals-Persona-Frame.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Persona",
+      "file": "regex/themes/persona/Worldkit-Vitals-Persona.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "template",
+      "name": "Internal States template (Persona HUD)",
+      "file": "regex/themes/persona/Worldkit-Internal-States-persona-template.html",
+      "description": "Copy it, then paste it over the template part of Prompts, Internal States."
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Tactical (Negative)",
+      "file": "regex/themes/tactical/Worldkit-Bonds-Tactical-(Negative).json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Tactical (Positive)",
+      "file": "regex/themes/tactical/Worldkit-Bonds-Tactical-(Positive).json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Bonds Tactical Frame",
+      "file": "regex/themes/tactical/Worldkit-Bonds-Tactical-Frame.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Tactical Frame",
+      "file": "regex/themes/tactical/Worldkit-Inventory-Tactical-Frame.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Tactical Item",
+      "file": "regex/themes/tactical/Worldkit-Inventory-Tactical-Item.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Tactical Person",
+      "file": "regex/themes/tactical/Worldkit-Inventory-Tactical-Person.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Tactical Frame",
+      "file": "regex/themes/tactical/Worldkit-Vitals-Tactical-Frame.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Tactical",
+      "file": "regex/themes/tactical/Worldkit-Vitals-Tactical.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "template",
+      "name": "Internal States template (Tactical Glass Telemetry)",
+      "file": "regex/themes/tactical/Worldkit-Internal-States-tactical-template.html",
+      "description": "Copy it, then paste it over the template part of Prompts, Internal States."
+    },
+    {
+      "type": "workflow",
+      "name": "General Text To Image Moss",
+      "file": "workflows/general-text-to-image-moss.workflow.json",
+      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box."
+    },
+    {
+      "type": "workflow",
+      "name": "Selfie Character Sheet Uncensored Minimax H3",
+      "file": "workflows/selfie-character-sheet-uncensored-minimax-h3.workflow.json",
+      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box."
+    },
+    {
+      "type": "workflow",
+      "name": "Selfie Character Sheet",
+      "file": "workflows/selfie-character-sheet.workflow.json",
+      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box."
+    },
+    {
+      "type": "art",
+      "name": "Fire Emblem artwork",
+      "file": "art/fire-emblem/banners/neutral.png",
+      "description": "House banners, weapon icons and crest icons. Copy the art folder into data/<your user>/user/images/worldkit-art/ (see the README)."
+    }
+  ]
+}

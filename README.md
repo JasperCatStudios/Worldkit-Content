@@ -2,7 +2,11 @@
 
 Optional sample content for the [Worldkit extension](https://github.com/JasperCatStudios/SillyNPC): a sample world, a lorebook, character packs and artwork, so you can try combat without making anything first. The extension works without any of this and does not download it. Nothing here is built in: you import it yourself, the same way you would import something a friend sent you. The franchise packs carry no portraits, no personal characters and no lorebook entries.
 
-**Getting it:** press the green **Code** button on this page and choose **Download ZIP**, then unzip it anywhere (not inside SillyTavern's extensions folder). Import the files you want from there, as described below.
+**Getting it, the easy way:** in SillyTavern open the Worldkit menu, then **Content Kit** in the side list. The address of this repository is already filled in. Press **Download**, and SillyTavern fetches it with git the same way Extensions, Install extension does. The tab then lists everything in `catalog.json` with an **Import** button on each (worlds, character packs, the lorebook, regex scripts) or a **Copy** button (workflows and Internal States templates). Press **Update** later to get new content. Nothing is imported until you press its button, and nothing is deleted. This repository carries a `manifest.json` that loads no code, because SillyTavern's installer needs one; it shows in the extension list and does nothing there.
+
+**Getting it by hand:** press the green **Code** button on this page and choose **Download ZIP**, then unzip it anywhere (not inside SillyTavern's extensions folder). Import the files you want from there, as described below.
+
+**For the repository's owner:** after adding or renaming a file, run `node tools/build-catalog.mjs` and commit `catalog.json` with the change.
 
 ```
 Worldkit-Content/

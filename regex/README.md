@@ -39,6 +39,18 @@ Dresses the **VITALS** block the Vitals Tracker writes under each reply, right b
 
 Health and hunger run 0 to 100 (0 is dead or starving, 100 is healthy or full); mood is a word and a 0 to 100 strength. A vital that is switched off in the Vitals tab shows `--` and an empty bar. Like the bond regexes it is a display-only AI-output regex, so it never touches the prompt.
 
+## All the default scripts in one file (`Worldkit-Default-Regexes.json`)
+
+The Bond Bars (positive and negative), the Bond Tracker Context Saver, the Vitals Bars, the Inventory frame and the two Inventory rows, in one file for the **Default - Freaky Frankenstein** look (the look that leaves the styling to your SillyTavern regexes). The Content Kit tab in Worldkit imports it in one press; or import it from SillyTavern's Regex menu. Scripts that are already there (same id) are updated, never duplicated.
+
+It deliberately holds no Freaky Frankenstein scripts (the `FF5 ...` ones that style the Internal States menus): those belong to that preset, so import them from the preset itself.
+
+If an earlier set of yours has `Worldkit - Inventory Owner` (the old `CARRY` and `GOLD` header), it no longer matches the current Inventory block. `Worldkit - Inventory Person` replaces it, so you can delete the old one.
+
+## Context saver scripts
+
+A context saver removes a block from older messages in the prompt that goes to the story model, so it does not cost tokens every turn. Worldkit has one: `SillyNPC-Bond-Tracker-Context-Saver.json`, and it is only needed when Bonds is set to **With the reply** (the story model writes the Bond Tracker block inside its own message). Every other block (Vitals, Inventory, Bonds after the reply, Internal States written after the reply) is kept on the message's metadata and never in its text, so it never reaches the prompt and needs no saver. The `FF5 - Context Saver` and `FF5 - GFX Stripper` scripts are Freaky Frankenstein's and apply when its preset writes Internal States inside the reply.
+
 ## Inventory (`Worldkit-Inventory-Person.json`, `Worldkit-Inventory-Item.json`)
 
 Dress the **INVENTORY** block the Inventory Tracker writes under each reply (default dark look). Import both and keep them enabled. The block has one line per person followed by one line per item they carry:

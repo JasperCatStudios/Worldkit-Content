@@ -1,0 +1,8 @@
+{
+    "display_name": "Worldkit Content",
+    "loading_order": 100,
+    "author": "JasperCatStudios",
+    "version": "1.0.0",
+    "homePage": "https://github.com/JasperCatStudios/Worldkit-Content",
+    "description": "Optional content for the Worldkit extension: worlds, character packs, a lorebook, regex scripts and workflows. It loads no code of its own; import what you want from Worldkit's Content Kit tab."
+}
