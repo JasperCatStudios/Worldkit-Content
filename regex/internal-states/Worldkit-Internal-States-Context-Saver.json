@@ -1,0 +1,17 @@
+{
+  "id": "05b65ab4-d80f-46a3-a433-691f34f84030",
+  "scriptName": "Worldkit - Internal States Context Saver",
+  "findRegex": "/<!-- GFX_START -->\\s*<internal_states>[\\s\\S]*?<!-- GFX_END -->/g",
+  "replaceString": "",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": false,
+  "promptOnly": true,
+  "runOnEdit": false,
+  "substituteRegex": 0,
+  "minDepth": 2,
+  "maxDepth": null
+}

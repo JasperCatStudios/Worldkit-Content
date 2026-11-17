@@ -1,0 +1,17 @@
+{
+  "id": "affefb1d-c737-4246-af81-ade4e1d7eb40",
+  "scriptName": "Worldkit - Internal States Menu Body Scale",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?)(BODY SCALE)([^<]{0,200}?)<\\/summary>((?:(?!<\\/details>)[\\s\\S])*)<\\/details>/g",
+  "replaceString": "<details open style=\"background:rgba(245,194,231,0.05);border:1px solid rgba(245,194,231,0.2);border-left:4px solid #f5c2e7;margin:4px 0;border-radius:4px;\"><summary style=\"background:linear-gradient(90deg, rgba(245,194,231,0.22), transparent);padding:6px 12px;font-weight:bold;color:#f5c2e7;cursor:pointer;text-transform:uppercase;letter-spacing:0.5px;list-style:none;\">$1$2$3</summary><div style=\"padding:6px 12px;font-size:0.9em;line-height:1.5;color:#cdd6f4;\">$4</div></details>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

@@ -54,9 +54,11 @@ const regexItem = (rel, group) => {
         description: names.length > 1 ? `${names.length} scripts: ${names.join(', ')}` : '',
     });
 };
-// the combined set first, so it is the obvious one to import
-for (const f of list('regex', n => n === 'Worldkit-Default-Regexes.json')) regexItem(`regex/${f}`, 'Default look (all Worldkit scripts in one)');
-for (const f of list('regex', n => n.endsWith('.json') && n !== 'Worldkit-Default-Regexes.json')) regexItem(`regex/${f}`, 'Default look (one by one)');
+// the default look: one folder per tracker, one file per script
+const TRACKERS = { bonds: 'Bonds', vitals: 'Vitals', inventory: 'Inventory', 'internal-states': 'Internal States' };
+for (const [dir, label] of Object.entries(TRACKERS)) {
+    for (const f of list(`regex/${dir}`, n => n.endsWith('.json'))) regexItem(`regex/${dir}/${f}`, `${label} (default look)`);
+}
 const LOOKS = { parchment: 'Cozy Parchment look', persona: 'Persona HUD look', tactical: 'Tactical Glass Telemetry look' };
 for (const [dir, group] of Object.entries(LOOKS)) {
     for (const f of list(`regex/themes/${dir}`, n => n.endsWith('.json'))) regexItem(`regex/themes/${dir}/${f}`, group);

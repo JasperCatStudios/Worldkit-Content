@@ -1,0 +1,17 @@
+{
+  "id": "d450039f-46a1-44e0-a5bc-23bed47557d2",
+  "scriptName": "Worldkit - Internal States Collapse Spacing",
+  "findRegex": "/<\\/details>(?:\\s|<br\\s?\\/?>|<p>|<\\/p>|[\\r\\n]){1,100}<details/g",
+  "replaceString": "</details><details",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

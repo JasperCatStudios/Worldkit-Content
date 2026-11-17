@@ -40,51 +40,114 @@
     },
     {
       "type": "regex",
-      "name": "Worldkit Default Regexes",
-      "file": "regex/Worldkit-Default-Regexes.json",
-      "group": "Default look (all Worldkit scripts in one)",
-      "description": "7 scripts: SillyNPC - Bond Bars (Positive), SillyNPC - Bond Bars (Negative), SillyNPC - Bond Tracker Context Saver, Worldkit - Vitals Bars, Worldkit - Menu Gold (Inventory), Worldkit - Inventory Person, Worldkit - Inventory Item"
-    },
-    {
-      "type": "regex",
-      "name": "SillyNPC - Bond Bars (Negative)",
-      "file": "regex/SillyNPC-Bond-Bars-Negative.json",
-      "group": "Default look (one by one)",
+      "name": "Worldkit - Bond Bars (Negative)",
+      "file": "regex/bonds/Worldkit-Bond-Bars-Negative.json",
+      "group": "Bonds (default look)",
       "description": ""
     },
     {
       "type": "regex",
-      "name": "SillyNPC - Bond Bars (Positive)",
-      "file": "regex/SillyNPC-Bond-Bars-Positive.json",
-      "group": "Default look (one by one)",
+      "name": "Worldkit - Bond Bars (Positive)",
+      "file": "regex/bonds/Worldkit-Bond-Bars-Positive.json",
+      "group": "Bonds (default look)",
       "description": ""
     },
     {
       "type": "regex",
-      "name": "SillyNPC - Bond Tracker Context Saver",
-      "file": "regex/SillyNPC-Bond-Tracker-Context-Saver.json",
-      "group": "Default look (one by one)",
-      "description": ""
-    },
-    {
-      "type": "regex",
-      "name": "Worldkit - Inventory Item",
-      "file": "regex/Worldkit-Inventory-Item.json",
-      "group": "Default look (one by one)",
-      "description": ""
-    },
-    {
-      "type": "regex",
-      "name": "Worldkit - Inventory Person",
-      "file": "regex/Worldkit-Inventory-Person.json",
-      "group": "Default look (one by one)",
+      "name": "Worldkit - Bond Tracker Context Saver",
+      "file": "regex/bonds/Worldkit-Bond-Context-Saver.json",
+      "group": "Bonds (default look)",
       "description": ""
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Bars",
-      "file": "regex/Worldkit-Vitals-Bars.json",
-      "group": "Default look (one by one)",
+      "file": "regex/vitals/Worldkit-Vitals-Bars.json",
+      "group": "Vitals (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Vitals Context Saver",
+      "file": "regex/vitals/Worldkit-Vitals-Context-Saver.json",
+      "group": "Vitals (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Context Saver",
+      "file": "regex/inventory/Worldkit-Inventory-Context-Saver.json",
+      "group": "Inventory (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Menu Gold (Inventory)",
+      "file": "regex/inventory/Worldkit-Inventory-Frame.json",
+      "group": "Inventory (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Item",
+      "file": "regex/inventory/Worldkit-Inventory-Item.json",
+      "group": "Inventory (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Inventory Person",
+      "file": "regex/inventory/Worldkit-Inventory-Person.json",
+      "group": "Inventory (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Collapse Spacing",
+      "file": "regex/internal-states/Worldkit-Internal-States-Collapse-Spacing.json",
+      "group": "Internal States (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Context Saver",
+      "file": "regex/internal-states/Worldkit-Internal-States-Context-Saver.json",
+      "group": "Internal States (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Frame",
+      "file": "regex/internal-states/Worldkit-Internal-States-Frame.json",
+      "group": "Internal States (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Menu Agendas and Locations",
+      "file": "regex/internal-states/Worldkit-Internal-States-Menu-Agendas-and-Locations.json",
+      "group": "Internal States (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Menu Body Scale",
+      "file": "regex/internal-states/Worldkit-Internal-States-Menu-Body-Scale.json",
+      "group": "Internal States (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Menu Chekhov and Thoughts",
+      "file": "regex/internal-states/Worldkit-Internal-States-Menu-Chekhov-and-Thoughts.json",
+      "group": "Internal States (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Menu Notebook, World Sim and Physics",
+      "file": "regex/internal-states/Worldkit-Internal-States-Menu-Notebook-World-Sim-and-Physics.json",
+      "group": "Internal States (default look)",
       "description": ""
     },
     {

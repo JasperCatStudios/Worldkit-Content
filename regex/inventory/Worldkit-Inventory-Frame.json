@@ -1,0 +1,17 @@
+{
+  "id": "3b4d43a3-c9ba-4476-b940-64988c789266",
+  "scriptName": "Worldkit - Menu Gold (Inventory)",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?)(INVENTORY|BACKPACK|GEAR)([^<]{0,200}?)<\\/summary>((?:(?!<\\/details>)[\\s\\S])*)<\\/details>/g",
+  "replaceString": "<details style=\"background:rgba(249,226,175,0.05);border:1px solid rgba(249,226,175,0.2);border-left:4px solid #f9e2af;margin:2px 0;border-radius:4px;\"><summary style=\"background:linear-gradient(90deg, rgba(249,226,175,0.25), transparent);padding:8px 12px;font-weight:bold;color:#f9e2af;cursor:pointer;text-transform:uppercase;letter-spacing:0.5px;list-style:none;\">$1$2$3</summary><div style=\"padding:8px 12px;\">$4</div></details>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

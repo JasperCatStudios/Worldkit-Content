@@ -1,0 +1,17 @@
+{
+  "id": "4ddadc80-31f9-435f-ae1a-260744b2976b",
+  "scriptName": "Worldkit - Internal States Menu Agendas and Locations",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?)(NPC AGENDAS|NPC LOCATIONS)([^<]{0,200}?)<\\/summary>((?:(?!<\\/details>)[\\s\\S])*)<\\/details>/g",
+  "replaceString": "<details open style=\"background:rgba(148,226,213,0.05);border:1px solid rgba(148,226,213,0.2);border-left:4px solid #94e2d5;margin:4px 0;border-radius:4px;\"><summary style=\"background:linear-gradient(90deg, rgba(148,226,213,0.22), transparent);padding:6px 12px;font-weight:bold;color:#94e2d5;cursor:pointer;text-transform:uppercase;letter-spacing:0.5px;list-style:none;\">$1$2$3</summary><div style=\"padding:6px 12px;font-size:0.9em;line-height:1.5;color:#cdd6f4;\">$4</div></details>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}
