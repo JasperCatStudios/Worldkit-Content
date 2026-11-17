@@ -52,6 +52,13 @@
       "size": 76367
     },
     {
+      "type": "scenes",
+      "name": "Example",
+      "file": "scenes/example.locations.json",
+      "description": "3 places with their aliases and backgrounds.",
+      "size": 605
+    },
+    {
       "type": "regex",
       "name": "Worldkit - Bond Bars (Negative)",
       "file": "regex/bonds/Worldkit-Bond-Bars-Negative.json",

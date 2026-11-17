@@ -54,6 +54,19 @@ for (const f of list('items', n => n.endsWith('.items.json'))) {
     items.push({ type: 'items', name, file: `items/${f}`, description });
 }
 
+// Scene maps (places, aliases and which background each uses, for the Scene module)
+for (const f of list('scenes', n => n.endsWith('.locations.json'))) {
+    let name = titleCase(f.replace('.locations.json', ''));
+    let description = 'A map of places for the Scene module.';
+    try {
+        const d = json(`scenes/${f}`);
+        const places = Array.isArray(d) ? d : (d.locations || d.places || d.entries || []);
+        if (d.name) name = String(d.name);
+        description = `${places.length} places with their aliases and backgrounds.`;
+    } catch { /* keep the file name */ }
+    items.push({ type: 'scenes', name, file: `scenes/${f}`, description });
+}
+
 // Regex scripts
 const regexItem = (rel, group) => {
     let names = [];

@@ -1,0 +1,9 @@
+{
+  "format": "worldkit-scene-locations",
+  "version": 1,
+  "locations": [
+    { "id": "harbour-inn", "name": "Harbour Inn", "world": "Example", "parentId": "", "aliases": [{ "pattern": "the inn", "isRegex": false }], "background": "" },
+    { "id": "common-room", "name": "Common Room", "world": "Example", "parentId": "harbour-inn", "aliases": [{ "pattern": "taproom", "isRegex": false }], "background": "" },
+    { "id": "lantern-street", "name": "Lantern Street", "world": "Example", "parentId": "", "aliases": [{ "pattern": "^lantern (st|street|market)", "isRegex": true }], "background": "" }
+  ]
+}
