@@ -86,5 +86,23 @@ if (fs.existsSync(path.join(root, 'art', 'fire-emblem'))) {
     items.push({ type: 'art', name: 'Fire Emblem artwork', file: 'art/fire-emblem/banners/neutral.png', description: 'House banners, weapon icons and crest icons. Copy the art folder into data/<your user>/user/images/worldkit-art/ (see the README).' });
 }
 
+// Sizes, in bytes, so the extension can show what a download weighs before anyone presses it. An item is its file;
+// artwork is its whole folder; a sound pack (when there is one) is the sum of its map and every audio file.
+const dirSize = (dir) => {
+    let total = 0;
+    if (!fs.existsSync(dir)) return 0;
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        total += entry.isDirectory() ? dirSize(full) : fs.statSync(full).size;
+    }
+    return total;
+};
+for (const it of items) {
+    const file = path.join(root, it.file);
+    if (it.type === 'art') it.size = dirSize(path.join(root, 'art', 'fire-emblem'));
+    else if (it.type === 'sounds') it.size = dirSize(path.dirname(file));
+    else if (fs.existsSync(file)) it.size = fs.statSync(file).size;
+}
+
 fs.writeFileSync(path.join(root, 'catalog.json'), `${JSON.stringify({ format: 'worldkit-content', version: 1, items }, null, 2)}\n`);
 console.log(`catalog.json: ${items.length} items`);

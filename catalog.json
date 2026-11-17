@@ -6,473 +6,542 @@
       "type": "world",
       "name": "Lantern Coast Skirmishes",
       "file": "worlds/lantern-coast.world.json",
-      "description": "A sample world made with the Create a world type editor: harbour-town scraps with blades and charms. Seven stats on 0 to 100, a physical and a spirit channel, three skills graded Novice to Master."
+      "description": "A sample world made with the Create a world type editor: harbour-town scraps with blades and charms. Seven stats on 0 to 100, a physical and a spirit channel, three skills graded Novice to Master.",
+      "size": 13080
     },
     {
       "type": "characters",
       "name": "Black Clover",
       "file": "characters/black-clover.characters.json",
-      "description": "10 characters with combat sheets filled in. No portraits or lore."
+      "description": "10 characters with combat sheets filled in. No portraits or lore.",
+      "size": 25244
     },
     {
       "type": "characters",
       "name": "Bleach Arrancar Arc",
       "file": "characters/bleach-arrancar-arc.characters.json",
-      "description": "15 characters with combat sheets filled in. No portraits or lore."
+      "description": "15 characters with combat sheets filled in. No portraits or lore.",
+      "size": 33392
     },
     {
       "type": "characters",
       "name": "Fire Emblem Three Houses",
       "file": "characters/fire-emblem-three-houses.characters.json",
-      "description": "47 characters with combat sheets filled in. No portraits or lore."
+      "description": "47 characters with combat sheets filled in. No portraits or lore.",
+      "size": 159301
     },
     {
       "type": "characters",
       "name": "Lantern Coast",
       "file": "characters/lantern-coast.characters.json",
-      "description": "5 characters with combat sheets filled in. No portraits or lore."
+      "description": "5 characters with combat sheets filled in. No portraits or lore.",
+      "size": 7049
     },
     {
       "type": "lorebook",
       "name": "Lantern Coast",
       "file": "lorebooks/Lantern_Coast.lorebook.json",
-      "description": "A SillyTavern lorebook (World Info)."
+      "description": "A SillyTavern lorebook (World Info).",
+      "size": 9193
     },
     {
       "type": "items",
       "name": "Fire Emblem: Three Houses items",
       "file": "items/fe-three-houses.items.json",
-      "description": "392 items and 5 presets for the Item Database."
+      "description": "392 items and 5 presets for the Item Database.",
+      "size": 76367
     },
     {
       "type": "regex",
       "name": "Worldkit - Bond Bars (Negative)",
       "file": "regex/bonds/Worldkit-Bond-Bars-Negative.json",
       "group": "Bonds (default look)",
-      "description": ""
+      "description": "",
+      "size": 3570
     },
     {
       "type": "regex",
       "name": "Worldkit - Bond Bars (Positive)",
       "file": "regex/bonds/Worldkit-Bond-Bars-Positive.json",
       "group": "Bonds (default look)",
-      "description": ""
+      "description": "",
+      "size": 3573
     },
     {
       "type": "regex",
       "name": "Worldkit - Bond Tracker Context Saver",
       "file": "regex/bonds/Worldkit-Bond-Context-Saver.json",
       "group": "Bonds (default look)",
-      "description": ""
+      "description": "",
+      "size": 508
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Frame",
       "file": "regex/bonds/Worldkit-Bonds-Frame.json",
       "group": "Bonds (default look)",
-      "description": ""
+      "description": "",
+      "size": 947
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Bars",
       "file": "regex/vitals/Worldkit-Vitals-Bars.json",
       "group": "Vitals (default look)",
-      "description": ""
+      "description": "",
+      "size": 3391
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Context Saver",
       "file": "regex/vitals/Worldkit-Vitals-Context-Saver.json",
       "group": "Vitals (default look)",
-      "description": ""
+      "description": "",
+      "size": 496
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Frame",
       "file": "regex/vitals/Worldkit-Vitals-Frame.json",
       "group": "Vitals (default look)",
-      "description": ""
+      "description": "",
+      "size": 942
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Context Saver",
       "file": "regex/inventory/Worldkit-Inventory-Context-Saver.json",
       "group": "Inventory (default look)",
-      "description": ""
+      "description": "",
+      "size": 502
     },
     {
       "type": "regex",
       "name": "Worldkit - Menu Gold (Inventory)",
       "file": "regex/inventory/Worldkit-Inventory-Frame.json",
       "group": "Inventory (default look)",
-      "description": ""
+      "description": "",
+      "size": 923
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Item",
       "file": "regex/inventory/Worldkit-Inventory-Item.json",
       "group": "Inventory (default look)",
-      "description": ""
+      "description": "",
+      "size": 982
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Person",
       "file": "regex/inventory/Worldkit-Inventory-Person.json",
       "group": "Inventory (default look)",
-      "description": ""
+      "description": "",
+      "size": 1289
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Collapse Spacing",
       "file": "regex/internal-states/Worldkit-Internal-States-Collapse-Spacing.json",
       "group": "Internal States (default look)",
-      "description": ""
+      "description": "",
+      "size": 446
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Context Saver",
       "file": "regex/internal-states/Worldkit-Internal-States-Context-Saver.json",
       "group": "Internal States (default look)",
-      "description": ""
+      "description": "",
+      "size": 421
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Entry Breaks",
       "file": "regex/internal-states/Worldkit-Internal-States-Entry-Breaks.json",
       "group": "Internal States (default look)",
-      "description": ""
+      "description": "",
+      "size": 403
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Frame",
       "file": "regex/internal-states/Worldkit-Internal-States-Frame.json",
       "group": "Internal States (default look)",
-      "description": ""
+      "description": "",
+      "size": 751
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Menu Agendas and Locations",
       "file": "regex/internal-states/Worldkit-Internal-States-Menu-Agendas-and-Locations.json",
       "group": "Internal States (default look)",
-      "description": ""
+      "description": "",
+      "size": 1006
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Menu Body Scale",
       "file": "regex/internal-states/Worldkit-Internal-States-Menu-Body-Scale.json",
       "group": "Internal States (default look)",
-      "description": ""
+      "description": "",
+      "size": 965
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Menu Chekhov and Thoughts",
       "file": "regex/internal-states/Worldkit-Internal-States-Menu-Chekhov-and-Thoughts.json",
       "group": "Internal States (default look)",
-      "description": ""
+      "description": "",
+      "size": 1031
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Menu Notebook World Sim and Physics",
       "file": "regex/internal-states/Worldkit-Internal-States-Menu-Notebook-World-Sim-and-Physics.json",
       "group": "Internal States (default look)",
-      "description": ""
+      "description": "",
+      "size": 1044
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Parchment (Negative)",
       "file": "regex/themes/parchment/Worldkit-Bonds-Parchment-(Negative).json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 3151
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Parchment (Positive)",
       "file": "regex/themes/parchment/Worldkit-Bonds-Parchment-(Positive).json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 3154
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Parchment Frame",
       "file": "regex/themes/parchment/Worldkit-Bonds-Parchment-Frame.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 846
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Parchment Entry Breaks",
       "file": "regex/themes/parchment/Worldkit-Internal-States-Parchment-Entry-Breaks.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 413
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Parchment Frame",
       "file": "regex/themes/parchment/Worldkit-Internal-States-Parchment-Frame.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 867
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Parchment Sections",
       "file": "regex/themes/parchment/Worldkit-Internal-States-Parchment-Sections.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 1061
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Parchment Frame",
       "file": "regex/themes/parchment/Worldkit-Inventory-Parchment-Frame.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 847
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Parchment Item",
       "file": "regex/themes/parchment/Worldkit-Inventory-Parchment-Item.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 1129
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Parchment Person",
       "file": "regex/themes/parchment/Worldkit-Inventory-Parchment-Person.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 1306
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Parchment Frame",
       "file": "regex/themes/parchment/Worldkit-Vitals-Parchment-Frame.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 841
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Parchment",
       "file": "regex/themes/parchment/Worldkit-Vitals-Parchment.json",
       "group": "Cozy Parchment look",
-      "description": ""
+      "description": "",
+      "size": 3057
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Persona (Negative)",
       "file": "regex/themes/persona/Worldkit-Bonds-Persona-(Negative).json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 3141
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Persona (Positive)",
       "file": "regex/themes/persona/Worldkit-Bonds-Persona-(Positive).json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 3144
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Persona Frame",
       "file": "regex/themes/persona/Worldkit-Bonds-Persona-Frame.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 923
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Persona Entry Breaks",
       "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Entry-Breaks.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 411
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Persona Frame",
       "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Frame.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 876
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Persona Sections A",
       "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Sections-A.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 948
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Persona Sections B",
       "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Sections-B.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 974
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Persona Sections C",
       "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Sections-C.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 977
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Persona Sections D",
       "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Sections-D.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 918
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Persona Frame",
       "file": "regex/themes/persona/Worldkit-Inventory-Persona-Frame.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 924
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Persona Item",
       "file": "regex/themes/persona/Worldkit-Inventory-Persona-Item.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 1155
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Persona Person",
       "file": "regex/themes/persona/Worldkit-Inventory-Persona-Person.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 1554
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Persona Frame",
       "file": "regex/themes/persona/Worldkit-Vitals-Persona-Frame.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 918
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Persona",
       "file": "regex/themes/persona/Worldkit-Vitals-Persona.json",
       "group": "Persona HUD look",
-      "description": ""
+      "description": "",
+      "size": 3191
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Tactical (Negative)",
       "file": "regex/themes/tactical/Worldkit-Bonds-Tactical-(Negative).json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 3167
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Tactical (Positive)",
       "file": "regex/themes/tactical/Worldkit-Bonds-Tactical-(Positive).json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 3170
     },
     {
       "type": "regex",
       "name": "Worldkit - Bonds Tactical Frame",
       "file": "regex/themes/tactical/Worldkit-Bonds-Tactical-Frame.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 859
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Tactical Entry Breaks",
       "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Entry-Breaks.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 412
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Tactical Frame",
       "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Frame.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 879
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Tactical Sections A",
       "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Sections-A.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 975
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Tactical Sections B",
       "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Sections-B.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 1003
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Tactical Sections C",
       "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Sections-C.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 1005
     },
     {
       "type": "regex",
       "name": "Worldkit - Internal States Tactical Sections D",
       "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Sections-D.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 946
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Tactical Frame",
       "file": "regex/themes/tactical/Worldkit-Inventory-Tactical-Frame.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 860
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Tactical Item",
       "file": "regex/themes/tactical/Worldkit-Inventory-Tactical-Item.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 1277
     },
     {
       "type": "regex",
       "name": "Worldkit - Inventory Tactical Person",
       "file": "regex/themes/tactical/Worldkit-Inventory-Tactical-Person.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 1361
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Tactical Frame",
       "file": "regex/themes/tactical/Worldkit-Vitals-Tactical-Frame.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 854
     },
     {
       "type": "regex",
       "name": "Worldkit - Vitals Tactical",
       "file": "regex/themes/tactical/Worldkit-Vitals-Tactical.json",
       "group": "Tactical Glass Telemetry look",
-      "description": ""
+      "description": "",
+      "size": 3050
     },
     {
       "type": "workflow",
       "name": "General Text To Image Moss",
       "file": "workflows/general-text-to-image-moss.workflow.json",
-      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box."
+      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box.",
+      "size": 28558
     },
     {
       "type": "workflow",
       "name": "Selfie Character Sheet Uncensored Minimax H3",
       "file": "workflows/selfie-character-sheet-uncensored-minimax-h3.workflow.json",
-      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box."
+      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box.",
+      "size": 25537
     },
     {
       "type": "workflow",
       "name": "Selfie Character Sheet",
       "file": "workflows/selfie-character-sheet.workflow.json",
-      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box."
+      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box.",
+      "size": 25493
     },
     {
       "type": "art",
       "name": "Fire Emblem artwork",
       "file": "art/fire-emblem/banners/neutral.png",
-      "description": "House banners, weapon icons and crest icons. Copy the art folder into data/<your user>/user/images/worldkit-art/ (see the README)."
+      "description": "House banners, weapon icons and crest icons. Copy the art folder into data/<your user>/user/images/worldkit-art/ (see the README).",
+      "size": 16213024
     }
   ]
 }
