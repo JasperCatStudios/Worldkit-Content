@@ -1,0 +1,4 @@
+#!/bin/sh
+# Refuses a push that would publish an API key or other credential in any commit being pushed. See tools/secret-scan.mjs.
+# One-time setup per clone: git config core.hooksPath .githooks
+exec node tools/secret-scan.mjs --push
