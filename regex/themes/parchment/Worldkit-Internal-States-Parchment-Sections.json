@@ -1,0 +1,17 @@
+{
+  "id": "4e2b9e6f-d869-40c7-aca8-5d06a8f39fcc",
+  "scriptName": "Worldkit - Internal States Parchment Sections",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?)(NPC AGENDAS|NPC LOCATIONS|FACTIONS|BONDS|QUESTS|CHEKHOV'S GUN|CHEKHOV SEEDS|INTERNAL THOUGHTS|GM'S NOTEBOOK|WORLD SIM|PLOT MOMENTUM|DND TASK SIM|PHYSICS, ENGINE &(?:amp;)? WORLD|BODY SCALE)([^<]{0,200}?)<\\/summary>((?:(?!<\\/details>)[\\s\\S])*)<\\/details>/g",
+  "replaceString": "<details open style=\"background:#ede0c4;border:1px solid #cbb38f;border-radius:8px;padding:8px 12px;margin:6px 0;font-family:'Crimson Pro','Georgia',serif;\"><summary style=\"cursor:pointer;font-weight:700;color:#5c3a21;font-size:.98em;\">$1$2$3</summary><div style=\"margin-top:8px;padding-top:8px;border-top:1px dashed #b89f7d;font-size:.9em;line-height:1.45;color:#3b2818;\">$4</div></details>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "b0e950b9-3367-4c69-a9c5-b78c9108bb6a",
+  "scriptName": "Worldkit - Internal States Persona Sections B",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?)(QUESTS|CHEKHOV'S GUN|CHEKHOV SEEDS|INTERNAL THOUGHTS|GM'S NOTEBOOK)([^<]{0,200}?)<\\/summary>((?:(?!<\\/details>)[\\s\\S])*)<\\/details>/g",
+  "replaceString": "<details open style=\"background:#18181b;border:1px solid #3f3f46;border-left:5px solid #facc15;padding:8px 12px;margin:6px 0;font-family:'Inter',sans-serif;\"><summary style=\"cursor:pointer;font-family:'Anton',sans-serif;letter-spacing:.8px;color:#facc15;list-style:none;\">$1$2$3</summary><div style=\"margin-top:8px;padding-top:8px;border-top:1px solid #27272a;font-size:.82em;line-height:1.5;color:#e4e4e7;\">$4</div></details>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

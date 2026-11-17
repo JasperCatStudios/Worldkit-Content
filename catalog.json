@@ -131,6 +131,13 @@
     },
     {
       "type": "regex",
+      "name": "Worldkit - Internal States Entry Breaks",
+      "file": "regex/internal-states/Worldkit-Internal-States-Entry-Breaks.json",
+      "group": "Internal States (default look)",
+      "description": ""
+    },
+    {
+      "type": "regex",
       "name": "Worldkit - Internal States Frame",
       "file": "regex/internal-states/Worldkit-Internal-States-Frame.json",
       "group": "Internal States (default look)",
@@ -187,6 +194,27 @@
     },
     {
       "type": "regex",
+      "name": "Worldkit - Internal States Parchment Entry Breaks",
+      "file": "regex/themes/parchment/Worldkit-Internal-States-Parchment-Entry-Breaks.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Parchment Frame",
+      "file": "regex/themes/parchment/Worldkit-Internal-States-Parchment-Frame.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Parchment Sections",
+      "file": "regex/themes/parchment/Worldkit-Internal-States-Parchment-Sections.json",
+      "group": "Cozy Parchment look",
+      "description": ""
+    },
+    {
+      "type": "regex",
       "name": "Worldkit - Inventory Parchment Frame",
       "file": "regex/themes/parchment/Worldkit-Inventory-Parchment-Frame.json",
       "group": "Cozy Parchment look",
@@ -221,12 +249,6 @@
       "description": ""
     },
     {
-      "type": "template",
-      "name": "Internal States template (Cozy Parchment)",
-      "file": "regex/themes/parchment/Worldkit-Internal-States-parchment-template.html",
-      "description": "Copy it, then paste it over the template part of Prompts, Internal States."
-    },
-    {
       "type": "regex",
       "name": "Worldkit - Bonds Persona (Negative)",
       "file": "regex/themes/persona/Worldkit-Bonds-Persona-(Negative).json",
@@ -244,6 +266,48 @@
       "type": "regex",
       "name": "Worldkit - Bonds Persona Frame",
       "file": "regex/themes/persona/Worldkit-Bonds-Persona-Frame.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Persona Entry Breaks",
+      "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Entry-Breaks.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Persona Frame",
+      "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Frame.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Persona Sections A",
+      "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Sections-A.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Persona Sections B",
+      "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Sections-B.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Persona Sections C",
+      "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Sections-C.json",
+      "group": "Persona HUD look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Persona Sections D",
+      "file": "regex/themes/persona/Worldkit-Internal-States-Persona-Sections-D.json",
       "group": "Persona HUD look",
       "description": ""
     },
@@ -283,12 +347,6 @@
       "description": ""
     },
     {
-      "type": "template",
-      "name": "Internal States template (Persona HUD)",
-      "file": "regex/themes/persona/Worldkit-Internal-States-persona-template.html",
-      "description": "Copy it, then paste it over the template part of Prompts, Internal States."
-    },
-    {
       "type": "regex",
       "name": "Worldkit - Bonds Tactical (Negative)",
       "file": "regex/themes/tactical/Worldkit-Bonds-Tactical-(Negative).json",
@@ -306,6 +364,48 @@
       "type": "regex",
       "name": "Worldkit - Bonds Tactical Frame",
       "file": "regex/themes/tactical/Worldkit-Bonds-Tactical-Frame.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Tactical Entry Breaks",
+      "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Entry-Breaks.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Tactical Frame",
+      "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Frame.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Tactical Sections A",
+      "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Sections-A.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Tactical Sections B",
+      "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Sections-B.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Tactical Sections C",
+      "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Sections-C.json",
+      "group": "Tactical Glass Telemetry look",
+      "description": ""
+    },
+    {
+      "type": "regex",
+      "name": "Worldkit - Internal States Tactical Sections D",
+      "file": "regex/themes/tactical/Worldkit-Internal-States-Tactical-Sections-D.json",
       "group": "Tactical Glass Telemetry look",
       "description": ""
     },
@@ -343,12 +443,6 @@
       "file": "regex/themes/tactical/Worldkit-Vitals-Tactical.json",
       "group": "Tactical Glass Telemetry look",
       "description": ""
-    },
-    {
-      "type": "template",
-      "name": "Internal States template (Tactical Glass Telemetry)",
-      "file": "regex/themes/tactical/Worldkit-Internal-States-tactical-template.html",
-      "description": "Copy it, then paste it over the template part of Prompts, Internal States."
     },
     {
       "type": "workflow",

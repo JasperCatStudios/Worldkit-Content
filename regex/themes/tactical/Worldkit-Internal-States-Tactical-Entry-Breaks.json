@@ -1,0 +1,17 @@
+{
+  "id": "b4ab62d4-5b2b-4645-a01c-5aa244ee4456",
+  "scriptName": "Worldkit - Internal States Tactical Entry Breaks",
+  "findRegex": "/([^>\\n])[ \\t]*\\n[ \\t]*(-[ \\t]*<b)/g",
+  "replaceString": "$1<br>$2",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

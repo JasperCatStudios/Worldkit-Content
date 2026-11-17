@@ -1,0 +1,17 @@
+{
+  "id": "d6c84748-5a3e-467a-ae82-604f0043cdfa",
+  "scriptName": "Worldkit - Internal States Tactical Sections A",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?)(NPC AGENDAS|NPC LOCATIONS|FACTIONS|BONDS)([^<]{0,200}?)<\\/summary>((?:(?!<\\/details>)[\\s\\S])*)<\\/details>/g",
+  "replaceString": "<details open style=\"background:rgba(30,41,59,.65);border:1px solid rgba(244,63,94,.24);border-left:3px solid #f43f5e;border-radius:8px;padding:8px 12px;margin:6px 0;font-family:'Inter',sans-serif;\"><summary style=\"cursor:pointer;font-weight:700;font-size:.92em;letter-spacing:.06em;color:#f43f5e;\">$1$2$3</summary><div style=\"margin-top:6px;padding-top:6px;border-top:1px solid #334155;font-size:.8em;line-height:1.5;color:#e2e8f0;\">$4</div></details>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

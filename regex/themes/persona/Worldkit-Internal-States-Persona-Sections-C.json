@@ -1,0 +1,17 @@
+{
+  "id": "349c260d-79d8-45a8-a8bd-50aa5c638b7b",
+  "scriptName": "Worldkit - Internal States Persona Sections C",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?)(WORLD SIM|PLOT MOMENTUM|DND TASK SIM|PHYSICS, ENGINE &(?:amp;)? WORLD)([^<]{0,200}?)<\\/summary>((?:(?!<\\/details>)[\\s\\S])*)<\\/details>/g",
+  "replaceString": "<details open style=\"background:#18181b;border:1px solid #3f3f46;border-left:5px solid #38bdf8;padding:8px 12px;margin:6px 0;font-family:'Inter',sans-serif;\"><summary style=\"cursor:pointer;font-family:'Anton',sans-serif;letter-spacing:.8px;color:#38bdf8;list-style:none;\">$1$2$3</summary><div style=\"margin-top:8px;padding-top:8px;border-top:1px solid #27272a;font-size:.82em;line-height:1.5;color:#e4e4e7;\">$4</div></details>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

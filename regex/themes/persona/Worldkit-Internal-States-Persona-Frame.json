@@ -1,0 +1,17 @@
+{
+  "id": "02b54b6b-280c-4918-a691-c10438c375b9",
+  "scriptName": "Worldkit - Internal States Persona Frame",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?INTERNAL STATES[^<]{0,200}?)<\\/summary>/g",
+  "replaceString": "<details open style=\"font-family:'Inter',sans-serif;background:#09090b;color:#ffffff;border:3px solid #e11d48;padding:16px;max-width:580px;margin:8px 0;box-shadow:6px 6px 0 #e11d48;\"><summary style=\"cursor:pointer;font-family:'Anton',sans-serif;font-size:1.25em;letter-spacing:1px;color:#09090b;background:#ffffff;padding:4px 14px;transform:skewX(-8deg);list-style:none;margin-bottom:12px;border-left:6px solid #e11d48;\">$1</summary>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e1d6a15b-ead4-4a3e-a9f6-f3811a758f1d",
+  "scriptName": "Worldkit - Internal States Tactical Frame",
+  "findRegex": "/<details>\\s{0,100}<summary>([^<]{0,200}?INTERNAL STATES[^<]{0,200}?)<\\/summary>/g",
+  "replaceString": "<details open style=\"font-family:'Inter',sans-serif;background:linear-gradient(165deg,#0f172a 0%,#1e293b 100%);color:#f8fafc;border:1px solid #334155;border-radius:12px;padding:16px;max-width:580px;margin:8px 0;box-shadow:0 10px 25px rgba(0,0,0,.45);\"><summary style=\"cursor:pointer;font-weight:700;font-size:1.05em;letter-spacing:.06em;color:#f43f5e;border-bottom:1px solid #334155;padding-bottom:5px;margin-bottom:10px;\">$1</summary>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

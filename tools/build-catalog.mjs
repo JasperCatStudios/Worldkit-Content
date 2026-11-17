@@ -62,9 +62,6 @@ for (const [dir, label] of Object.entries(TRACKERS)) {
 const LOOKS = { parchment: 'Cozy Parchment look', persona: 'Persona HUD look', tactical: 'Tactical Glass Telemetry look' };
 for (const [dir, group] of Object.entries(LOOKS)) {
     for (const f of list(`regex/themes/${dir}`, n => n.endsWith('.json'))) regexItem(`regex/themes/${dir}/${f}`, group);
-    for (const f of list(`regex/themes/${dir}`, n => n.endsWith('.html'))) {
-        items.push({ type: 'template', name: `Internal States template (${group.replace(' look', '')})`, file: `regex/themes/${dir}/${f}`, description: 'Copy it, then paste it over the template part of Prompts, Internal States.' });
-    }
 }
 
 // Workflows
