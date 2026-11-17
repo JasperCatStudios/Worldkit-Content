@@ -34,6 +34,10 @@ They only matter when that tracker's block is written **inside the reply** (Bond
 
 The Freaky Frankenstein menu scripts (`FF5 UI - ...`) are that preset's own and are not in this repository. The `internal-states/` scripts here are Worldkit's own menus, drawn to look similar, and need no FF5 script.
 
+## Your own look (Custom)
+
+The Look menu has **Custom (my own regexes)** for people who write their own. It runs only the scripts in SillyTavern's Regex menu whose name starts with `Custom - ` (the prefix can be changed in the Look menu), **even if they are switched off there**. Keep them switched off and they cannot touch the Default look or your chats, while Worldkit still draws them. With Custom picked, SillyTavern's other regexes (the Freaky Frankenstein set) and the built-in default stay out of the way, so it is only yours. Every `Custom - ` script runs on every tracker's block, in list order, so write each find regex to match only the block you mean (the line formats are above). Picking Custom picks it for Internal States, Bonds, Vitals and Inventory together; pick Default again to go back, nothing is lost.
+
 ## Looks (`themes/`)
 
 Three complete looks for the Bond, Vitals and Inventory blocks, and for Internal States: **Cozy Parchment**, **Persona HUD** and **Tactical Glass Telemetry**. Each has its own folder:
