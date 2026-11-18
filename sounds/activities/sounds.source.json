@@ -294,6 +294,267 @@
       "seconds": 1.2,
       "variants": 1,
       "prompt": "Quiet bite into crusty bread with a soft chew"
+    },
+    {
+      "tag": "activity_bow_loose",
+      "group": "activities",
+      "description": "loosing an arrow",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Longbow string twang and a fast arrow whoosh"
+    },
+    {
+      "tag": "activity_bow_hit",
+      "group": "activities",
+      "description": "an arrow hits the target",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Arrow thudding into a wooden target, solid thunk"
+    },
+    {
+      "tag": "activity_bow_miss",
+      "group": "activities",
+      "description": "an arrow misses",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Arrow sticking into soft grass, muffled thud"
+    },
+    {
+      "tag": "activity_wind_gust",
+      "group": "activities",
+      "description": "wind gusting",
+      "loop": true,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "Steady wind gusting across an open field, no music"
+    },
+    {
+      "tag": "activity_wing_flap",
+      "group": "activities",
+      "description": "a wing flap",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "One powerful flap of large feathered wings"
+    },
+    {
+      "tag": "activity_thunder_strike",
+      "group": "activities",
+      "description": "lightning strikes",
+      "loop": false,
+      "seconds": 2.5,
+      "variants": 1,
+      "prompt": "Sharp close thunder crack with a rolling rumble"
+    },
+    {
+      "tag": "activity_lightning_warn",
+      "group": "activities",
+      "description": "lightning about to strike",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Rising electric crackle building before a lightning strike"
+    },
+    {
+      "tag": "activity_ring_pass",
+      "group": "activities",
+      "description": "flying through a ring",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Bright airy whoosh and a soft magical chime as something flies through a ring"
+    },
+    {
+      "tag": "activity_horse_jump",
+      "group": "activities",
+      "description": "a horse jumps",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Horse jumping a fence and landing, hooves thud on dirt"
+    },
+    {
+      "tag": "activity_mud_splash",
+      "group": "activities",
+      "description": "hooves in mud",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Horse hooves splashing through a muddy puddle"
+    },
+    {
+      "tag": "activity_gate_open",
+      "group": "activities",
+      "description": "a gate creaks open",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Wooden farm gate creaking open on iron hinges"
+    },
+    {
+      "tag": "activity_cast_fire",
+      "group": "activities",
+      "description": "a fire spell",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Fire spell cast: a crackling whoosh of flame"
+    },
+    {
+      "tag": "activity_cast_water",
+      "group": "activities",
+      "description": "a water spell",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Water spell cast: a rushing splash and a bubbling swirl"
+    },
+    {
+      "tag": "activity_cast_wind",
+      "group": "activities",
+      "description": "a wind spell",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Wind spell cast: a sharp cutting gust and swirling air"
+    },
+    {
+      "tag": "activity_cast_earth",
+      "group": "activities",
+      "description": "an earth spell",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Earth spell cast: a deep rumble and rocks cracking"
+    },
+    {
+      "tag": "activity_cast_light",
+      "group": "activities",
+      "description": "a light spell",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Light spell cast: a bright holy shimmer with a high chime"
+    },
+    {
+      "tag": "activity_cast_dark",
+      "group": "activities",
+      "description": "a dark spell",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Dark spell cast: a low ominous whoosh with a deep hum"
+    },
+    {
+      "tag": "activity_spell_combo",
+      "group": "activities",
+      "description": "a spell combo",
+      "loop": false,
+      "seconds": 1.8,
+      "variants": 1,
+      "prompt": "Big magical combo blast: layered elemental burst ending in a bright chime"
+    },
+    {
+      "tag": "activity_dummy_heal",
+      "group": "activities",
+      "description": "the dummy recovers",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "A training dummy glowing with a soft restoring hum and a comical boing"
+    },
+    {
+      "tag": "activity_heal_chime",
+      "group": "activities",
+      "description": "a healing spell",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Gentle healing chime with a warm rising shimmer"
+    },
+    {
+      "tag": "activity_cure_chime",
+      "group": "activities",
+      "description": "an ailment cured",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Soft cleansing sparkle, a quick bright twinkle"
+    },
+    {
+      "tag": "activity_pray_hum",
+      "group": "activities",
+      "description": "praying",
+      "loop": true,
+      "seconds": 4,
+      "variants": 1,
+      "prompt": "Soft sustained choir-like prayer hum with a warm glow, calm"
+    },
+    {
+      "tag": "activity_armor_clank",
+      "group": "activities",
+      "description": "armor clanks",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Heavy plate armor clanking as someone braces"
+    },
+    {
+      "tag": "activity_armor_strain",
+      "group": "activities",
+      "description": "armor strains",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Armor straining and creaking under heavy load, a tired groan of metal"
+    },
+    {
+      "tag": "activity_parry_clash",
+      "group": "activities",
+      "description": "a parry",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Two practice swords clashing in a parry, sharp metallic ring"
+    },
+    {
+      "tag": "activity_lance_thrust",
+      "group": "activities",
+      "description": "a lance thrust",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "A lance thrust whoosh with a short dull hit"
+    },
+    {
+      "tag": "activity_axe_swing",
+      "group": "activities",
+      "description": "an axe swing",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "A heavy axe swing whoosh ending in a solid chop into wood"
+    },
+    {
+      "tag": "activity_punch_combo",
+      "group": "activities",
+      "description": "a punch combo",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "A quick fist punch combo against a leather pad, three fast thuds"
+    },
+    {
+      "tag": "activity_order_bell",
+      "group": "activities",
+      "description": "an order is given",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "A small brass desk bell ding, crisp and short"
     }
   ]
 }

@@ -264,6 +264,242 @@
       "volume": 0.8,
       "group": "activities",
       "description": "a bite of bread"
+    },
+    "activity_bow_loose": {
+      "files": [
+        "audio/activity-bow-loose.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "loosing an arrow"
+    },
+    "activity_bow_hit": {
+      "files": [
+        "audio/activity-bow-hit.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "an arrow hits the target"
+    },
+    "activity_bow_miss": {
+      "files": [
+        "audio/activity-bow-miss.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "an arrow misses"
+    },
+    "activity_wind_gust": {
+      "files": [
+        "audio/activity-wind-gust.mp3"
+      ],
+      "volume": 0.5,
+      "group": "activities",
+      "description": "wind gusting",
+      "loop": true,
+      "fadeMs": 800
+    },
+    "activity_wing_flap": {
+      "files": [
+        "audio/activity-wing-flap.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a wing flap"
+    },
+    "activity_thunder_strike": {
+      "files": [
+        "audio/activity-thunder-strike.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "lightning strikes"
+    },
+    "activity_lightning_warn": {
+      "files": [
+        "audio/activity-lightning-warn.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "lightning about to strike"
+    },
+    "activity_ring_pass": {
+      "files": [
+        "audio/activity-ring-pass.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "flying through a ring"
+    },
+    "activity_horse_jump": {
+      "files": [
+        "audio/activity-horse-jump.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a horse jumps"
+    },
+    "activity_mud_splash": {
+      "files": [
+        "audio/activity-mud-splash.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "hooves in mud"
+    },
+    "activity_gate_open": {
+      "files": [
+        "audio/activity-gate-open.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a gate creaks open"
+    },
+    "activity_cast_fire": {
+      "files": [
+        "audio/activity-cast-fire.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a fire spell"
+    },
+    "activity_cast_water": {
+      "files": [
+        "audio/activity-cast-water.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a water spell"
+    },
+    "activity_cast_wind": {
+      "files": [
+        "audio/activity-cast-wind.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a wind spell"
+    },
+    "activity_cast_earth": {
+      "files": [
+        "audio/activity-cast-earth.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "an earth spell"
+    },
+    "activity_cast_light": {
+      "files": [
+        "audio/activity-cast-light.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a light spell"
+    },
+    "activity_cast_dark": {
+      "files": [
+        "audio/activity-cast-dark.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a dark spell"
+    },
+    "activity_spell_combo": {
+      "files": [
+        "audio/activity-spell-combo.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a spell combo"
+    },
+    "activity_dummy_heal": {
+      "files": [
+        "audio/activity-dummy-heal.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "the dummy recovers"
+    },
+    "activity_heal_chime": {
+      "files": [
+        "audio/activity-heal-chime.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a healing spell"
+    },
+    "activity_cure_chime": {
+      "files": [
+        "audio/activity-cure-chime.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "an ailment cured"
+    },
+    "activity_pray_hum": {
+      "files": [
+        "audio/activity-pray-hum.mp3"
+      ],
+      "volume": 0.5,
+      "group": "activities",
+      "description": "praying",
+      "loop": true,
+      "fadeMs": 800
+    },
+    "activity_armor_clank": {
+      "files": [
+        "audio/activity-armor-clank.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "armor clanks"
+    },
+    "activity_armor_strain": {
+      "files": [
+        "audio/activity-armor-strain.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "armor strains"
+    },
+    "activity_parry_clash": {
+      "files": [
+        "audio/activity-parry-clash.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a parry"
+    },
+    "activity_lance_thrust": {
+      "files": [
+        "audio/activity-lance-thrust.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a lance thrust"
+    },
+    "activity_axe_swing": {
+      "files": [
+        "audio/activity-axe-swing.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "an axe swing"
+    },
+    "activity_punch_combo": {
+      "files": [
+        "audio/activity-punch-combo.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a punch combo"
+    },
+    "activity_order_bell": {
+      "files": [
+        "audio/activity-order-bell.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "an order is given"
     }
   }
 }

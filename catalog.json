@@ -62,8 +62,8 @@
       "type": "sounds",
       "name": "Activity sounds",
       "file": "sounds/activities/map.json",
-      "description": "32 sounds (3 loops), with a map for the Sound module. Optional.",
-      "size": 852980
+      "description": "61 sounds (5 loops), with a map for the Sound module. Optional.",
+      "size": 1490978
     },
     {
       "type": "sounds",
