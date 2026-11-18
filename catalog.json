@@ -566,6 +566,13 @@
     },
     {
       "type": "art",
+      "name": "Tea Time art (anime table, teas and snacks)",
+      "file": "art/activities/tea/table.webp",
+      "description": "An anime-style garden tea table, a top-down tabletop, eight cups of tea and ten snacks as separate cut-out pictures, for the Activities Tea Time screen. Copy art/activities/tea into data/<your user>/user/images/worldkit-art/activities/tea/ (see the README), or use it straight from the installed Content Kit.",
+      "size": 1691478
+    },
+    {
+      "type": "art",
       "name": "Fire Emblem artwork",
       "file": "art/fire-emblem/banners/neutral.png",
       "description": "House banners, weapon icons and crest icons. Copy the art folder into data/<your user>/user/images/worldkit-art/ (see the README).",
