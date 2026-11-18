@@ -1,0 +1,269 @@
+{
+  "format": "worldkit-sounds",
+  "version": 1,
+  "name": "Activity sounds",
+  "sounds": {
+    "activity_cook_chop": {
+      "files": [
+        "audio/activity-cook-chop.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "chopping vegetables"
+    },
+    "activity_cook_sizzle": {
+      "files": [
+        "audio/activity-cook-sizzle.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "food in a hot pan"
+    },
+    "activity_cook_bubble": {
+      "files": [
+        "audio/activity-cook-bubble.mp3"
+      ],
+      "volume": 0.5,
+      "group": "activities",
+      "description": "stew bubbling",
+      "loop": true,
+      "fadeMs": 800
+    },
+    "activity_cook_done": {
+      "files": [
+        "audio/activity-cook-done.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "dish is ready"
+    },
+    "activity_fish_cast": {
+      "files": [
+        "audio/activity-fish-cast.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "casting a line"
+    },
+    "activity_fish_bite": {
+      "files": [
+        "audio/activity-fish-bite.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a bite"
+    },
+    "activity_fish_reel": {
+      "files": [
+        "audio/activity-fish-reel.mp3"
+      ],
+      "volume": 0.5,
+      "group": "activities",
+      "description": "reeling in",
+      "loop": true,
+      "fadeMs": 800
+    },
+    "activity_fish_catch": {
+      "files": [
+        "audio/activity-fish-catch.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a catch"
+    },
+    "activity_fish_lost": {
+      "files": [
+        "audio/activity-fish-lost.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "the line snaps"
+    },
+    "activity_garden_dig": {
+      "files": [
+        "audio/activity-garden-dig.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "digging"
+    },
+    "activity_garden_water": {
+      "files": [
+        "audio/activity-garden-water.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "watering"
+    },
+    "activity_garden_harvest": {
+      "files": [
+        "audio/activity-garden-harvest.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "pulling a vegetable"
+    },
+    "activity_study_flip": {
+      "files": [
+        "audio/activity-study-flip.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a rune card flips"
+    },
+    "activity_study_match": {
+      "files": [
+        "audio/activity-study-match.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a rune match"
+    },
+    "activity_study_miss": {
+      "files": [
+        "audio/activity-study-miss.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "no match"
+    },
+    "activity_study_curse": {
+      "files": [
+        "audio/activity-study-curse.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "cursed rune shuffles the board"
+    },
+    "activity_study_clear": {
+      "files": [
+        "audio/activity-study-clear.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "board cleared"
+    },
+    "activity_potion_pour": {
+      "files": [
+        "audio/activity-potion-pour.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "pouring a potion"
+    },
+    "activity_potion_bubble": {
+      "files": [
+        "audio/activity-potion-bubble.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "flask bubbling"
+    },
+    "activity_potion_hint": {
+      "files": [
+        "audio/activity-potion-hint.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a clue"
+    },
+    "activity_potion_success": {
+      "files": [
+        "audio/activity-potion-success.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "formula solved"
+    },
+    "activity_potion_fail": {
+      "files": [
+        "audio/activity-potion-fail.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "formula failed"
+    },
+    "activity_tea_pour": {
+      "files": [
+        "audio/activity-tea-pour.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "pouring tea"
+    },
+    "activity_tea_cup": {
+      "files": [
+        "audio/activity-tea-cup.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a cup set down"
+    },
+    "activity_tea_good": {
+      "files": [
+        "audio/activity-tea-good.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a good answer"
+    },
+    "activity_tea_bad": {
+      "files": [
+        "audio/activity-tea-bad.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "an awkward answer"
+    },
+    "activity_drill_hit": {
+      "files": [
+        "audio/activity-drill-hit.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a drill hit"
+    },
+    "activity_drill_miss": {
+      "files": [
+        "audio/activity-drill-miss.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a drill miss"
+    },
+    "activity_drill_hooves": {
+      "files": [
+        "audio/activity-drill-hooves.mp3"
+      ],
+      "volume": 0.5,
+      "group": "activities",
+      "description": "a horse trotting",
+      "loop": true,
+      "fadeMs": 800
+    },
+    "activity_drill_whistle": {
+      "files": [
+        "audio/activity-drill-whistle.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "instructor whistle"
+    },
+    "activity_item_sell": {
+      "files": [
+        "audio/activity-item-sell.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "coins in a pouch"
+    },
+    "activity_item_eat": {
+      "files": [
+        "audio/activity-item-eat.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a bite of bread"
+    }
+  }
+}

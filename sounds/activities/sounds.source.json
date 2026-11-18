@@ -1,0 +1,299 @@
+{
+  "format": "worldkit-sounds-source",
+  "version": 1,
+  "name": "Activity sounds",
+  "generator": {
+    "endpoint": "elevenlabs/sound-effects/v3",
+    "note": "Generated with ElevenLabs sound effects v3 on fal.ai under the pack owner's paid ElevenLabs plan."
+  },
+  "sounds": [
+    {
+      "tag": "activity_cook_chop",
+      "group": "activities",
+      "description": "chopping vegetables",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Kitchen knife chopping vegetables on a wooden board, four quick even chops, dry room, close mic"
+    },
+    {
+      "tag": "activity_cook_sizzle",
+      "group": "activities",
+      "description": "food in a hot pan",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "Food dropped into a hot iron pan, sharp sizzle settling to a steady fry, close mic"
+    },
+    {
+      "tag": "activity_cook_bubble",
+      "group": "activities",
+      "description": "stew bubbling",
+      "loop": true,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "Pot of stew gently bubbling over a wood fire, soft and steady"
+    },
+    {
+      "tag": "activity_cook_done",
+      "group": "activities",
+      "description": "dish is ready",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Wooden spoon taps a clay pot twice, then a soft satisfied bell chime"
+    },
+    {
+      "tag": "activity_fish_cast",
+      "group": "activities",
+      "description": "casting a line",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Fishing rod whip and line whizz, then a small lure plop into calm water"
+    },
+    {
+      "tag": "activity_fish_bite",
+      "group": "activities",
+      "description": "a bite",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Sudden tug splash at the water surface with a reel click"
+    },
+    {
+      "tag": "activity_fish_reel",
+      "group": "activities",
+      "description": "reeling in",
+      "loop": true,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "Wooden fishing reel winding steadily with light line tension creak"
+    },
+    {
+      "tag": "activity_fish_catch",
+      "group": "activities",
+      "description": "a catch",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "Fish pulled from water with a splash and wet flapping on wooden planks"
+    },
+    {
+      "tag": "activity_fish_lost",
+      "group": "activities",
+      "description": "the line snaps",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Fishing line snapping with a twang, then a small splash fading"
+    },
+    {
+      "tag": "activity_garden_dig",
+      "group": "activities",
+      "description": "digging",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Hand trowel digging into soft soil twice"
+    },
+    {
+      "tag": "activity_garden_water",
+      "group": "activities",
+      "description": "watering",
+      "loop": false,
+      "seconds": 2.5,
+      "variants": 1,
+      "prompt": "Watering can pouring gently on leaves and soil"
+    },
+    {
+      "tag": "activity_garden_harvest",
+      "group": "activities",
+      "description": "pulling a vegetable",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Pulling a root vegetable from soil, soft rustle of leaves"
+    },
+    {
+      "tag": "activity_study_flip",
+      "group": "activities",
+      "description": "a rune card flips",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Thick parchment card flipped onto a wooden desk, papery and soft"
+    },
+    {
+      "tag": "activity_study_match",
+      "group": "activities",
+      "description": "a rune match",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Two soft glass chimes in harmony, a gentle magical shimmer"
+    },
+    {
+      "tag": "activity_study_miss",
+      "group": "activities",
+      "description": "no match",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Low muted wooden knock, gentle and not harsh"
+    },
+    {
+      "tag": "activity_study_curse",
+      "group": "activities",
+      "description": "cursed rune shuffles the board",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Dark whoosh with a low hum, cards fluttering and sliding across a table"
+    },
+    {
+      "tag": "activity_study_clear",
+      "group": "activities",
+      "description": "board cleared",
+      "loop": false,
+      "seconds": 2.5,
+      "variants": 1,
+      "prompt": "Rising magical chime arpeggio with a page turn, triumphant but quiet"
+    },
+    {
+      "tag": "activity_potion_pour",
+      "group": "activities",
+      "description": "pouring a potion",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Liquid poured from a small glass vial into a flask, light glug"
+    },
+    {
+      "tag": "activity_potion_bubble",
+      "group": "activities",
+      "description": "flask bubbling",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "Glass alchemy flask bubbling and fizzing softly"
+    },
+    {
+      "tag": "activity_potion_hint",
+      "group": "activities",
+      "description": "a clue",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Small crystal tick, bright and short"
+    },
+    {
+      "tag": "activity_potion_success",
+      "group": "activities",
+      "description": "formula solved",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "Glass flask cork pop then a warm sparkling shimmer"
+    },
+    {
+      "tag": "activity_potion_fail",
+      "group": "activities",
+      "description": "formula failed",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Muffled puff of smoke from a flask with a sad low bubble"
+    },
+    {
+      "tag": "activity_tea_pour",
+      "group": "activities",
+      "description": "pouring tea",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "Hot tea poured from a porcelain teapot into a cup, gentle stream"
+    },
+    {
+      "tag": "activity_tea_cup",
+      "group": "activities",
+      "description": "a cup set down",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Porcelain teacup set down on a saucer, soft clink"
+    },
+    {
+      "tag": "activity_tea_good",
+      "group": "activities",
+      "description": "a good answer",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Light pleasant harp pluck, warm and short"
+    },
+    {
+      "tag": "activity_tea_bad",
+      "group": "activities",
+      "description": "an awkward answer",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Soft low muted pluck, slightly awkward, not harsh"
+    },
+    {
+      "tag": "activity_drill_hit",
+      "group": "activities",
+      "description": "a drill hit",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Wooden training sword striking a padded dummy, firm thud"
+    },
+    {
+      "tag": "activity_drill_miss",
+      "group": "activities",
+      "description": "a drill miss",
+      "loop": false,
+      "seconds": 0.8,
+      "variants": 1,
+      "prompt": "Quick swish of a practice weapon through air"
+    },
+    {
+      "tag": "activity_drill_hooves",
+      "group": "activities",
+      "description": "a horse trotting",
+      "loop": true,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "Single horse trotting on packed dirt, steady rhythm"
+    },
+    {
+      "tag": "activity_drill_whistle",
+      "group": "activities",
+      "description": "instructor whistle",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Short instructor whistle blast outdoors"
+    },
+    {
+      "tag": "activity_item_sell",
+      "group": "activities",
+      "description": "coins in a pouch",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "A few coins dropped into a leather pouch"
+    },
+    {
+      "tag": "activity_item_eat",
+      "group": "activities",
+      "description": "a bite of bread",
+      "loop": false,
+      "seconds": 1.2,
+      "variants": 1,
+      "prompt": "Quiet bite into crusty bread with a soft chew"
+    }
+  ]
+}
