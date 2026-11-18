@@ -1,0 +1,424 @@
+{
+ "1": {
+  "inputs": {
+   "unet_name": "qwen\\qwen_image_2.1_int8_convrot.safetensors",
+   "weight_dtype": "default"
+  },
+  "class_type": "UNETLoader",
+  "_meta": {
+   "title": "Load Diffusion Model",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.2"
+  }
+ },
+ "2": {
+  "inputs": {
+   "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+   "type": "qwen_image",
+   "device": "default"
+  },
+  "class_type": "CLIPLoader",
+  "_meta": {
+   "title": "Load CLIP",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.2"
+  }
+ },
+ "3": {
+  "inputs": {
+   "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "class_type": "VAELoader",
+  "_meta": {
+   "title": "Load VAE",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.2"
+  }
+ },
+ "4": {
+  "inputs": {
+   "device": "auto",
+   "dtype": "default",
+   "model": [
+    "24",
+    0
+   ]
+  },
+  "class_type": "QwenImage21Cache",
+  "_meta": {
+   "title": "Qwen Image 2.1 Cache",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.2"
+  }
+ },
+ "5": {
+  "inputs": {
+   "image": "%image%",
+   "LoadImageMiniState": "{\"version\":1,\"mode\":\"off\",\"max_mp\":1,\"longest_side\":1024,\"scale_factor\":1,\"fit_w\":1024,\"fit_h\":1024,\"cover_w\":1024,\"cover_h\":1024,\"ratio_preset\":\"1:1\",\"ratio_w\":1,\"ratio_h\":1,\"ratio_action\":\"crop\",\"pad_color\":\"#808080\",\"pad_top\":0,\"pad_bottom\":0,\"pad_left\":0,\"pad_right\":0,\"crop_anchor\":\"center\",\"crop_scale\":true,\"snap\":0,\"resample\":\"auto\",\"allow_upscale\":true,\"orig_name\":\"\"}"
+  },
+  "class_type": "PixaromaLoadImageMini",
+  "_meta": {
+   "title": "1. Load Image",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "7a1cf573034fe14e29c1200d884531231a003e2e"
+  }
+ },
+ "6": {
+  "inputs": {
+   "DropdownState": "{\"version\":1,\"type\":\"float\",\"value\":\"1\"}"
+  },
+  "class_type": "PixaromaDropdown",
+  "_meta": {
+   "title": "2. Output Size",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "384d296da4a3805865c39e60b0700c2d0eb674fb"
+  }
+ },
+ "7": {
+  "inputs": {
+   "PromptState": "{\"text\":\"%prompt%\",\"order\":\"mine\",\"sep\":\", \"}"
+  },
+  "class_type": "PixaromaPrompt",
+  "_meta": {
+   "title": "3. Add a prompt",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "7a1cf573034fe14e29c1200d884531231a003e2e"
+  }
+ },
+ "8": {
+  "inputs": {
+   "SeedState": "{\"runSeed\":\"%seed%\"}",
+   "seed": "%seed%"
+  },
+  "class_type": "PixaromaSeed",
+  "_meta": {
+   "title": "4. Seed Random/Fixed?",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "7a1cf573034fe14e29c1200d884531231a003e2e"
+  }
+ },
+ "9": {
+  "inputs": {
+   "prompt": [
+    "7",
+    0
+   ],
+   "negative_prompt": "",
+   "resolution": 0,
+   "clip": [
+    "2",
+    0
+   ],
+   "images.image_1": [
+    "16",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ]
+  },
+  "class_type": "TextEncodeQwenImage21",
+  "_meta": {
+   "title": "Text Encode Qwen Image 2.1",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.2"
+  }
+ },
+ "11": {
+  "inputs": {
+   "samples": [
+    "30",
+    0
+   ],
+   "vae": [
+    "3",
+    0
+   ]
+  },
+  "class_type": "VAEDecode",
+  "_meta": {
+   "title": "VAE Decode",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.2"
+  }
+ },
+ "12": {
+  "inputs": {
+   "images": [
+    "11",
+    0
+   ],
+   "SaveImageState": "{\"version\":1,\"folder\":\"\",\"pattern\":\"Qwen 2.1 Selfie/image_%counter%\",\"format\":\"png\",\"quality\":100,\"embedWorkflow\":true,\"civitaiMeta\":false,\"saveOnRun\":true,\"dateStyle\":\"yyyy-MM-dd\",\"counterDigits\":3,\"folded\":false,\"hideBarWhenFolded\":false,\"webpLossless\":false,\"inputSubfolders\":false,\"showOpen\":true,\"showCopy\":true,\"showFolder\":true,\"showPng\":true,\"showJpg\":true,\"showWebp\":true}"
+  },
+  "class_type": "PixaromaSaveImage",
+  "_meta": {
+   "title": "Save Image",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "31d41930d0064480e347b401870bfe60339293db"
+  }
+ },
+ "15": {
+  "inputs": {
+   "upscale_method": "nearest-exact",
+   "megapixels": [
+    "6",
+    0
+   ],
+   "resolution_steps": 32,
+   "image": [
+    "5",
+    0
+   ]
+  },
+  "class_type": "ImageScaleToTotalPixels",
+  "_meta": {
+   "title": "Scale Image to Total Pixels",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.2"
+  }
+ },
+ "16": {
+  "inputs": {
+   "width": [
+    "23",
+    0
+   ],
+   "height": [
+    "23",
+    1
+   ],
+   "image": [
+    "5",
+    0
+   ]
+  },
+  "class_type": "PixaromaResizeCrop",
+  "_meta": {
+   "title": "Resize Crop Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "7a1cf573034fe14e29c1200d884531231a003e2e"
+  }
+ },
+ "17": {
+  "inputs": {
+   "label_json": "{\"text\":\"Qwen Image 2.1 - One Image Edit - Turbo\",\"fontSize\":31,\"fontFamily\":\"Arial\",\"fontColor\":\"#ffffff\",\"textAlign\":\"left\",\"backgroundColor\":\"#f66744\",\"padding\":10,\"borderRadius\":0,\"opacity\":1,\"fontWeight\":\"normal\",\"lineHeight\":1}"
+  },
+  "class_type": "PixaromaLabel",
+  "_meta": {
+   "title": "Label Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "aux_id": "pixaroma/ComfyUI-Pixaroma",
+   "ver": "80b307e8d1882fd933959cb0ea94a26d143557b5"
+  }
+ },
+ "18": {
+  "inputs": {
+   "note_json": "{\"version\": 1, \"content\": \"<h1>MODELS AND NODES USED IN THIS WORKFLOW</h1><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"model-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load Diffusion Model</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/diffusion_models/qwen_image_2.1_int8_convrot.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download qwen_image_2.1_int8_convrot.safetensors<span class=\\\"pix-note-btnsize\\\">6.76 GB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/diffusion_models/qwen</div><p>\\n\\n</p><p>Create the <code>qwen</code> folder if it does not exist.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/Qwen-Image-2.1/tree/main/diffusion_models\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">More versions</a></span>&nbsp;<span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Qwen/Qwen-Image-2.1\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Qwen Image 2.1 model card</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"CLIP\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load CLIP</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download qwen3vl_8b_int8_convrot.safetensors<span class=\\\"pix-note-btnsize\\\">8.71 GB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/text_encoders</div><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"VAE\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Load VAE</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download qwen_image_2.1_vae_bf16.safetensors<span class=\\\"pix-note-btnsize\\\">644 MB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/vae</div><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"LORA\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;LoRA Loader</h2><p>\\n\\n</p><p>\\n<span class=\\\"pix-note-btnblock\\\">\\n  <a class=\\\"pix-note-dl\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo/resolve/main/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Download Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors<span class=\\\"pix-note-btnsize\\\">680 MB</span></a>\\n</span>&nbsp;\\n</p><p>\\n\\n</p><div class=\\\"pix-note-folderhint\\\" style=\\\"color: #f66744\\\">Place in: ComfyUI/models/loras/qwen2.1</div><p>\\n\\n</p><p>Create the <code>qwen2.1</code> folder if it does not exist.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">LoRA model card</a></span>&nbsp;</p><p>\\n\\n</p><p>The turbo LoRA comes under the same <b>Qwen Research License</b> as the model: non-commercial use only.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"warning-v2\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;License: non-commercial use only</h2><p>\\n\\n</p><p>Qwen Image 2.1 is released under the <b>Qwen Research License</b>. It allows <b>non-commercial use only</b>, which the license defines as research or evaluation. Commercial use is not included: for that you need a separate license from Qwen.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">READ LICENSE</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><p><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;After placing the files, restart ComfyUI or refresh model lists using the <b>R</b> shortcut.</p><p>\\n\\n</p><p><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Needs <b>ComfyUI 0.37.0 or newer</b>, the first version with the Qwen Image 2.1 nodes. If <b>Text Encode Qwen Image 2.1</b> shows up red, update ComfyUI.</p><p>\\n\\n</p><h2><span data-ic=\\\"nodes-installed\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Nodes Installed from Manager</h2><p>\\n\\n</p><ul><li>Pixaroma</li></ul><p>\\n\\n</p><p><b>How to update Pixaroma nodes:</b> the help page has the steps for every kind of install, in the <b>Update the nodes</b> part.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://workflows.pixaroma.com/help/#update\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">How to update Pixaroma</a></span>&nbsp;</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"pixaroma\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Resources</h2><p>\\n\\n</p><p>\\n  <a class=\\\"pix-note-discord\\\" href=\\\"https://discord.com/invite/gggpkVgBf3\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Join Discord</a>&nbsp;\\n  <a class=\\\"pix-note-yt\\\" href=\\\"https://www.youtube.com/@pixaroma\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Pixaroma YouTube Channel</a>&nbsp;\\n</p>\", \"buttonColor\": \"#f66744\", \"lineColor\": \"#f66744\", \"width\": 552, \"height\": 1133, \"backgroundColor\": \"#2a2a2a\"}"
+  },
+  "class_type": "PixaromaNote",
+  "_meta": {
+   "title": "Note Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "1227d9898f9d5137533df750611ca97e8c738f3d"
+  }
+ },
+ "19": {
+  "inputs": {
+   "note_json": "{\"version\": 1, \"content\": \"<h1>WHAT EACH NODE DOES</h1><p>\\n\\n</p><p>The colour of a node tells you what kind of node it is. Nothing here needs changing except the blue ones.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"model-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Models to download</h2><p>\\n\\n</p><p>Orange. Each one needs a file from the list in the note above.</p><p>\\n\\n</p><ul><li><b>Load Diffusion Model (Qwen Image 2.1)</b> - The image model itself, 7B, from Alibaba's Qwen team.</li><li><b>Load CLIP (Qwen3-VL 8B)</b> - Reads your prompt and looks at your picture.</li><li><b>Load VAE</b> - Turns pictures into the model's own format and back. It works with four channels, red, green, blue and transparency, which is how this model can hand back a transparent picture.</li><li><b>LoRA Loader Pixaroma</b> - Adds Viggle's <b>turbo LoRA</b>, which lets the model finish a picture in 6 steps instead of 25. It has no trigger word. Keep it at strength 1.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The numbers you set</h2><p>\\n\\n</p><p>Blue, and numbered. These are the only nodes you have to touch.</p><p>\\n\\n</p><ul><li><b>1. Load Image</b> - The picture you are editing. The result keeps its shape.</li><li><b>2. Output Size</b> - How many pixels the result has. Pick a line from the list: 1024 is about 1 megapixel and fast, 2048 is Qwen's native 2K and much slower. Your picture keeps its shape either way.</li><li><b>3. Add a prompt</b> - What to change, and what to keep. With one picture there is no tag to name: just describe the picture.</li><li><b>4. Seed Random/Fixed?</b> - Fixed repeats the same result, Random rolls a new one each Run.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The speed nodes</h2><p>\\n\\n</p><p>Teal, above the graph.</p><p>\\n\\n</p><ul><li><b>Qwen Image 2.1 Cache</b> - Where the model keeps what it has already worked out about your picture and the prompt, so it does not redo that on every step. Leave it on <b>auto</b> / <b>default</b>. The note of the normal One Image Edit workflow in this folder says when to change it.</li><li><b>Model Attention Backend</b> - Set to <b>comfy kitchen attention</b>, a faster way to do the model's attention maths. It changes the speed, not the picture. On a graphics card that cannot use it, ComfyUI falls back to normal attention by itself.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The helpers</h2><p>\\n\\n</p><p>Purple. They run by themselves.</p><p>\\n\\n</p><ul><li><b>Scale Image to Total Pixels</b> - Works out the exact size the model uses at the Output Size you picked: that many pixels, in steps of 32, in your picture's shape. Only that size is used.</li><li><b>Get Image Size</b> - Reads that size as a width and a height, for Resize Crop Pixaroma and for ModelSamplingFlux. It also shows that size on the node after a Run.</li><li><b>Resize Crop Pixaroma</b> - Scales your picture to that size and crops the few pixels that do not fit, so the model edits a picture exactly the size of the result. Nothing is stretched, and the result lines up with your picture in the Compare.</li><li><b>ModelSamplingFlux</b> - Spaces the 6 steps for that size, the way the turbo LoRA was trained. The name says Flux because the maths is the same. Its two numbers are set for this LoRA (max shift 0.69, base shift 0.5): leave them.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The render</h2><p>\\n\\n</p><p>Green. These run by themselves.</p><p>\\n\\n</p><ul><li><b>Text Encode Qwen Image 2.1</b> - Reads your prompt and your picture. Its <b>resolution</b> is set to 0, which takes it as it comes, already sized by the helpers. It also makes the blank canvas for the result at that size, which is why there is no separate latent node. Its negative prompt box does nothing at CFG 1, the setting this model is made for, so leave it empty.</li><li><b>RandomNoise, KSamplerSelect, BasicScheduler, ExtendIntermediateSigmas, Basic Guider, SamplerCustomAdvanced</b> - Together they do the job of a KSampler, with the 6 steps the turbo LoRA wants. BasicScheduler makes the 4 steps the LoRA was trained on, and ExtendIntermediateSigmas cuts the first, biggest one into three. Basic Guider means CFG 1, the setting this model is made for, so there is no negative prompt. Leave their numbers as they are.</li><li><b>VAE Decode</b> - Turns the finished render into a picture.</li></ul><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"checkmark\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The result</h2><p>\\n\\n</p><p>Dark red, at the end.</p><p>\\n\\n</p><ul><li><b>Image Compare Pixaroma</b> - Your picture and the result, one over the other. Move the mouse across it to slide between them.</li><li><b>Preview Image Pixaroma</b> - Shows the result and saves it to your output folder as a PNG.</li></ul><p>\\n\\n</p><p>The dark <b>Run Timer</b> above them shows how long the last Run took.</p>\", \"buttonColor\": \"#f66744\", \"lineColor\": \"#f66744\", \"width\": 720, \"height\": 1438, \"backgroundColor\": \"#2a2a2a\"}"
+  },
+  "class_type": "PixaromaNote",
+  "_meta": {
+   "title": "Note Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "1227d9898f9d5137533df750611ca97e8c738f3d"
+  }
+ },
+ "20": {
+  "inputs": {
+   "note_json": "{\"version\": 1, \"content\": \"<h1>SETTINGS AND RUN TIME</h1><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;What this workflow makes</h2><p>\\n\\n</p><p>The One Image Edit workflow in <b>6 steps instead of 25</b>, with Viggle's turbo LoRA: about three times as fast at Output Size 2048, with results that look the same.</p><p>\\n\\n</p><p>Tested on 8 seeds against the normal One Image Edit workflow on the same seeds: every turbo result kept the house, the blue door, the armchair and the camera angle, and turned the terrace into a snowy evening with a lit window, just like the normal ones.</p><p>\\n\\n</p><p>Every number below was measured on a <b>24 GB RTX 4090</b> with this workflow and its own settings, each run on a fresh seed with the models already loaded. A different card gives different numbers, but the shape holds: the cost goes up with the pixels.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;How long a Run takes</h2><p>\\n\\n</p><table class=\\\"pix-note-grid\\\" style=\\\"--pix-note-grid-border: #f66744; --pix-note-grid-header-bg: #1a1a1a\\\"><thead><tr><th>Output Size</th><th>Result</th><th>Turbo: new picture / new seed</th><th>Normal: new picture / new seed</th></tr></thead><tbody><tr><td>1024 - about 1 MP</td><td>1024 x 1024</td><td>4 s / 3 s</td><td>8 s / 6 s</td></tr><tr><td>1536 - about 2.4 MP</td><td>1536 x 1536</td><td>10 s / 7 s</td><td>22 s / 18 s</td></tr><tr><td>2048 - native 2K</td><td>2048 x 2048</td><td>22 s / 14 s</td><td>48 s / 39 s</td></tr></tbody></table><p>\\n\\n</p><p>The result sizes are for a square picture like the demo one. Change the picture or the prompt and the model reads the picture again, which is the first number; change only the seed and it reuses what it read, which is the second. The normal numbers are the One Image Edit workflow in this folder, measured in the same session.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;When to use the normal workflow</h2><p>\\n\\n</p><p>Viggle's model card says complicated edits can still fall short of the full model: many pictures at once, face swaps, instructions with several conditions, and small text. For those, use the normal One Image Edit workflow in this folder. For everything else, the turbo is the quick way to try prompts and seeds.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Why the six green sampler nodes</h2><p>\\n\\n</p><p>The turbo LoRA was trained on 4 steps, and Viggle recommends cutting the first, biggest step into three: 6 steps. The six green nodes do that, which a plain KSampler cannot. ModelSamplingFlux spaces the steps for the result's size: in the Turbo Text to Image tests, 2K pictures came out with grainy fur without it.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Why the picture is trimmed a little</h2><p>\\n\\n</p><p>The model works in steps of 32 pixels, and most pictures do not divide evenly. Qwen's text encoder on its own stretches the picture to the nearest size that does, by up to about 2 percent (0.9 percent on a 4:3 photo), and the result then comes out slightly wider or narrower than your picture. Here the helpers crop instead of stretching: a thin strip, usually a few pixels, comes off two opposite edges, and the result keeps the exact proportions and lines up in the Compare.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Kitchen attention</h2><p>\\n\\n</p><p>The teal <b>Model Attention Backend</b> node is set to <b>comfy kitchen attention</b>, a faster way to do the attention maths. On the same seed at Output Size 2048, it took <b>14 s</b>, against <b>20 s</b> with the normal <b>pytorch attention</b>, and the two pictures came out practically the same. To compare it yourself, switch the node to pytorch attention.</p><p>\\n\\n</p><p>It needs an Nvidia or AMD graphics card. On anything else ComfyUI falls back to normal attention by itself, so the workflow still runs.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;The first Run of the session</h2><p>\\n\\n</p><p>The first Run after starting ComfyUI has to load <b>6.8 GB</b> of image model and <b>8.7 GB</b> of text encoder, plus the turbo LoRA. Measured on a 1024 edit: <b>8 s</b> with the models unloaded first, <b>3 s</b> once they were loaded.</p><p>\\n\\n</p><p>That was with the model files still in this machine's file cache. The very first load after switching the computer on reads them off the disk for real and will be slower; that case was not measured, so no number is given for it.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"warning-v1\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;What it takes off the card</h2><p>\\n\\n</p><p>The graphics card peaked at about <b>20 GB</b> during these runs, at Output Size 1536. ComfyUI keeps the models loaded while it has room, so that number says a 24 GB card copes, not how little the model can get by with.</p><p>\\n\\n</p><hr class=\\\"pix-note-hr-solid\\\" style=\\\"color: #b8b8b8\\\"><p>\\n\\n</p><h2><span data-ic=\\\"chip\\\" class=\\\"pix-note-ic\\\" contenteditable=\\\"false\\\" style=\\\"color: #f66744\\\"></span>&nbsp;Writing the prompt</h2><p>\\n\\n</p><p>The same as in the normal workflow: say what should change and what should stay, and describe the change concretely. The demo prompt is the One Image Edit one, word for word.</p><p>\\n\\n</p><p><span class=\\\"pix-note-btnblock\\\"><a class=\\\"pix-note-rm\\\" style=\\\"background-color: #f66744\\\" href=\\\"https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">Turbo LoRA model card</a></span>&nbsp;</p>\", \"buttonColor\": \"#f66744\", \"lineColor\": \"#f66744\", \"width\": 810, \"height\": 1395, \"backgroundColor\": \"#2a2a2a\"}"
+  },
+  "class_type": "PixaromaNote",
+  "_meta": {
+   "title": "Note Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "1227d9898f9d5137533df750611ca97e8c738f3d"
+  }
+ },
+ "21": {
+  "inputs": {
+   "attention": "comfy kitchen attention",
+   "model": [
+    "4",
+    0
+   ]
+  },
+  "class_type": "ModelAttentionBackend",
+  "_meta": {
+   "title": "Model Attention Backend",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.2"
+  }
+ },
+ "22": {
+  "inputs": {
+   "model": [
+    "1",
+    0
+   ],
+   "LoraLoaderState": "{\"version\":1,\"sep\":\", \",\"cacheMode\":\"last\",\"loras\":[{\"name\":\"qwen2.1\\\\Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors\",\"on\":true,\"sm\":1,\"sc\":1,\"triggers\":[]}]}"
+  },
+  "class_type": "PixaromaLoraLoader",
+  "_meta": {
+   "title": "LoRA Loader Pixaroma",
+   "cnr_id": "ComfyUI-Pixaroma",
+   "ver": "7c464447ce2a17dff9489b79d4daf32e55b28f38"
+  }
+ },
+ "23": {
+  "inputs": {
+   "image": [
+    "15",
+    0
+   ]
+  },
+  "class_type": "GetImageSize",
+  "_meta": {
+   "title": "Get Image Size",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.4"
+  }
+ },
+ "24": {
+  "inputs": {
+   "max_shift": 0.69,
+   "base_shift": 0.5,
+   "width": [
+    "23",
+    0
+   ],
+   "height": [
+    "23",
+    1
+   ],
+   "model": [
+    "22",
+    0
+   ]
+  },
+  "class_type": "ModelSamplingFlux",
+  "_meta": {
+   "title": "ModelSamplingFlux",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.4"
+  }
+ },
+ "25": {
+  "inputs": {
+   "noise_seed": [
+    "8",
+    0
+   ]
+  },
+  "class_type": "RandomNoise",
+  "_meta": {
+   "title": "RandomNoise",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.4"
+  }
+ },
+ "26": {
+  "inputs": {
+   "sampler_name": "euler"
+  },
+  "class_type": "KSamplerSelect",
+  "_meta": {
+   "title": "KSamplerSelect",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.4"
+  }
+ },
+ "27": {
+  "inputs": {
+   "scheduler": "simple",
+   "steps": 4,
+   "denoise": 1,
+   "model": [
+    "21",
+    0
+   ]
+  },
+  "class_type": "BasicScheduler",
+  "_meta": {
+   "title": "BasicScheduler",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.4"
+  }
+ },
+ "28": {
+  "inputs": {
+   "steps": 3,
+   "start_at_sigma": -1,
+   "end_at_sigma": 0.95,
+   "spacing": "linear",
+   "sigmas": [
+    "27",
+    0
+   ]
+  },
+  "class_type": "ExtendIntermediateSigmas",
+  "_meta": {
+   "title": "ExtendIntermediateSigmas",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.4"
+  }
+ },
+ "29": {
+  "inputs": {
+   "model": [
+    "21",
+    0
+   ],
+   "conditioning": [
+    "9",
+    0
+   ]
+  },
+  "class_type": "BasicGuider",
+  "_meta": {
+   "title": "Basic Guider",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.4"
+  }
+ },
+ "30": {
+  "inputs": {
+   "noise": [
+    "25",
+    0
+   ],
+   "guider": [
+    "29",
+    0
+   ],
+   "sampler": [
+    "26",
+    0
+   ],
+   "sigmas": [
+    "28",
+    0
+   ],
+   "latent_image": [
+    "9",
+    2
+   ]
+  },
+  "class_type": "SamplerCustomAdvanced",
+  "_meta": {
+   "title": "SamplerCustomAdvanced",
+   "cnr_id": "comfy-core",
+   "ver": "0.37.4"
+  }
+ }
+}

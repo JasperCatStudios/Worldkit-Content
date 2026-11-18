@@ -552,6 +552,13 @@
     },
     {
       "type": "workflow",
+      "name": "Selfie Character Sheet Qwen 2.1 Fast",
+      "file": "workflows/selfie-character-sheet-qwen21-fast.workflow.json",
+      "description": "A fast ComfyUI selfie workflow for the Phone (Qwen Image 2.1 turbo, about 8 seconds). Copy it, then paste it into the Phone's ComfyUI workflow box.",
+      "size": 28923
+    },
+    {
+      "type": "workflow",
       "name": "Selfie Character Sheet",
       "file": "workflows/selfie-character-sheet.workflow.json",
       "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box.",
