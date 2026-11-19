@@ -708,6 +708,51 @@
       "seconds": 0.5,
       "variants": 1,
       "prompt": "Quick rising two-note pluck, a streak of good hits. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_pour_loop",
+      "group": "activities",
+      "description": "pouring a liquid",
+      "loop": true,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "Water pouring steadily from a jug into a glass, gentle stream, seamless loop. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_pour_spill",
+      "group": "activities",
+      "description": "a pour overflows",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "Liquid overflowing a cup and splashing onto a wooden table, a short comic spill. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_plate_pick",
+      "group": "activities",
+      "description": "picking up a piece of food",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "A soft lift of a ceramic plate or food item from a counter, quiet small scrape. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_plate_place",
+      "group": "activities",
+      "description": "putting food down on the plate",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "A single small clink of a spoon or food set down on a ceramic plate. Clean, close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_plate_present",
+      "group": "activities",
+      "description": "presenting the finished dish",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "A light shimmering chime flourish presenting a finished dish, bright and short, kitchen game reveal. No music, no speech."
     }
   ]
 }

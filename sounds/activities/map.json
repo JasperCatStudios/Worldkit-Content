@@ -640,6 +640,48 @@
       "volume": 0.8,
       "group": "activities",
       "description": "a streak of good hits"
+    },
+    "activity_mech_pour_loop": {
+      "files": [
+        "audio/activity-mech-pour-loop.mp3"
+      ],
+      "volume": 0.5,
+      "group": "activities",
+      "description": "pouring a liquid",
+      "loop": true,
+      "fadeMs": 400
+    },
+    "activity_mech_pour_spill": {
+      "files": [
+        "audio/activity-mech-pour-spill.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a pour overflows"
+    },
+    "activity_mech_plate_pick": {
+      "files": [
+        "audio/activity-mech-plate-pick.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "picking up a piece of food"
+    },
+    "activity_mech_plate_place": {
+      "files": [
+        "audio/activity-mech-plate-place.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "putting food down on the plate"
+    },
+    "activity_mech_plate_present": {
+      "files": [
+        "audio/activity-mech-plate-present.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "presenting the finished dish"
     }
   }
 }
