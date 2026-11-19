@@ -500,6 +500,146 @@
       "volume": 0.8,
       "group": "activities",
       "description": "an order is given"
+    },
+    "activity_mech_perfect": {
+      "files": [
+        "audio/activity-mech-perfect.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "perfect hit"
+    },
+    "activity_mech_good": {
+      "files": [
+        "audio/activity-mech-good.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "good hit"
+    },
+    "activity_mech_miss": {
+      "files": [
+        "audio/activity-mech-miss.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "missed"
+    },
+    "activity_mech_flow_up": {
+      "files": [
+        "audio/activity-mech-flow-up.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "combo meter rises"
+    },
+    "activity_mech_step_done": {
+      "files": [
+        "audio/activity-mech-step-done.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a step is complete"
+    },
+    "activity_mech_serve": {
+      "files": [
+        "audio/activity-mech-serve.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "the dish is served"
+    },
+    "activity_mech_ruin_comic": {
+      "files": [
+        "audio/activity-mech-ruin-comic.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a harmless mishap"
+    },
+    "activity_mech_slice_cut": {
+      "files": [
+        "audio/activity-mech-slice-cut.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a clean cut"
+    },
+    "activity_mech_slice_guard": {
+      "files": [
+        "audio/activity-mech-slice-guard.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a near miss with the knife"
+    },
+    "activity_mech_stir_loop": {
+      "files": [
+        "audio/activity-mech-stir-loop.mp3"
+      ],
+      "volume": 0.5,
+      "group": "activities",
+      "description": "stirring a pot",
+      "loop": true,
+      "fadeMs": 400
+    },
+    "activity_mech_stir_splash": {
+      "files": [
+        "audio/activity-mech-stir-splash.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a splash from the pot"
+    },
+    "activity_mech_sear_sizzle": {
+      "files": [
+        "audio/activity-mech-sear-sizzle.mp3"
+      ],
+      "volume": 0.5,
+      "group": "activities",
+      "description": "fish sizzling in a pan",
+      "loop": true,
+      "fadeMs": 400
+    },
+    "activity_mech_sear_flip": {
+      "files": [
+        "audio/activity-mech-sear-flip.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "food tossed from the pan"
+    },
+    "activity_mech_sear_land": {
+      "files": [
+        "audio/activity-mech-sear-land.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "food lands in the pan"
+    },
+    "activity_mech_sear_warn": {
+      "files": [
+        "audio/activity-mech-sear-warn.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "the oil is getting too hot"
+    },
+    "activity_mech_sprinkle_shake": {
+      "files": [
+        "audio/activity-mech-sprinkle-shake.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "shaking a seasoning shaker"
+    },
+    "activity_mech_streak": {
+      "files": [
+        "audio/activity-mech-streak.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a streak of good hits"
     }
   }
 }

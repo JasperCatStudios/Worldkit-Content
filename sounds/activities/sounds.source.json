@@ -555,6 +555,159 @@
       "seconds": 1,
       "variants": 1,
       "prompt": "A small brass desk bell ding, crisp and short"
+    },
+    {
+      "tag": "activity_mech_perfect",
+      "group": "activities",
+      "description": "perfect hit",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Bright short wooden tick with a tiny bell shimmer, cheerful success cue for a cooking game. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_good",
+      "group": "activities",
+      "description": "good hit",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Soft short wooden tick, gentle approval cue for a cooking game. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_miss",
+      "group": "activities",
+      "description": "missed",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Dull soft thud, a small mistake cue for a cooking game, not harsh. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_flow_up",
+      "group": "activities",
+      "description": "combo meter rises",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Warm swelling shimmer rising gently, a combo meter filling up. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_step_done",
+      "group": "activities",
+      "description": "a step is complete",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Cheerful short kitchen bell ding, a step is complete. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_serve",
+      "group": "activities",
+      "description": "the dish is served",
+      "loop": false,
+      "seconds": 2,
+      "variants": 1,
+      "prompt": "A plate set down on a wooden table, then a warm sparkling flourish, the finished dish is presented. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_ruin_comic",
+      "group": "activities",
+      "description": "a harmless mishap",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Comic deflating puff, a soft playful bwomp, a harmless kitchen mishap. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_slice_cut",
+      "group": "activities",
+      "description": "a clean cut",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Sharp kitchen knife chop through vegetables onto a wooden board, one clean cut, dry room, close mic. No music, no speech."
+    },
+    {
+      "tag": "activity_mech_slice_guard",
+      "group": "activities",
+      "description": "a near miss with the knife",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Quick surprised whoosh of a knife stopping on wood, a near miss, playful. Clean game sound effect, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_stir_loop",
+      "group": "activities",
+      "description": "stirring a pot",
+      "loop": true,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "Wooden spoon stirring thick liquid in a pot, steady and even, seamless loop. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_stir_splash",
+      "group": "activities",
+      "description": "a splash from the pot",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Small liquid splash flicking out of a cooking pot. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_sear_sizzle",
+      "group": "activities",
+      "description": "fish sizzling in a pan",
+      "loop": true,
+      "seconds": 4,
+      "variants": 1,
+      "prompt": "Fish fillet sizzling steadily in an oiled iron pan, seamless loop. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_sear_flip",
+      "group": "activities",
+      "description": "food tossed from the pan",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Quick airy whoosh of food tossed up from a frying pan. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_sear_land",
+      "group": "activities",
+      "description": "food lands in the pan",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Loud fresh sizzle burst as food lands in a hot iron pan, then settling. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_sear_warn",
+      "group": "activities",
+      "description": "the oil is getting too hot",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "Oil crackling and spitting in a pan, getting too hot, rising in intensity as a warning. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_sprinkle_shake",
+      "group": "activities",
+      "description": "shaking a seasoning shaker",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Salt shaker shaken twice, a light grain rattle and sprinkle. Close mic, no music, no speech."
+    },
+    {
+      "tag": "activity_mech_streak",
+      "group": "activities",
+      "description": "a streak of good hits",
+      "loop": false,
+      "seconds": 0.5,
+      "variants": 1,
+      "prompt": "Quick rising two-note pluck, a streak of good hits. Clean game sound effect, no music, no speech."
     }
   ]
 }
