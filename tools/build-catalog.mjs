@@ -104,6 +104,13 @@ for (const [dir, group] of Object.entries(LOOKS)) {
     for (const f of list(`regex/themes/${dir}`, n => n.endsWith('.json'))) regexItem(`regex/themes/${dir}/${f}`, group);
 }
 
+// Presets (SillyTavern Chat Completion presets, imported into the user's preset list)
+for (const f of list('presets', n => n.endsWith('.preset.json'))) {
+    let description = 'A Chat Completion preset.';
+    try { const d = json(`presets/${f}`); description = `A Chat Completion preset with ${(d.prompts || []).length} prompt slots. Import it, then pick it under Chat Completion presets.`; } catch { /* unreadable */ }
+    items.push({ type: 'preset', name: titleCase(f.replace('.preset.json', '')), file: `presets/${f}`, description });
+}
+
 // Workflows
 for (const f of list('workflows', n => n.endsWith('.json'))) {
     items.push({ type: 'workflow', name: titleCase(f.replace('.workflow.json', '')), file: `workflows/${f}`, description: 'A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone\'s ComfyUI workflow box.' });

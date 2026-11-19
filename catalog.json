@@ -62,8 +62,8 @@
       "type": "sounds",
       "name": "Activity sounds",
       "file": "sounds/activities/map.json",
-      "description": "61 sounds (5 loops), with a map for the Sound module. Optional.",
-      "size": 1490978
+      "description": "83 sounds (8 loops), with a map for the Sound module. Optional.",
+      "size": 1817805
     },
     {
       "type": "sounds",
@@ -537,11 +537,25 @@
       "size": 3050
     },
     {
+      "type": "preset",
+      "name": "Assistant",
+      "file": "presets/Assistant.preset.json",
+      "description": "A Chat Completion preset with 12 prompt slots. Import it, then pick it under Chat Completion presets.",
+      "size": 7520
+    },
+    {
       "type": "workflow",
       "name": "General Text To Image Moss",
       "file": "workflows/general-text-to-image-moss.workflow.json",
       "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box.",
       "size": 28558
+    },
+    {
+      "type": "workflow",
+      "name": "Selfie Character Sheet Qwen21 Fast",
+      "file": "workflows/selfie-character-sheet-qwen21-fast.workflow.json",
+      "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box.",
+      "size": 28923
     },
     {
       "type": "workflow",
@@ -552,24 +566,10 @@
     },
     {
       "type": "workflow",
-      "name": "Selfie Character Sheet Qwen 2.1 Fast",
-      "file": "workflows/selfie-character-sheet-qwen21-fast.workflow.json",
-      "description": "A fast ComfyUI selfie workflow for the Phone (Qwen Image 2.1 turbo, about 8 seconds). Copy it, then paste it into the Phone's ComfyUI workflow box.",
-      "size": 28923
-    },
-    {
-      "type": "workflow",
       "name": "Selfie Character Sheet",
       "file": "workflows/selfie-character-sheet.workflow.json",
       "description": "A ComfyUI workflow for the Phone. Copy it, then paste it into the Phone's ComfyUI workflow box.",
       "size": 25493
-    },
-    {
-      "type": "art",
-      "name": "Tea Time art (anime table, teas and snacks)",
-      "file": "art/activities/tea/table.webp",
-      "description": "An anime-style garden tea table, a top-down tabletop, eight cups of tea and ten snacks as separate cut-out pictures, for the Activities Tea Time screen. Copy art/activities/tea into data/<your user>/user/images/worldkit-art/activities/tea/ (see the README), or use it straight from the installed Content Kit.",
-      "size": 1691478
     },
     {
       "type": "art",
