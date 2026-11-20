@@ -601,196 +601,211 @@
    "uses": 1
   },
   {
-   "id": "bl_spirit_herb",
-   "name": "Spirit Herb",
-   "category": "Herb",
-   "price": 2,
-   "desc": "A herb that holds a trace of spirit energy. Basic stuff for remedies."
-  },
-  {
-   "id": "bl_reishi_moss",
-   "name": "Reishi Moss",
-   "category": "Herb",
-   "price": 3,
-   "sell": 1,
-   "desc": "A pale moss that grows where spirit energy gathers."
-  },
-  {
-   "id": "bl_soul_blossom",
-   "name": "Soul Blossom",
-   "category": "Herb",
-   "price": 12,
-   "sell": 4,
-   "desc": "A rare blossom that opens only at dusk. Strong and pure."
-  },
-  {
-   "id": "bl_ember_pepper",
-   "name": "Ember Pepper",
-   "category": "Herb",
-   "price": 6,
-   "sell": 2,
-   "desc": "A fiery pepper. Potent, but it makes a mix unsteady."
-  },
-  {
-   "id": "bl_hollow_berry",
-   "name": "Hollow Berry",
-   "category": "Herb",
-   "price": 6,
-   "sell": 2,
-   "desc": "A dark berry from the edge of the wastes. Strong, with a volatile bite."
-  },
-  {
-   "id": "bl_spring_water",
-   "name": "Spring Water",
-   "category": "Liquid",
+   "id": "bl_cotton_cloth",
+   "name": "Cotton Cloth",
+   "category": "Cloth",
    "price": 0,
-   "desc": "Clear water from a mountain spring."
+   "desc": "Plain cotton, soft and easy to cut."
   },
   {
-   "id": "bl_rain_water",
-   "name": "Rain Water",
-   "category": "Liquid",
+   "id": "bl_hemp_cloth",
+   "name": "Hemp Cloth",
+   "category": "Cloth",
    "price": 0,
-   "desc": "Soft rain collected in a clean jar."
+   "desc": "Rough, hard-wearing hemp cloth."
   },
   {
-   "id": "bl_honey",
-   "name": "Honey",
-   "category": "Liquid",
-   "price": 6,
-   "sell": 2,
-   "desc": "Golden honey, sweet and pure."
+   "id": "bl_wool_cloth",
+   "name": "Wool Cloth",
+   "category": "Cloth",
+   "price": 10,
+   "sell": 3,
+   "desc": "Thick wool. Warm and a little scratchy."
   },
   {
-   "id": "bl_iron_ingot",
-   "name": "Iron Ingot",
-   "category": "Metal",
-   "price": 8,
-   "sell": 2,
-   "desc": "A bar of plain iron."
+   "id": "bl_silk_cloth",
+   "name": "Silk Cloth",
+   "category": "Cloth",
+   "price": 30,
+   "sell": 10,
+   "desc": "Fine silk that slips and frays easily."
   },
   {
-   "id": "bl_copper_ingot",
-   "name": "Copper Ingot",
-   "category": "Metal",
-   "price": 6,
-   "sell": 2,
-   "desc": "A bar of soft copper."
+   "id": "bl_plain_thread",
+   "name": "Plain Thread",
+   "category": "Thread",
+   "price": 0,
+   "desc": "A reel of ordinary thread."
   },
   {
-   "id": "bl_steel_ingot",
-   "name": "Steel Ingot",
-   "category": "Metal",
-   "price": 20,
-   "sell": 6,
-   "desc": "A bar of hard, well-tempered steel."
+   "id": "bl_reishi_thread",
+   "name": "Reishi Thread",
+   "category": "Thread",
+   "price": 25,
+   "sell": 8,
+   "desc": "Silvery thread spun with spirit energy. Very strong and never frays."
   },
   {
-   "id": "bl_silver_ingot",
-   "name": "Silver Ingot",
-   "category": "Metal",
-   "price": 40,
-   "sell": 13,
-   "desc": "A bar of fine silver. Light, and it carries spirit energy well."
+   "id": "bl_wooden_buttons",
+   "name": "Wooden Buttons",
+   "category": "Trim",
+   "price": 0,
+   "desc": "A handful of plain wooden buttons."
   },
   {
-   "id": "bl_oak_handle",
-   "name": "Oak Handle",
-   "category": "Part",
-   "price": 3,
-   "sell": 1,
-   "desc": "A smooth oak handle."
+   "id": "bl_silver_buttons",
+   "name": "Silver Buttons",
+   "category": "Trim",
+   "price": 15,
+   "sell": 5,
+   "desc": "Polished silver buttons."
   },
   {
-   "id": "bl_leather_grip",
-   "name": "Leather Grip",
-   "category": "Part",
-   "price": 3,
-   "sell": 1,
-   "desc": "A wrap of supple leather for a hilt."
+   "id": "bl_reishi_dust",
+   "name": "Reishi Dust",
+   "category": "Reishi",
+   "price": 0,
+   "desc": "A pinch of crystallised spirit energy, ground fine."
   },
   {
-   "id": "bl_healing_draught",
-   "name": "Healing Draught",
-   "category": "Consumable",
-   "price": 12,
-   "sell": 4,
-   "desc": "A remedy that closes small wounds.",
-   "uses": 1
-  },
-  {
-   "id": "bl_soothing_tonic",
-   "name": "Soothing Tonic",
-   "category": "Consumable",
-   "price": 12,
-   "sell": 4,
-   "desc": "A calming tonic for frayed nerves.",
-   "uses": 1
-  },
-  {
-   "id": "bl_antidote",
-   "name": "Antidote",
-   "category": "Consumable",
+   "id": "bl_reishi_crystal",
+   "name": "Reishi Crystal",
+   "category": "Reishi",
    "price": 18,
    "sell": 6,
-   "desc": "Clears most poisons.",
-   "uses": 1
+   "desc": "A crystal that holds a strong charge, and a bit of temper."
   },
   {
-   "id": "bl_stamina_tonic",
-   "name": "Stamina Tonic",
-   "category": "Consumable",
-   "price": 20,
-   "sell": 6,
-   "desc": "Wakes the body and steadies the breath.",
-   "uses": 1
+   "id": "bl_clear_shard",
+   "name": "Clear Shard",
+   "category": "Reishi",
+   "price": 40,
+   "sell": 13,
+   "desc": "A clear shard, very pure and precise."
   },
   {
-   "id": "bl_murky_brew",
-   "name": "Murky Brew",
-   "category": "Consumable",
+   "id": "bl_hollow_residue",
+   "name": "Hollow Residue",
+   "category": "Reishi",
+   "price": 30,
+   "sell": 10,
+   "desc": "A dark, wild residue with a huge charge. Hard to keep steady."
+  },
+  {
+   "id": "bl_copper_wire",
+   "name": "Copper Wire",
+   "category": "Part",
    "price": 0,
-   "desc": "A failed brew. Not fit to drink.",
+   "desc": "A coil of fine copper wire."
+  },
+  {
+   "id": "bl_tin_casing",
+   "name": "Tin Casing",
+   "category": "Part",
+   "price": 0,
+   "desc": "A small tin case to build a gadget into."
+  },
+  {
+   "id": "bl_spring_coil",
+   "name": "Spring Coil",
+   "category": "Part",
+   "price": 12,
+   "sell": 4,
+   "desc": "A neat little coil spring."
+  },
+  {
+   "id": "bl_rice_paste",
+   "name": "Rice Paste",
+   "category": "Binder",
+   "price": 0,
+   "desc": "Sticky rice paste. It holds almost anything together."
+  },
+  {
+   "id": "bl_cloth_pouch",
+   "name": "Cloth Pouch",
+   "category": "Clothing",
+   "price": 6,
+   "sell": 2,
+   "desc": "A small drawstring pouch."
+  },
+  {
+   "id": "bl_handkerchief",
+   "name": "Handkerchief",
+   "category": "Clothing",
+   "price": 3,
+   "sell": 1,
+   "desc": "A neatly hemmed square of cloth."
+  },
+  {
+   "id": "bl_scarf",
+   "name": "Scarf",
+   "category": "Clothing",
+   "price": 20,
+   "sell": 6,
+   "desc": "A long, warm scarf."
+  },
+  {
+   "id": "bl_warm_coat",
+   "name": "Warm Coat",
+   "category": "Clothing",
+   "price": 80,
+   "sell": 26,
+   "desc": "A proper coat for cold weather."
+  },
+  {
+   "id": "bl_stuffed_toy",
+   "name": "Stuffed Toy",
+   "category": "Gift",
+   "price": 25,
+   "sell": 8,
+   "desc": "A small soft toy with button eyes. Someone might like it."
+  },
+  {
+   "id": "bl_tangled_mess",
+   "name": "Tangled Mess",
+   "category": "Gift",
+   "price": 0,
+   "desc": "A knot of thread. Not much use."
+  },
+  {
+   "id": "bl_fizzled_gadget",
+   "name": "Fizzled Gadget",
+   "category": "Gift",
+   "price": 0,
+   "desc": "A gadget that did nothing but smoke. Not much use."
+  },
+  {
+   "id": "bl_soul_candy",
+   "name": "Soul Candy",
+   "category": "Consumable",
+   "price": 15,
+   "sell": 5,
+   "desc": "A small pill packed with spirit energy.",
    "uses": 1
   },
   {
-   "id": "bl_starter_dagger",
-   "name": "Starter Dagger",
-   "category": "Equipment",
-   "price": 20,
-   "sell": 6,
-   "desc": "A plain short blade."
+   "id": "bl_reiatsu_sensor",
+   "name": "Reiatsu Sensor",
+   "category": "Gadget",
+   "price": 40,
+   "sell": 13,
+   "desc": "A little device that ticks faster near spirit energy."
   },
   {
-   "id": "bl_horseshoe",
-   "name": "Horseshoe",
-   "category": "Equipment",
-   "price": 8,
-   "sell": 2,
-   "desc": "A sturdy iron horseshoe."
-  },
-  {
-   "id": "bl_plain_sword",
-   "name": "Plain Sword",
-   "category": "Equipment",
+   "id": "bl_barrier_charm",
+   "name": "Barrier Charm",
+   "category": "Gadget",
    "price": 60,
    "sell": 20,
-   "desc": "A plain, honest blade."
+   "desc": "A charm that throws up a small barrier when it is broken."
   },
   {
-   "id": "bl_fine_sword",
-   "name": "Fine Sword",
-   "category": "Equipment",
-   "price": 160,
-   "sell": 53,
-   "desc": "A well-made blade with a keen edge."
-  },
-  {
-   "id": "bl_scrap_metal",
-   "name": "Scrap Metal",
-   "category": "Equipment",
-   "price": 1,
-   "desc": "Twisted bits of metal. Only good for melting down."
+   "id": "bl_spirit_lantern",
+   "name": "Spirit Lantern",
+   "category": "Gadget",
+   "price": 120,
+   "sell": 40,
+   "desc": "A lantern that glows with spirit energy."
   },
   {
    "id": "bl_academy_writ",
@@ -935,49 +950,53 @@
    ]
   },
   {
-   "id": "bl_remedy_satchel",
-   "name": "Bleach Remedy Satchel",
-   "desc": "Herbs and honey for brewing remedies.",
+   "id": "bl_sewing_basket",
+   "name": "Bleach Sewing Basket",
+   "desc": "Cloth, thread and buttons for a first project.",
    "gold": 0,
    "items": [
     {
-     "ref": "Spirit Herb",
-     "qty": 4
+     "ref": "Cotton Cloth",
+     "qty": 3
     },
     {
-     "ref": "Reishi Moss",
+     "ref": "Wool Cloth",
+     "qty": 1
+    },
+    {
+     "ref": "Plain Thread",
      "qty": 2
     },
     {
-     "ref": "Honey",
-     "qty": 2
-    },
-    {
-     "ref": "Ember Pepper",
+     "ref": "Wooden Buttons",
      "qty": 1
     }
    ]
   },
   {
-   "id": "bl_forge_bundle",
-   "name": "Bleach Forge Bundle",
-   "desc": "Metal and hilt parts for a first blade.",
+   "id": "bl_gadget_bench",
+   "name": "Bleach Gadget Bench",
+   "desc": "Parts and reishi for a first invention.",
    "gold": 0,
    "items": [
     {
-     "ref": "Steel Ingot",
-     "qty": 1
+     "ref": "Reishi Dust",
+     "qty": 3
     },
     {
-     "ref": "Iron Ingot",
+     "ref": "Copper Wire",
      "qty": 2
     },
     {
-     "ref": "Oak Handle",
+     "ref": "Rice Paste",
      "qty": 1
     },
     {
-     "ref": "Leather Grip",
+     "ref": "Tin Casing",
+     "qty": 1
+    },
+    {
+     "ref": "Reishi Crystal",
      "qty": 1
     }
    ]
