@@ -721,6 +721,67 @@
    "desc": "Sticky rice paste. It holds almost anything together."
   },
   {
+   "id": "bl_rice_paper",
+   "name": "Rice Paper",
+   "category": "Paper",
+   "price": 0,
+   "desc": "Thin, absorbent paper for writing charms."
+  },
+  {
+   "id": "bl_washi_paper",
+   "name": "Washi Paper",
+   "category": "Paper",
+   "price": 14,
+   "sell": 4,
+   "desc": "Crisp handmade paper that takes a clean line."
+  },
+  {
+   "id": "bl_gilded_paper",
+   "name": "Gilded Paper",
+   "category": "Paper",
+   "price": 40,
+   "sell": 13,
+   "desc": "Paper flecked with gold leaf. Very crisp, and it holds a charge."
+  },
+  {
+   "id": "bl_black_ink",
+   "name": "Black Ink",
+   "category": "Ink",
+   "price": 0,
+   "desc": "Ordinary black ink, ground fresh."
+  },
+  {
+   "id": "bl_cinnabar_ink",
+   "name": "Cinnabar Ink",
+   "category": "Ink",
+   "price": 20,
+   "sell": 6,
+   "desc": "Red ink with a strong charge, and a bit of bleed."
+  },
+  {
+   "id": "bl_spirit_ink",
+   "name": "Spirit Ink",
+   "category": "Ink",
+   "price": 50,
+   "sell": 16,
+   "desc": "Ink mixed with spirit energy. Very strong, but harder to keep steady."
+  },
+  {
+   "id": "bl_plain_cord",
+   "name": "Plain Cord",
+   "category": "Trim",
+   "price": 0,
+   "desc": "A length of plain cord for tying a charm."
+  },
+  {
+   "id": "bl_red_cord",
+   "name": "Red Cord",
+   "category": "Trim",
+   "price": 8,
+   "sell": 2,
+   "desc": "Red cord, braided tight. It carries a little charge."
+  },
+  {
    "id": "bl_cloth_pouch",
    "name": "Cloth Pouch",
    "category": "Clothing",
@@ -782,6 +843,45 @@
    "sell": 5,
    "desc": "A small pill packed with spirit energy.",
    "uses": 1
+  },
+  {
+   "id": "bl_plain_ward_tag",
+   "name": "Plain Ward Tag",
+   "category": "Talisman",
+   "price": 10,
+   "sell": 3,
+   "desc": "A paper charm of two strokes that wards off small spiritual trouble."
+  },
+  {
+   "id": "bl_calling_tag",
+   "name": "Calling Tag",
+   "category": "Talisman",
+   "price": 12,
+   "sell": 4,
+   "desc": "A flowing paper charm that draws spirits of a certain kind."
+  },
+  {
+   "id": "bl_binding_tag",
+   "name": "Binding Tag",
+   "category": "Talisman",
+   "price": 35,
+   "sell": 11,
+   "desc": "A paper charm that holds a spirit still for a short while."
+  },
+  {
+   "id": "bl_barrier_seal",
+   "name": "Barrier Seal",
+   "category": "Talisman",
+   "price": 90,
+   "sell": 30,
+   "desc": "A boxed seal that raises a small barrier when it is broken."
+  },
+  {
+   "id": "bl_blank_tag",
+   "name": "Blank Tag",
+   "category": "Talisman",
+   "price": 0,
+   "desc": "A tag ruined by running ink. Good for nothing but tinder."
   },
   {
    "id": "bl_reiatsu_sensor",
@@ -969,6 +1069,30 @@
     },
     {
      "ref": "Wooden Buttons",
+     "qty": 1
+    }
+   ]
+  },
+  {
+   "id": "bl_calligraphy_set",
+   "name": "Bleach Calligraphy Set",
+   "desc": "Paper, ink and cord for a first charm.",
+   "gold": 0,
+   "items": [
+    {
+     "ref": "Rice Paper",
+     "qty": 4
+    },
+    {
+     "ref": "Black Ink",
+     "qty": 2
+    },
+    {
+     "ref": "Plain Cord",
+     "qty": 2
+    },
+    {
+     "ref": "Washi Paper",
      "qty": 1
     }
    ]
