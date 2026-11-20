@@ -721,6 +721,20 @@
    "desc": "Sticky rice paste. It holds almost anything together."
   },
   {
+   "id": "bl_plain_frame",
+   "name": "Plain Frame",
+   "category": "Frame",
+   "price": 0,
+   "desc": "A simple jointed frame, the bones of a figure."
+  },
+  {
+   "id": "bl_cotton_stuffing",
+   "name": "Cotton Stuffing",
+   "category": "Filler",
+   "price": 0,
+   "desc": "Soft stuffing to give a figure its shape."
+  },
+  {
    "id": "bl_rice_paper",
    "name": "Rice Paper",
    "category": "Paper",
@@ -843,6 +857,38 @@
    "sell": 5,
    "desc": "A small pill packed with spirit energy.",
    "uses": 1
+  },
+  {
+   "id": "bl_mod_soul_dummy",
+   "name": "Mod Soul Dummy",
+   "category": "Figure",
+   "price": 30,
+   "sell": 10,
+   "desc": "A plain figure that a soul can rest in."
+  },
+  {
+   "id": "bl_cloth_puppet",
+   "name": "Cloth Puppet",
+   "category": "Figure",
+   "price": 20,
+   "sell": 6,
+   "desc": "A soft puppet that moves on fine wires."
+  },
+  {
+   "id": "bl_practice_gigai",
+   "name": "Practice Gigai",
+   "category": "Figure",
+   "price": 120,
+   "sell": 40,
+   "desc": "A body a soul can practise in."
+  },
+  {
+   "id": "bl_custom_gigai",
+   "name": "Custom Gigai",
+   "category": "Figure",
+   "price": 400,
+   "sell": 133,
+   "desc": "A body made to measure, nearly indistinguishable from life."
   },
   {
    "id": "bl_plain_ward_tag",
@@ -1094,6 +1140,34 @@
     {
      "ref": "Washi Paper",
      "qty": 1
+    }
+   ]
+  },
+  {
+   "id": "bl_gigai_kit",
+   "name": "Bleach Gigai Kit",
+   "desc": "A frame, stuffing and reishi for a first figure.",
+   "gold": 0,
+   "items": [
+    {
+     "ref": "Plain Frame",
+     "qty": 2
+    },
+    {
+     "ref": "Cotton Stuffing",
+     "qty": 3
+    },
+    {
+     "ref": "Copper Wire",
+     "qty": 2
+    },
+    {
+     "ref": "Rice Paste",
+     "qty": 1
+    },
+    {
+     "ref": "Reishi Dust",
+     "qty": 3
     }
    ]
   },

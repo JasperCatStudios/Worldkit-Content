@@ -48,8 +48,8 @@
       "type": "items",
       "name": "Bleach activities items",
       "file": "items/bleach.items.json",
-      "description": "119 items and 7 presets for the Item Database.",
-      "size": 23339
+      "description": "125 items and 8 presets for the Item Database.",
+      "size": 24811
     },
     {
       "type": "items",
