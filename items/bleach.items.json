@@ -1,0 +1,986 @@
+{
+ "format": "worldkit-items",
+ "version": 1,
+ "name": "Bleach activities items",
+ "items": [
+  {
+   "id": "bl_sencha",
+   "name": "Sencha",
+   "category": "Tea",
+   "price": 8,
+   "sell": 2,
+   "desc": "Everyday green tea, fresh and a little grassy."
+  },
+  {
+   "id": "bl_genmaicha",
+   "name": "Genmaicha",
+   "category": "Tea",
+   "price": 8,
+   "sell": 2,
+   "desc": "Green tea with toasted rice. Nutty and warm."
+  },
+  {
+   "id": "bl_hojicha",
+   "name": "Hojicha",
+   "category": "Tea",
+   "price": 10,
+   "sell": 3,
+   "desc": "Roasted tea with a gentle smoky sweetness and little bitterness."
+  },
+  {
+   "id": "bl_matcha",
+   "name": "Matcha",
+   "category": "Tea",
+   "price": 30,
+   "sell": 10,
+   "desc": "Stone-ground green tea, whisked until frothy. Rich and a touch bitter."
+  },
+  {
+   "id": "bl_mugicha",
+   "name": "Mugicha",
+   "category": "Tea",
+   "price": 5,
+   "sell": 1,
+   "desc": "Roasted barley tea, served warm or cold. Plain and comforting."
+  },
+  {
+   "id": "bl_sobacha",
+   "name": "Sobacha",
+   "category": "Tea",
+   "price": 8,
+   "sell": 2,
+   "desc": "Roasted buckwheat tea with a deep, toasty taste."
+  },
+  {
+   "id": "bl_sakura_tea",
+   "name": "Sakura Tea",
+   "category": "Tea",
+   "price": 20,
+   "sell": 6,
+   "desc": "Salted cherry blossoms steeped in hot water. Light and fragrant."
+  },
+  {
+   "id": "bl_umecha",
+   "name": "Umecha",
+   "category": "Tea",
+   "price": 12,
+   "sell": 4,
+   "desc": "Pickled plum in hot tea. Sharp, salty and bright."
+  },
+  {
+   "id": "bl_jasmine_tea",
+   "name": "Jasmine Tea",
+   "category": "Tea",
+   "price": 14,
+   "sell": 4,
+   "desc": "Green tea scented with jasmine flowers."
+  },
+  {
+   "id": "bl_seireitei_blend",
+   "name": "Seireitei Blend",
+   "category": "Tea",
+   "price": 25,
+   "sell": 8,
+   "desc": "A refined blend poured in the noble quarters. Smooth and slightly sweet."
+  },
+  {
+   "id": "bl_rukongai_roasted_tea",
+   "name": "Rukongai Roasted Tea",
+   "category": "Tea",
+   "price": 4,
+   "sell": 1,
+   "desc": "Cheap roasted leaves from the outer districts. Bitter, but it warms you."
+  },
+  {
+   "id": "bl_karakura_green_tea",
+   "name": "Karakura Green Tea",
+   "category": "Tea",
+   "price": 9,
+   "sell": 3,
+   "desc": "A town favourite from the world of the living. Mild and clean."
+  },
+  {
+   "id": "bl_dango",
+   "name": "Dango",
+   "category": "Sweets",
+   "price": 6,
+   "sell": 2,
+   "desc": "Chewy rice dumplings on a stick, glazed with a sweet sauce."
+  },
+  {
+   "id": "bl_mochi",
+   "name": "Mochi",
+   "category": "Sweets",
+   "price": 6,
+   "sell": 2,
+   "desc": "Soft pounded rice cake, plain or filled with bean paste."
+  },
+  {
+   "id": "bl_daifuku",
+   "name": "Daifuku",
+   "category": "Sweets",
+   "price": 8,
+   "sell": 2,
+   "desc": "Mochi wrapped around sweet red bean paste."
+  },
+  {
+   "id": "bl_taiyaki",
+   "name": "Taiyaki",
+   "category": "Sweets",
+   "price": 8,
+   "sell": 2,
+   "desc": "A fish-shaped cake filled with warm bean paste."
+  },
+  {
+   "id": "bl_senbei",
+   "name": "Senbei",
+   "category": "Sweets",
+   "price": 4,
+   "sell": 1,
+   "desc": "Crisp rice cracker brushed with soy sauce."
+  },
+  {
+   "id": "bl_anmitsu",
+   "name": "Anmitsu",
+   "category": "Sweets",
+   "price": 12,
+   "sell": 4,
+   "desc": "Jelly cubes, fruit and bean paste with black syrup."
+  },
+  {
+   "id": "bl_castella",
+   "name": "Castella",
+   "category": "Sweets",
+   "price": 10,
+   "sell": 3,
+   "desc": "A soft, golden honey sponge cake."
+  },
+  {
+   "id": "bl_sweet_bean_bun",
+   "name": "Sweet Bean Bun",
+   "category": "Sweets",
+   "price": 6,
+   "sell": 2,
+   "desc": "A soft steamed bun filled with sweet bean paste."
+  },
+  {
+   "id": "bl_dorayaki",
+   "name": "Dorayaki",
+   "category": "Sweets",
+   "price": 7,
+   "sell": 2,
+   "desc": "Two small pancakes with a sweet bean filling."
+  },
+  {
+   "id": "bl_yokan",
+   "name": "Yokan",
+   "category": "Sweets",
+   "price": 9,
+   "sell": 3,
+   "desc": "A firm jelly of sweet bean paste, cut in slices."
+  },
+  {
+   "id": "bl_warabimochi",
+   "name": "Warabimochi",
+   "category": "Sweets",
+   "price": 9,
+   "sell": 3,
+   "desc": "Cool, jelly-like rice cake dusted with roasted soybean flour."
+  },
+  {
+   "id": "bl_matcha_cake",
+   "name": "Matcha Cake",
+   "category": "Sweets",
+   "price": 14,
+   "sell": 4,
+   "desc": "A light sponge flavoured with matcha."
+  },
+  {
+   "id": "bl_dojo_loach",
+   "name": "Dojo Loach",
+   "category": "Fish",
+   "price": 0,
+   "desc": "A small whiskered loach that hides in the mud of slow water."
+  },
+  {
+   "id": "bl_crucian_carp",
+   "name": "Crucian Carp",
+   "category": "Fish",
+   "price": 0,
+   "desc": "A plain, hardy carp found in nearly every pond and stream."
+  },
+  {
+   "id": "bl_ayu",
+   "name": "Ayu",
+   "category": "Fish",
+   "price": 4,
+   "sell": 1,
+   "desc": "A slender sweetfish of clear rivers, prized for its sweet flesh."
+  },
+  {
+   "id": "bl_rainbow_trout",
+   "name": "Rainbow Trout",
+   "category": "Fish",
+   "price": 5,
+   "sell": 1,
+   "desc": "A bright fish of cold, fast water."
+  },
+  {
+   "id": "bl_koi",
+   "name": "Koi",
+   "category": "Fish",
+   "price": 20,
+   "sell": 6,
+   "desc": "A large, colourful carp kept in garden ponds. Strong in the line."
+  },
+  {
+   "id": "bl_unagi",
+   "name": "Unagi",
+   "category": "Fish",
+   "price": 25,
+   "sell": 8,
+   "desc": "A long river eel. Slippery, powerful and delicious grilled."
+  },
+  {
+   "id": "bl_pond_smelt",
+   "name": "Pond Smelt",
+   "category": "Fish",
+   "price": 0,
+   "desc": "A tiny silver fish that swims in shoals."
+  },
+  {
+   "id": "bl_masu_salmon",
+   "name": "Masu Salmon",
+   "category": "Fish",
+   "price": 12,
+   "sell": 4,
+   "desc": "A river salmon that fights hard on the line."
+  },
+  {
+   "id": "bl_catfish",
+   "name": "Catfish",
+   "category": "Fish",
+   "price": 6,
+   "sell": 2,
+   "desc": "A whiskered bottom feeder with a big appetite."
+  },
+  {
+   "id": "bl_char",
+   "name": "Char",
+   "category": "Fish",
+   "price": 8,
+   "sell": 2,
+   "desc": "A speckled fish of cold mountain streams."
+  },
+  {
+   "id": "bl_wild_herb_seeds",
+   "name": "Wild Herb Seeds",
+   "category": "Seeds",
+   "price": 0,
+   "desc": "Quick-growing herb seeds. Plant them in the garden."
+  },
+  {
+   "id": "bl_daikon_seeds",
+   "name": "Daikon Seeds",
+   "category": "Seeds",
+   "price": 3,
+   "sell": 1,
+   "desc": "Seeds for a long white radish."
+  },
+  {
+   "id": "bl_green_onion_seeds",
+   "name": "Green Onion Seeds",
+   "category": "Seeds",
+   "price": 3,
+   "sell": 1,
+   "desc": "Seeds for tender green onions."
+  },
+  {
+   "id": "bl_eggplant_seeds",
+   "name": "Eggplant Seeds",
+   "category": "Seeds",
+   "price": 5,
+   "sell": 1,
+   "desc": "Seeds for glossy purple eggplants."
+  },
+  {
+   "id": "bl_edamame_seeds",
+   "name": "Edamame Seeds",
+   "category": "Seeds",
+   "price": 4,
+   "sell": 1,
+   "desc": "Seeds for young soybeans in the pod."
+  },
+  {
+   "id": "bl_sweet_potato_seeds",
+   "name": "Sweet Potato Seeds",
+   "category": "Seeds",
+   "price": 5,
+   "sell": 1,
+   "desc": "Slips for sweet, starchy potatoes."
+  },
+  {
+   "id": "bl_persimmon_seeds",
+   "name": "Persimmon Seeds",
+   "category": "Seeds",
+   "price": 6,
+   "sell": 2,
+   "desc": "Seeds for a tree that bears orange fruit."
+  },
+  {
+   "id": "bl_chrysanthemum_seeds",
+   "name": "Chrysanthemum Seeds",
+   "category": "Seeds",
+   "price": 6,
+   "sell": 2,
+   "desc": "Seeds for autumn flowers."
+  },
+  {
+   "id": "bl_cherry_blossom_seeds",
+   "name": "Cherry Blossom Seeds",
+   "category": "Seeds",
+   "price": 10,
+   "sell": 3,
+   "desc": "Seeds for a spring flowering tree."
+  },
+  {
+   "id": "bl_wild_herbs",
+   "name": "Wild Herbs",
+   "category": "Produce",
+   "price": 1,
+   "desc": "A bundle of fresh herbs."
+  },
+  {
+   "id": "bl_daikon",
+   "name": "Daikon",
+   "category": "Produce",
+   "price": 3,
+   "sell": 1,
+   "desc": "A long white radish, crisp and mild."
+  },
+  {
+   "id": "bl_green_onion",
+   "name": "Green Onion",
+   "category": "Produce",
+   "price": 2,
+   "desc": "Slender green onions for soups and grills."
+  },
+  {
+   "id": "bl_eggplant",
+   "name": "Eggplant",
+   "category": "Produce",
+   "price": 4,
+   "sell": 1,
+   "desc": "A glossy purple eggplant."
+  },
+  {
+   "id": "bl_edamame",
+   "name": "Edamame",
+   "category": "Produce",
+   "price": 3,
+   "sell": 1,
+   "desc": "Young soybeans in the pod."
+  },
+  {
+   "id": "bl_sweet_potato",
+   "name": "Sweet Potato",
+   "category": "Produce",
+   "price": 4,
+   "sell": 1,
+   "desc": "A sweet, starchy potato."
+  },
+  {
+   "id": "bl_persimmon",
+   "name": "Persimmon",
+   "category": "Produce",
+   "price": 5,
+   "sell": 1,
+   "desc": "Sweet orange fruit."
+  },
+  {
+   "id": "bl_chrysanthemum",
+   "name": "Chrysanthemum",
+   "category": "Produce",
+   "price": 4,
+   "sell": 1,
+   "desc": "An autumn flower, also eaten as a garnish."
+  },
+  {
+   "id": "bl_cherry_blossom",
+   "name": "Cherry Blossom",
+   "category": "Produce",
+   "price": 6,
+   "sell": 2,
+   "desc": "Delicate pink spring blossoms."
+  },
+  {
+   "id": "bl_spinach",
+   "name": "Spinach",
+   "category": "Produce",
+   "price": 3,
+   "sell": 1,
+   "desc": "Dark leafy greens."
+  },
+  {
+   "id": "bl_pumpkin",
+   "name": "Pumpkin",
+   "category": "Produce",
+   "price": 4,
+   "sell": 1,
+   "desc": "A small, sweet kabocha pumpkin."
+  },
+  {
+   "id": "bl_plum",
+   "name": "Plum",
+   "category": "Produce",
+   "price": 4,
+   "sell": 1,
+   "desc": "A tart plum, good fresh or pickled."
+  },
+  {
+   "id": "bl_shiitake_mushroom",
+   "name": "Shiitake Mushroom",
+   "category": "Produce",
+   "price": 4,
+   "sell": 1,
+   "desc": "Meaty mushrooms with a deep flavour."
+  },
+  {
+   "id": "bl_bamboo_shoot",
+   "name": "Bamboo Shoot",
+   "category": "Produce",
+   "price": 5,
+   "sell": 1,
+   "desc": "Tender spring bamboo shoots."
+  },
+  {
+   "id": "bl_lotus_root",
+   "name": "Lotus Root",
+   "category": "Produce",
+   "price": 5,
+   "sell": 1,
+   "desc": "A crunchy, lacy root vegetable."
+  },
+  {
+   "id": "bl_rice",
+   "name": "Rice",
+   "category": "Pantry",
+   "price": 2,
+   "desc": "Short-grain rice."
+  },
+  {
+   "id": "bl_tofu",
+   "name": "Tofu",
+   "category": "Pantry",
+   "price": 2,
+   "desc": "A block of soft soybean curd."
+  },
+  {
+   "id": "bl_eggs",
+   "name": "Eggs",
+   "category": "Pantry",
+   "price": 2,
+   "desc": "Fresh eggs."
+  },
+  {
+   "id": "bl_miso_paste",
+   "name": "Miso Paste",
+   "category": "Pantry",
+   "price": 3,
+   "sell": 1,
+   "desc": "Fermented soybean paste for soup."
+  },
+  {
+   "id": "bl_soy_sauce",
+   "name": "Soy Sauce",
+   "category": "Pantry",
+   "price": 3,
+   "sell": 1,
+   "desc": "Dark, salty soybean sauce."
+  },
+  {
+   "id": "bl_dashi_stock",
+   "name": "Dashi Stock",
+   "category": "Pantry",
+   "price": 3,
+   "sell": 1,
+   "desc": "A light stock of kelp and dried fish."
+  },
+  {
+   "id": "bl_nori",
+   "name": "Nori",
+   "category": "Pantry",
+   "price": 2,
+   "desc": "Sheets of dried seaweed."
+  },
+  {
+   "id": "bl_sugar",
+   "name": "Sugar",
+   "category": "Pantry",
+   "price": 2,
+   "desc": "A bag of sugar."
+  },
+  {
+   "id": "bl_sesame_oil",
+   "name": "Sesame Oil",
+   "category": "Pantry",
+   "price": 4,
+   "sell": 1,
+   "desc": "A small flask of toasted sesame oil."
+  },
+  {
+   "id": "bl_miso_soup",
+   "name": "Miso Soup",
+   "category": "Dish",
+   "price": 3,
+   "sell": 1,
+   "desc": "Warm, salty and always comforting.",
+   "uses": 1
+  },
+  {
+   "id": "bl_onigiri",
+   "name": "Onigiri",
+   "category": "Dish",
+   "price": 3,
+   "sell": 1,
+   "desc": "A pressed rice ball with a pickled plum inside.",
+   "uses": 1
+  },
+  {
+   "id": "bl_tamagoyaki",
+   "name": "Tamagoyaki",
+   "category": "Dish",
+   "price": 4,
+   "sell": 1,
+   "desc": "A rolled sweet omelette, sliced.",
+   "uses": 1
+  },
+  {
+   "id": "bl_grilled_fish",
+   "name": "Grilled Fish",
+   "category": "Dish",
+   "price": 8,
+   "sell": 2,
+   "desc": "Salted fish grilled over coals.",
+   "uses": 1
+  },
+  {
+   "id": "bl_fish_hotpot",
+   "name": "Fish Hotpot",
+   "category": "Dish",
+   "price": 14,
+   "sell": 4,
+   "desc": "A bubbling pot of fish and vegetables for sharing.",
+   "uses": 1
+  },
+  {
+   "id": "bl_vegetable_tempura",
+   "name": "Vegetable Tempura",
+   "category": "Dish",
+   "price": 8,
+   "sell": 2,
+   "desc": "Vegetables in a light, crisp batter.",
+   "uses": 1
+  },
+  {
+   "id": "bl_simmered_vegetables",
+   "name": "Simmered Vegetables",
+   "category": "Dish",
+   "price": 7,
+   "sell": 2,
+   "desc": "Vegetables slowly simmered in dashi.",
+   "uses": 1
+  },
+  {
+   "id": "bl_fruit_dango",
+   "name": "Fruit Dango",
+   "category": "Dish",
+   "price": 6,
+   "sell": 2,
+   "desc": "Sweet rice dumplings on a stick, with fruit.",
+   "uses": 1
+  },
+  {
+   "id": "bl_spirit_herb",
+   "name": "Spirit Herb",
+   "category": "Herb",
+   "price": 2,
+   "desc": "A herb that holds a trace of spirit energy. Basic stuff for remedies."
+  },
+  {
+   "id": "bl_reishi_moss",
+   "name": "Reishi Moss",
+   "category": "Herb",
+   "price": 3,
+   "sell": 1,
+   "desc": "A pale moss that grows where spirit energy gathers."
+  },
+  {
+   "id": "bl_soul_blossom",
+   "name": "Soul Blossom",
+   "category": "Herb",
+   "price": 12,
+   "sell": 4,
+   "desc": "A rare blossom that opens only at dusk. Strong and pure."
+  },
+  {
+   "id": "bl_ember_pepper",
+   "name": "Ember Pepper",
+   "category": "Herb",
+   "price": 6,
+   "sell": 2,
+   "desc": "A fiery pepper. Potent, but it makes a mix unsteady."
+  },
+  {
+   "id": "bl_hollow_berry",
+   "name": "Hollow Berry",
+   "category": "Herb",
+   "price": 6,
+   "sell": 2,
+   "desc": "A dark berry from the edge of the wastes. Strong, with a volatile bite."
+  },
+  {
+   "id": "bl_spring_water",
+   "name": "Spring Water",
+   "category": "Liquid",
+   "price": 0,
+   "desc": "Clear water from a mountain spring."
+  },
+  {
+   "id": "bl_rain_water",
+   "name": "Rain Water",
+   "category": "Liquid",
+   "price": 0,
+   "desc": "Soft rain collected in a clean jar."
+  },
+  {
+   "id": "bl_honey",
+   "name": "Honey",
+   "category": "Liquid",
+   "price": 6,
+   "sell": 2,
+   "desc": "Golden honey, sweet and pure."
+  },
+  {
+   "id": "bl_iron_ingot",
+   "name": "Iron Ingot",
+   "category": "Metal",
+   "price": 8,
+   "sell": 2,
+   "desc": "A bar of plain iron."
+  },
+  {
+   "id": "bl_copper_ingot",
+   "name": "Copper Ingot",
+   "category": "Metal",
+   "price": 6,
+   "sell": 2,
+   "desc": "A bar of soft copper."
+  },
+  {
+   "id": "bl_steel_ingot",
+   "name": "Steel Ingot",
+   "category": "Metal",
+   "price": 20,
+   "sell": 6,
+   "desc": "A bar of hard, well-tempered steel."
+  },
+  {
+   "id": "bl_silver_ingot",
+   "name": "Silver Ingot",
+   "category": "Metal",
+   "price": 40,
+   "sell": 13,
+   "desc": "A bar of fine silver. Light, and it carries spirit energy well."
+  },
+  {
+   "id": "bl_oak_handle",
+   "name": "Oak Handle",
+   "category": "Part",
+   "price": 3,
+   "sell": 1,
+   "desc": "A smooth oak handle."
+  },
+  {
+   "id": "bl_leather_grip",
+   "name": "Leather Grip",
+   "category": "Part",
+   "price": 3,
+   "sell": 1,
+   "desc": "A wrap of supple leather for a hilt."
+  },
+  {
+   "id": "bl_healing_draught",
+   "name": "Healing Draught",
+   "category": "Consumable",
+   "price": 12,
+   "sell": 4,
+   "desc": "A remedy that closes small wounds.",
+   "uses": 1
+  },
+  {
+   "id": "bl_soothing_tonic",
+   "name": "Soothing Tonic",
+   "category": "Consumable",
+   "price": 12,
+   "sell": 4,
+   "desc": "A calming tonic for frayed nerves.",
+   "uses": 1
+  },
+  {
+   "id": "bl_antidote",
+   "name": "Antidote",
+   "category": "Consumable",
+   "price": 18,
+   "sell": 6,
+   "desc": "Clears most poisons.",
+   "uses": 1
+  },
+  {
+   "id": "bl_stamina_tonic",
+   "name": "Stamina Tonic",
+   "category": "Consumable",
+   "price": 20,
+   "sell": 6,
+   "desc": "Wakes the body and steadies the breath.",
+   "uses": 1
+  },
+  {
+   "id": "bl_murky_brew",
+   "name": "Murky Brew",
+   "category": "Consumable",
+   "price": 0,
+   "desc": "A failed brew. Not fit to drink.",
+   "uses": 1
+  },
+  {
+   "id": "bl_starter_dagger",
+   "name": "Starter Dagger",
+   "category": "Equipment",
+   "price": 20,
+   "sell": 6,
+   "desc": "A plain short blade."
+  },
+  {
+   "id": "bl_horseshoe",
+   "name": "Horseshoe",
+   "category": "Equipment",
+   "price": 8,
+   "sell": 2,
+   "desc": "A sturdy iron horseshoe."
+  },
+  {
+   "id": "bl_plain_sword",
+   "name": "Plain Sword",
+   "category": "Equipment",
+   "price": 60,
+   "sell": 20,
+   "desc": "A plain, honest blade."
+  },
+  {
+   "id": "bl_fine_sword",
+   "name": "Fine Sword",
+   "category": "Equipment",
+   "price": 160,
+   "sell": 53,
+   "desc": "A well-made blade with a keen edge."
+  },
+  {
+   "id": "bl_scrap_metal",
+   "name": "Scrap Metal",
+   "category": "Equipment",
+   "price": 1,
+   "desc": "Twisted bits of metal. Only good for melting down."
+  },
+  {
+   "id": "bl_academy_writ",
+   "name": "Academy Writ",
+   "category": "Credential",
+   "desc": "Awarded only by a captain for passing a promotion trial at the lowest tier. It cannot be bought, sold, given or taken.",
+   "uses": 1,
+   "locked": true
+  },
+  {
+   "id": "bl_officer_writ",
+   "name": "Officer Writ",
+   "category": "Credential",
+   "desc": "Awarded only by a captain for passing a promotion trial at the officer tier. It cannot be bought, sold, given or taken.",
+   "uses": 1,
+   "locked": true
+  },
+  {
+   "id": "bl_lieutenant_writ",
+   "name": "Lieutenant Writ",
+   "category": "Credential",
+   "desc": "Awarded only by a captain for passing a promotion trial at the lieutenant tier. It cannot be bought, sold, given or taken.",
+   "uses": 1,
+   "locked": true
+  },
+  {
+   "id": "bl_captain_writ",
+   "name": "Captain Writ",
+   "category": "Credential",
+   "desc": "Awarded only by a captain for passing a promotion trial at the captain tier. It cannot be bought, sold, given or taken.",
+   "uses": 1,
+   "locked": true
+  }
+ ],
+ "presets": [
+  {
+   "id": "bl_tea_set",
+   "name": "Bleach Tea Set",
+   "desc": "Teas and sweets for hosting.",
+   "gold": 0,
+   "items": [
+    {
+     "ref": "Sencha",
+     "qty": 2
+    },
+    {
+     "ref": "Hojicha",
+     "qty": 2
+    },
+    {
+     "ref": "Matcha",
+     "qty": 1
+    },
+    {
+     "ref": "Dango",
+     "qty": 3
+    },
+    {
+     "ref": "Mochi",
+     "qty": 3
+    },
+    {
+     "ref": "Taiyaki",
+     "qty": 2
+    }
+   ]
+  },
+  {
+   "id": "bl_angler_kit",
+   "name": "Bleach Angler Kit",
+   "desc": "A first catch to cook, ready for the river.",
+   "gold": 20,
+   "items": [
+    {
+     "ref": "Crucian Carp",
+     "qty": 1
+    },
+    {
+     "ref": "Ayu",
+     "qty": 1
+    },
+    {
+     "ref": "Rice",
+     "qty": 2
+    }
+   ]
+  },
+  {
+   "id": "bl_gardener_pouch",
+   "name": "Bleach Gardener Pouch",
+   "desc": "Seeds for a first season in the garden.",
+   "gold": 20,
+   "items": [
+    {
+     "ref": "Daikon Seeds",
+     "qty": 2
+    },
+    {
+     "ref": "Green Onion Seeds",
+     "qty": 2
+    },
+    {
+     "ref": "Edamame Seeds",
+     "qty": 2
+    },
+    {
+     "ref": "Chrysanthemum Seeds",
+     "qty": 1
+    }
+   ]
+  },
+  {
+   "id": "bl_kitchen_basket",
+   "name": "Bleach Kitchen Basket",
+   "desc": "Pantry staples and produce for a few meals.",
+   "gold": 0,
+   "items": [
+    {
+     "ref": "Rice",
+     "qty": 3
+    },
+    {
+     "ref": "Tofu",
+     "qty": 2
+    },
+    {
+     "ref": "Eggs",
+     "qty": 3
+    },
+    {
+     "ref": "Miso Paste",
+     "qty": 1
+    },
+    {
+     "ref": "Daikon",
+     "qty": 2
+    },
+    {
+     "ref": "Green Onion",
+     "qty": 2
+    }
+   ]
+  },
+  {
+   "id": "bl_remedy_satchel",
+   "name": "Bleach Remedy Satchel",
+   "desc": "Herbs and honey for brewing remedies.",
+   "gold": 0,
+   "items": [
+    {
+     "ref": "Spirit Herb",
+     "qty": 4
+    },
+    {
+     "ref": "Reishi Moss",
+     "qty": 2
+    },
+    {
+     "ref": "Honey",
+     "qty": 2
+    },
+    {
+     "ref": "Ember Pepper",
+     "qty": 1
+    }
+   ]
+  },
+  {
+   "id": "bl_forge_bundle",
+   "name": "Bleach Forge Bundle",
+   "desc": "Metal and hilt parts for a first blade.",
+   "gold": 0,
+   "items": [
+    {
+     "ref": "Steel Ingot",
+     "qty": 1
+    },
+    {
+     "ref": "Iron Ingot",
+     "qty": 2
+    },
+    {
+     "ref": "Oak Handle",
+     "qty": 1
+    },
+    {
+     "ref": "Leather Grip",
+     "qty": 1
+    }
+   ]
+  }
+ ]
+}

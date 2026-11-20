@@ -46,6 +46,13 @@
     },
     {
       "type": "items",
+      "name": "Bleach activities items",
+      "file": "items/bleach.items.json",
+      "description": "103 items and 6 presets for the Item Database.",
+      "size": 20115
+    },
+    {
+      "type": "items",
       "name": "Fire Emblem: Three Houses items",
       "file": "items/fe-three-houses.items.json",
       "description": "392 items and 5 presets for the Item Database.",
@@ -62,8 +69,8 @@
       "type": "sounds",
       "name": "Activity sounds",
       "file": "sounds/activities/map.json",
-      "description": "83 sounds (8 loops), with a map for the Sound module. Optional.",
-      "size": 1817805
+      "description": "86 sounds (8 loops), with a map for the Sound module. Optional.",
+      "size": 1855282
     },
     {
       "type": "sounds",

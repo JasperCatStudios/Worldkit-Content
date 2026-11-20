@@ -753,6 +753,15 @@
       "seconds": 1.5,
       "variants": 1,
       "prompt": "A light shimmering chime flourish presenting a finished dish, bright and short, kitchen game reveal. No music, no speech."
+    },
+    {
+      "tag": "activity_exam_pass",
+      "group": "activities",
+      "description": "exam passed: a seal stamp and two rising chimes",
+      "loop": false,
+      "seconds": 3,
+      "variants": 1,
+      "prompt": "A short ceremonial success chime: a soft wooden seal stamp pressed on paper, followed by two bright rising bell notes and a gentle shimmer, calm and dignified, close mic"
     }
   ]
 }

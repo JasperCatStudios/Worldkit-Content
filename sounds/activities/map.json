@@ -682,6 +682,30 @@
       "volume": 0.8,
       "group": "activities",
       "description": "presenting the finished dish"
+    },
+    "activity_exam_pass": {
+      "files": [
+        "audio/activity-exam-pass.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "exam passed: a seal stamp and two rising chimes"
+    },
+    "activity_exam_begin": {
+      "files": [
+        "audio/activity-order-bell.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "the exam begins (reuses the order bell)"
+    },
+    "activity_exam_fail": {
+      "files": [
+        "audio/activity-potion-fail.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a test or the exam not passed (reuses the failed brew sound)"
     }
   }
 }
