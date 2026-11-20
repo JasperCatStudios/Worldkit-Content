@@ -706,6 +706,22 @@
       "volume": 0.8,
       "group": "activities",
       "description": "a test or the exam not passed (reuses the failed brew sound)"
+    },
+    "activity_mech_trace_brush": {
+      "files": [
+        "audio/activity-mech-trace-brush.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a brush stroke on paper"
+    },
+    "activity_mech_stamp_thud": {
+      "files": [
+        "audio/activity-mech-stamp-thud.mp3"
+      ],
+      "volume": 0.8,
+      "group": "activities",
+      "description": "a seal pressed on paper"
     }
   }
 }

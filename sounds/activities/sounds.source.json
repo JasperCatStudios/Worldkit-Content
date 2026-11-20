@@ -762,6 +762,24 @@
       "seconds": 3,
       "variants": 1,
       "prompt": "A short ceremonial success chime: a soft wooden seal stamp pressed on paper, followed by two bright rising bell notes and a gentle shimmer, calm and dignified, close mic"
+    },
+    {
+      "tag": "activity_mech_trace_brush",
+      "group": "activities",
+      "description": "a brush stroke on paper",
+      "loop": false,
+      "seconds": 1.5,
+      "variants": 1,
+      "prompt": "A soft calligraphy brush drawing one smooth stroke across rice paper, gentle dry scratchy texture, close mic, no music"
+    },
+    {
+      "tag": "activity_mech_stamp_thud",
+      "group": "activities",
+      "description": "a seal pressed on paper",
+      "loop": false,
+      "seconds": 1,
+      "variants": 1,
+      "prompt": "A wooden seal stamp pressed firmly onto paper, one soft dull thump with a tiny paper crinkle, close mic, no music"
     }
   ]
 }
